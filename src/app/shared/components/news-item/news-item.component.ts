@@ -19,7 +19,14 @@ export class NewsItemComponent implements OnInit {
     if (!this.news) {
       throw new Error('NewsItemComponent attribute "news" is required');
     }
-    const newsType = this.route.snapshot.url.length ? this.route.snapshot.url[0].path as NewsType : 'news';
+    const url = this.route.snapshot.url;
+    let newsType: NewsType;
+    if (!url.length || url[0].path === 'news') {
+      newsType = 'news';
+    } else {
+      newsType = 'developer-news';
+    }
+
     const epoch = DateTime.fromSQL(this.news.time).ts / 1000;
     this.url = `/${newsType}/${epoch}`;
   }
