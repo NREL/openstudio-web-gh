@@ -1,0 +1,5 @@
+<div class="mb-1">
+  <a [routerLink]="url">{{ news.title }}</a>
+</div>
+<p class="mb-1"><small [innerHTML]="news.html | truncateHTML"></small></p>
+<p><small>Posted on {{ news.time | dateTimeFromSql | dateTimeToFormat:'MM/dd/yyyy - HH:mm' }}</small></p>

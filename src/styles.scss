@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+h1.page-header {
+  border-bottom: 1px solid #eee;
+  margin: 0 0 30px;
+  padding-bottom: 9px;
+}
+
+h1.version-badge {
+  line-height: 0;
+}
+
+.card {
+  margin-bottom: 30px;
+}

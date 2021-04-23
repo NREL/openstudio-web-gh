@@ -1,0 +1,9 @@
+<nav class="my-2">
+  <ul class="pagination justify-content-center">
+    <li class="page-item" [class.disabled]="page === 1"><a class="page-link" (click)="gotoPage(page - 1)">Previous</a></li>
+    <li class="page-item disabled" *ngIf="pageRange[0] > 1"><a class="page-link">...</a></li>
+    <li class="page-item" [class.active]="page === i" *ngFor="let i of pageRange"><a class="page-link" (click)="gotoPage(i)">{{ i }}</a></li>
+    <li class="page-item disabled" *ngIf="pageRange[pageRange.length - 1] < totalPages"><a class="page-link">...</a></li>
+    <li class="page-item" [class.disabled]="page === totalPages"><a class="page-link" (click)="gotoPage(page + 1)">Next</a></li>
+  </ul>
+</nav>

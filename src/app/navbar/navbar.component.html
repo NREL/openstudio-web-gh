@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+  <a class="navbar-brand" routerLink="/">
+    <img src="assets/images/openstudio-logo.png" srcset="assets/images/openstudio-logo-2x.png 2x" class="openstudio-logo pr-3" alt="Home">OpenStudio<sup>®</sup>
+  </a>
+
+  <button class="navbar-toggler" type="button" (click)="menuCollapsed = !menuCollapsed">&#9776;</button>
+
+  <div [ngbCollapse]="menuCollapsed" class="collapse navbar-collapse">
+    <ul class="navbar-nav">
+      <li class="nav-item" [class.active]="rlaDownloads.isActive">
+        <a class="nav-link" routerLink="/downloads" routerLinkActive #rlaDownloads="routerLinkActive" (click)="menuCollapsed = true">Downloads</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://nrel.github.io/OpenStudio-user-documentation/" (click)="menuCollapsed = true">Documentation</a>
+      </li>
+      <li class="nav-item" [class.active]="rlaDevelopers.isActive">
+        <a class="nav-link" routerLink="/developers" routerLinkActive #rlaDevelopers="routerLinkActive" (click)="menuCollapsed = true">Developers</a>
+      </li>
+      <li class="nav-item" [class.active]="rlaForum.isActive">
+        <a class="nav-link" routerLink="/forum" routerLinkActive #rlaForum="routerLinkActive" (click)="menuCollapsed = true">Forum</a>
+      </li>
+      <li class="nav-item" [class.active]="rlaPublications.isActive">
+        <a class="nav-link" routerLink="/publications" routerLinkActive #rlaPublications="routerLinkActive" (click)="menuCollapsed = true">Publications</a>
+      </li>
+    </ul>
+  </div>
+</nav>

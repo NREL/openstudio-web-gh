@@ -1,0 +1,3 @@
+<h1 class="page-header">Developer News</h1>
+<app-news-item *ngFor="let newsItem of news[page - 1]" [news]="newsItem"></app-news-item>
+<app-pagination [page]="page" [totalPages]="totalPages"></app-pagination>

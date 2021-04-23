@@ -1,0 +1,12 @@
+* {
+  user-select: none;
+}
+
+li:not(.active) > .page-link {
+  cursor: pointer;
+}
+
+.page-link {
+  min-width: 45px;
+  text-align: center;
+}

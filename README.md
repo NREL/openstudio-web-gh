@@ -1,6 +1,4 @@
-# OpenstudioWeb
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.7.
+# OpenStudio Web
 
 ## Development server
 
@@ -8,11 +6,11 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng generate component componentName` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Build and Deploy
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `ng deploy` to build the project and push the build to the `gh-pages` branch on GitHub. The build artifacts will be stored in the `dist/` directory.
 
 ## Running unit tests
 

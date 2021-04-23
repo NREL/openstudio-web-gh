@@ -1,0 +1,37 @@
+<h1 class="page-header">Downloads</h1>
+
+<div class="row">
+  <main class="col-md-9">
+    <app-release-card *ngFor="let release of releases" [release]="release"></app-release-card>
+
+    <div class="card card-body bg-light">
+      <div class="row">
+        <div class="col-sm-8">
+          <h2 class="card-title">Legacy OpenStudio Plug-in</h2>
+          <h6 class="card-subtitle mb-2 text-muted">This is the legacy version of the OpenStudio SketchUp Plug-in.</h6>
+        </div>
+        <div class="col-sm-4">
+          <p>The Legacy OpenStudio SketchUp Plug-in has been relaunched as Euclid by Big Ladder Software. Visit the new <a href="https://bigladdersoftware.com/projects/euclid/">project website</a>.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card card-body bg-light">
+      <h2 class="card-title">Important Installation Note</h2>
+      <p>Installing the OpenStudio suite after the Legacy Plug-in will install an OpenStudio version manager to the SketchUp plug-ins menu that can be used to switch between versions. Installing the Legacy Plug-in after the OpenStudio suite will remove the version manager. To restore the version manager, re-install the OpenStudio suite.</p>
+    </div>
+  </main>
+
+  <aside class="col-md-3">
+    <div class="card card-body bg-light quick-links">
+      <h3 class="card-title">Quick Links</h3>
+      <p class="card-text"><a href="https://nrel.github.io/OpenStudio-user-documentation/getting_started/getting_started/#installation-instructions">Installation Instructions</a></p>
+      <p class="card-text"><a href="https://github.com/NREL/OpenStudio/releases/tag/v3.1.0">Release Notes</a></p>
+      <p class="card-text"><a href="https://github.com/NREL/OpenStudioApplication/releases/tag/v1.1.0">Application Release Notes</a></p>
+      <p class="card-text"><a href="https://github.com/NREL/OpenStudio-PAT/releases/tag/v3.1.0">PAT Release Notes</a></p>
+      <p class="card-text"><a href="https://github.com/NREL/openstudio-sketchup-plugin/releases/tag/v1.1.0">SketchUp Plugin Release Notes</a></p>
+      <p class="card-text"><a href="https://unmethours.com/questions/scope:all/sort:activity-desc/tags:openstudio/">Get Help</a></p>
+      <p class="card-text"><a href="https://nrel.github.io/OpenStudio-user-documentation/help/training/">Training, Support, and Consulting</a></p>
+    </div>
+  </aside>
+</div>

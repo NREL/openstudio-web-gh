@@ -1,0 +1,3 @@
+<h2>News</h2>
+<app-news-item *ngFor="let newsItem of news.slice(0, 3)" [news]="newsItem"></app-news-item>
+<a routerLink="/news" *ngIf="news.length > 3">more</a>
