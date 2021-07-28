@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { news } from '../shared/classes/news';
+import {Component, ViewEncapsulation} from '@angular/core';
+import {ActivatedRoute} from '@angular/router';
+import {news} from '../shared/classes/news';
 
 @Component({
   selector: 'app-news',
   templateUrl: './news.component.html',
-  styleUrls: ['./news.component.scss']
+  styleUrls: ['./news.component.scss'],
 })
 export class NewsComponent {
   readonly resultsPerPage = 3;
@@ -19,6 +19,7 @@ export class NewsComponent {
   totalPages = Math.ceil(news.length / this.resultsPerPage) || 1;
 
   constructor(private route: ActivatedRoute) {
+    console.log("news here: ", news)
     this.route.queryParams.subscribe(params => {
       const {page} = params;
       if (/^\d+$/.test(page) && Number(page) > 0) {
@@ -26,6 +27,7 @@ export class NewsComponent {
       } else {
         this.page = 1;
       }
+      console.log("this page is: " + this.page)
     });
   }
 

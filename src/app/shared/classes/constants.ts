@@ -6,7 +6,7 @@ type Version = `${number}.${number}.${number}`;
 
 export type NewsItem = {
   title: string,
-  time: string
+  time: string,
   html: string,
 };
 
@@ -72,3 +72,5 @@ export const findNewsItem = (timestamp: number, newsType: NewsType): NewsItem | 
     return developerNews.find(newsItem => newsItem.time === timestampStr);
   }
 };
+
+export type Publication = { html: string };

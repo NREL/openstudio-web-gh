@@ -1,3 +1,35 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<h2>Follow Us</h2>
+<section>
+  <ul style="padding:10px;list-style-type:none;">
+    <li class="facebook first" style="display:inline; margin-right:10px;">
+      <a href="https://www.facebook.com/NRELOpenStudio-168423909887080/" title="facebook">
+        <img src="https://www.openstudio.net/sites/all/modules/social_media_links/libraries/elegantthemes/PNG/facebook.png">
+      </a>
+    </li>
+    <li class="twitter" style="display:inline; margin-right:10px">
+      <a href="https://twitter.com/NRELOpenStudio" title="Twitter">
+        <img src="https://www.openstudio.net/sites/all/modules/social_media_links/libraries/elegantthemes/PNG/twitter.png" alt="Twitter icon">
+      </a>
+    </li>
+    <li class=""googleplus style="display:inline; margin-right:10px">
+      <a href="https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://plus.google.com/103565567140730094420/posts&followup=https://plus.google.com/103565567140730094420/posts" title="Google+">
+        <img src="https://www.openstudio.net/sites/all/modules/social_media_links/libraries/elegantthemes/PNG/googleplus.png" alt="Google+ icon">
+      </a>
+    </li>
+    <li class="youtube" style="display:inline; margin-right:10px">
+      <a href="https://www.youtube.com/user/NRELOpenStudio">
+        <img src="https://www.openstudio.net/sites/all/modules/social_media_links/libraries/elegantthemes/PNG/youtube.png" alt="YouTube icon">
+      </a>
+    </li>
+    <li class="contact last" style="display:inline;">
+      <a href="https://www.openstudio.net/contact" title="Contact">
+        <img src="https://www.openstudio.net/sites/all/modules/social_media_links/libraries/elegantthemes/PNG/email.png" alt="Contact icon">
+      </a>
+    </li>
+  </ul>
+</section>
+
 <h2>News</h2>
 <app-news-item *ngFor="let newsItem of news.slice(0, 3)" [news]="newsItem"></app-news-item>
 <a routerLink="/news" *ngIf="news.length > 3">more</a>

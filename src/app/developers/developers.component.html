@@ -1,37 +1,63 @@
-<h1 class="page-header">Developers</h1>
+<h1 class="page-header" style="font-size:2rem;">Developers</h1>
 
 <div class="row">
   <main class="col-md-9">
-    <div class="card card-body bg-light">
+    <div class="card card-body bg-light" style="height:200px;">
       <h2 class="card-title d-flex align-items-center">
-        <img src="assets/images/github-logo.png" srcset="assets/images/github-logo-2x.png 2x" class="github-logo pr-3" alt="GitHub">GitHub
+        <img src="assets/images/github-logo.png" srcset="assets/images/github-logo-2x.png 2x" class="github-logo pr-3" alt="GitHub"><p style="font-size:1.8rem;margin-bottom:-3px;margin-left:-8px;">GitHub</p>
       </h2>
-      <div class="row">
+     <div class="row">
         <div class="col-sm-6">
           <p>OpenStudio uses GitHub as the source code repository.</p>
         </div>
-
-        <div class="col-sm-6">
-          <p>Visit the OpenStudio wiki for information on getting started as a developer. View the SDK documentation for more usage details.</p>
+        <div class="col-sm-6" style="margin-left:-20px; margin-right:-20px;">
+          <p style="width:400px;">Visit the OpenStudio wiki for information on getting started as a developer. View the SDK documentation for more usage details.</p>
         </div>
       </div>
 
       <div class="row">
         <div class="col-sm-6">
           <div class="d-flex justify-content-center">
-            <a class="btn btn-primary" href="https://github.com/NREL/OpenStudio" role="button">Access Code on GitHub</a>
+            <a class="btn btn-primary btn-lg" href="https://github.com/NREL/OpenStudio" role="button">Access Code on GitHub</a>
           </div>
         </div>
         <div class="col-sm-6">
           <div class="d-flex justify-content-center">
-            <a class="btn btn-primary mx-1" href="https://github.com/NREL/OpenStudio/wiki" role="button">Wiki</a>
-            <a class="btn btn-primary mx-1" href="https://openstudio-sdk-documentation.s3.amazonaws.com/index.html" role="button">SDK Documentation</a>
+            <a class="btn btn-primary btn-lg mx-1" href="https://github.com/NREL/OpenStudio/wiki" role="button">Wiki</a>
+            <a class="btn btn-primary btn-lg mx-1" href="https://openstudio-sdk-documentation.s3.amazonaws.com/index.html" role="button">SDK Documentation</a>
           </div>
         </div>
       </div>
     </div>
 
     <app-release-card [release]="release"></app-release-card>
+
+    <div class="card card-body bg-light">
+      <h2 class="card-title">Developer Mailing List</h2>
+      <div>
+        <p>Join the OpenStudio Developer Mailing List for important announcements about changes to the OpenStudio APIs or build configurations.</p>
+      </div>
+      <div class="container h-100">
+        <div class="row h-100 justify-content-center align-items-center">
+          <div class="col-5">
+            <form action="http://lists.nrel.gov/subscribe/subscribe.tml" method="post">
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="name">Name (optional)</label>
+                <input type="text" class="form-control" id="name" name="name" maxlength="100">
+              </div>
+              <button type="submit" class="btn btn-info">Submit</button>
+              <input name="list" type="hidden" value="openstudio-developer">
+              <input name="confirm" type="hidden" value="one">
+              <input name="showconfirm" type="hidden" value="T">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
 
   <aside class="col-md-3">

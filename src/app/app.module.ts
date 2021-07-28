@@ -22,6 +22,9 @@ import { NewsItemComponent } from './shared/components/news-item/news-item.compo
 import { PaginationComponent } from './shared/components/pagination/pagination.component';
 import { ReleaseCardComponent } from './shared/components/release-card/release-card.component';
 import { TruncateHTMLPipe } from './shared/pipes/truncate-html.pipe';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { PublicationComponent } from "./shared/components/publication/publication.component";
 
 @NgModule({
   declarations: [
@@ -42,13 +45,16 @@ import { TruncateHTMLPipe } from './shared/pipes/truncate-html.pipe';
     PaginationComponent,
     PublicationsComponent,
     ReleaseCardComponent,
-    TruncateHTMLPipe
+    TruncateHTMLPipe,
+    PublicationComponent,
   ],
   imports: [
     AppRoutingModule,
     BrowserModule,
     LuxonModule,
-    NgbModule
+    NgbModule,
+    BrowserAnimationsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
