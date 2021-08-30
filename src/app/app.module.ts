@@ -5,7 +5,6 @@ import { LuxonModule } from 'luxon-angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ContactComponent } from './contact/contact.component';
 import { ContributionPolicyComponent } from './contribution-policy/contribution-policy.component';
 import { DeveloperNewsComponent } from './developer-news/developer-news.component';
 import { DevelopersComponent } from './developers/developers.component';
@@ -29,7 +28,6 @@ import { PublicationComponent } from "./shared/components/publication/publicatio
 @NgModule({
   declarations: [
     AppComponent,
-    ContactComponent,
     ContributionPolicyComponent,
     DeveloperNewsComponent,
     DevelopersComponent,

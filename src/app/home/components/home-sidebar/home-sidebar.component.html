@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<h2>Follow Us</h2>
+<h1 style="font-size:1.8rem;">Follow Us</h1>
 <section>
   <ul style="padding:10px;list-style-type:none;">
-    <li class="facebook first" style="display:inline; margin-right:10px;">
+    <li class="facebook first" style="display:inline; margin-right:10px;margin-left:-10px;">
       <a href="https://www.facebook.com/NRELOpenStudio-168423909887080/" title="facebook">
         <img src="https://www.openstudio.net/sites/all/modules/social_media_links/libraries/elegantthemes/PNG/facebook.png">
       </a>
@@ -22,14 +22,14 @@
         <img src="https://www.openstudio.net/sites/all/modules/social_media_links/libraries/elegantthemes/PNG/youtube.png" alt="YouTube icon">
       </a>
     </li>
-    <li class="contact last" style="display:inline;">
-      <a href="https://www.openstudio.net/contact" title="Contact">
+    <li class="contact" style="display:inline;">
+      <a href="forum" title="Contact">
         <img src="https://www.openstudio.net/sites/all/modules/social_media_links/libraries/elegantthemes/PNG/email.png" alt="Contact icon">
       </a>
     </li>
   </ul>
 </section>
 
-<h2>News</h2>
+<h1 style="font-size:1.8rem;margin-top:30px;margin-bottom:20px;">News</h1>
 <app-news-item *ngFor="let newsItem of news.slice(0, 3)" [news]="newsItem"></app-news-item>
 <a routerLink="/news" *ngIf="news.length > 3">more</a>
