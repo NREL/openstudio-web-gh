@@ -2,9 +2,9 @@
 
 <div class="row">
   <main class="col-md-9">
-    <div class="card card-body bg-light" style="height:200px;">
+    <div class="card card-body bg-light" style="height:250px;">
       <h2 class="card-title d-flex align-items-center">
-        <img src="assets/images/github-logo.png" srcset="assets/images/github-logo-2x.png 2x" class="github-logo pr-3" alt="GitHub"><p style="font-size:1.8rem;margin-bottom:-3px;margin-left:-8px;">GitHub</p>
+        <img src="assets/images/github-logo.png" srcset="assets/images/github-logo-2x.png 2x" class="github-logo pr-3" alt="GitHub" style="padding-top:20px;"><p style="font-size:1.8rem;margin-bottom:-3px;margin-left:-8px;padding-top:20px;">GitHub</p>
       </h2>
      <div class="row">
         <div class="col-sm-6">
@@ -31,38 +31,11 @@
     </div>
 
     <app-release-card [release]="release"></app-release-card>
-
-    <div class="card card-body bg-light">
-      <h2 class="card-title">Developer Mailing List</h2>
-      <div>
-        <p>Join the OpenStudio Developer Mailing List for important announcements about changes to the OpenStudio APIs or build configurations.</p>
-      </div>
-      <div class="container h-100">
-        <div class="row h-100 justify-content-center align-items-center">
-          <div class="col-5">
-            <form action="http://lists.nrel.gov/subscribe/subscribe.tml" method="post">
-              <div class="form-group">
-                <label for="email">Email address</label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
-              </div>
-              <div class="form-group">
-                <label for="name">Name (optional)</label>
-                <input type="text" class="form-control" id="name" name="name" maxlength="100">
-              </div>
-              <button type="submit" class="btn btn-info">Submit</button>
-              <input name="list" type="hidden" value="openstudio-developer">
-              <input name="confirm" type="hidden" value="one">
-              <input name="showconfirm" type="hidden" value="T">
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
   </main>
 
   <aside class="col-md-3">
-    <div class="card card-body bg-light quick-links">
-      <h3 class="card-title">Quick Links</h3>
+    <div class="card card-body bg-light quick-links" style="height:250px;">
+      <h2 class="card-title">Quick Links</h2>
       <p class="card-text"><a href="https://github.com/NREL/OpenStudio/blob/develop/CONTRIBUTING.md">Contributing</a></p>
       <p class="card-text"><a routerLink="/openstudio-contribution-policy">Contribution Policy</a></p>
       <p class="card-text"><a href="https://github.com/NREL/OpenStudio/blob/develop/CONTRIBUTING.md">Submit a bug</a></p>
@@ -71,7 +44,7 @@
       <p class="card-text"><a href="https://github.com/NREL/OpenStudio/graphs/contributors">Contributors</a></p>
     </div>
     <div class="mt-5">
-      <h2>Developer News</h2>
+      <h1 style="margin-top:-25px;">Developer News</h1>
       <app-news-item *ngFor="let newsItem of developerNews.slice(0, 3)" [news]="newsItem"></app-news-item>
       <a routerLink="/developer-news" *ngIf="developerNews.length > 3">more</a>
     </div>

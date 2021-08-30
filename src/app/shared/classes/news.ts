@@ -1,6 +1,15 @@
 import { NewsItem } from './constants';
 
 export const news: NewsItem[] = [{
+  title: 'BCL 2.0 implementation ready for public testing',
+  time: '2021-08-11 12:33:40 -0600',
+  html: `NREL has completed development of Building Component Library 2.0 and it is now available for public testing at <a href="https://bcl2.nrel.gov/">https://bcl2.nrel.gov/</a>. The main BCL website is deprecated and will be replaced replaced by this new implementation.<br/>
+        BCL 2.0 uses a set of GitHub repositories as the back-end for robustness, transparency, and flexibility: version-controlled Measures, Components, Weather Files, and more. Instructions are available on the new site for organizations and groups with BCL content to migrate their components and measures to GitHub repositories.`
+}, {
+  title: 'OpenStudio 3.2.1 SDK Release',
+  time: '2021-06-28 11:00:35 -0600',
+  html: `OpenStudio 3.2.1 SDK has been released. 3.2.1 is a minor release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.2.1">Release Notes</a> for more information.`
+}, {
   title: 'OpenStudio 3.2.0 SDK Release',
   time: '2021-05-05 02:01:23 -0600',
   html: `OpenStudio 3.2.0 SDK has been released. 3.2.0 is a major release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.2.0">Release Notes</a> for more information.`

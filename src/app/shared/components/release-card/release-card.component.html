@@ -1,5 +1,5 @@
-<div class="card card-body bg-light" style="height:200px;">
-  <h1 class="card-title" style="font-size:2rem;">{{ release.title }}</h1>
+<div class="card card-body bg-light" style="height:250px;">
+  <h1 class="card-title" style="font-size:2rem;padding-top:20px;padding-bottom:10px;padding-bottom:20px;">{{ release.title }}</h1>
   <div class="row" *ngIf="release.type === 'developer-sdk'">
     <div class="col-9">
       <h5 class="card-subtitle mb-2 text-muted" style="padding-bottom:10px;">This is the latest stable software version.</h5>
@@ -10,7 +10,7 @@
   </div>
   <div class="row" *ngIf="release.type !== 'developer-sdk'">
     <h5 class="col-9 card-subtitle mb-2 text-muted"><span *ngIf="release.type !== 'plugin'">Select your platform to start the download</span></h5>
-    <h6 class="col-3 card-subtitle mb-2 text-muted">Current version</h6>
+    <h5 class="col-3 card-subtitle mb-2 text-muted">Current version</h5>
   </div>
   <div class="row">
     <div class="col-9" *ngIf="release.type === 'plugin'">
