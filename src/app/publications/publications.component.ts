@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { publications } from '../shared/classes/publications';
 
 @Component({
   selector: 'app-publications',
@@ -6,8 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./publications.component.scss']
 })
 export class PublicationsComponent {
-
-  constructor() {
-  }
-
+  readonly publications = publications;
 }

@@ -6,7 +6,7 @@ type Version = `${number}.${number}.${number}`;
 
 export type NewsItem = {
   title: string,
-  time: string
+  time: string,
   html: string,
 };
 
@@ -27,6 +27,8 @@ export type PluginRelease = {
   version: Version,
   url: `${string}.rbz`,
 };
+
+export type Publication = { html: string };
 
 export const getTitle = (route: string) => {
   let title = '';

@@ -1,0 +1,11 @@
+:host::ng-deep a {
+  word-break: break-word;
+}
+
+.date {
+  margin-bottom: 1.5rem;
+}
+
+li:not(:last-child) {
+  margin-bottom: 1rem;
+}

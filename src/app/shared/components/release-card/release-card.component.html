@@ -1,28 +1,28 @@
 <div class="card card-body bg-light">
-  <h2 class="card-title">{{ release.title }}</h2>
+  <h1 class="card-title my-2">{{ release.title }}</h1>
   <div class="row" *ngIf="release.type === 'developer-sdk'">
     <div class="col-9">
-      <h6 class="card-subtitle mb-2 text-muted">This is the latest stable software version</h6>
+      <h4 class="card-subtitle mb-2 text-muted">This is the latest stable software version.</h4>
     </div>
     <div class="col-3">
-      <h6 class="card-subtitle mb-2 text-muted">Latest Development Package Version</h6>
+      <h4 class="card-subtitle mb-2 text-muted">Latest Development Package Version</h4>
     </div>
   </div>
   <div class="row" *ngIf="release.type !== 'developer-sdk'">
-    <h6 class="col-9 card-subtitle mb-2 text-muted"><span *ngIf="release.type !== 'plugin'">Select your platform to start the download</span></h6>
-    <h6 class="col-3 card-subtitle mb-2 text-muted">Current version</h6>
+    <h4 class="col-9 card-subtitle mb-3 text-muted"><span *ngIf="release.type !== 'plugin'">Select your platform to start the download</span></h4>
+    <h4 class="col-3 card-subtitle mb-2 text-muted">Current version</h4>
   </div>
   <div class="row">
     <div class="col-9" *ngIf="release.type === 'plugin'">
-      <a class="btn btn-primary" [href]="release.url" role="button">SketchUp 2019</a>
+      <a class="btn btn-primary btn-lg btn-bg-dark ml-lg-5 mb-1" [href]="release.url" role="button">SketchUp 2019</a>
     </div>
     <div class="col-9" *ngIf="release.type !== 'plugin'">
-      <a class="btn btn-primary mr-1" [href]="release.winUrl" role="button">Windows (x64)</a>
-      <a class="btn btn-primary mx-1" [href]="release.macUrl" role="button">Mac</a>
-      <a class="btn btn-primary ml-1" [href]="release.linuxUrl" role="button">Linux</a>
+      <a class="btn btn-primary btn-lg btn-bg-dark mr-1 ml-lg-5 mb-1" [href]="release.winUrl" role="button">Windows (x64)</a>
+      <a class="btn btn-primary btn-lg btn-bg-dark mx-1 mb-1" [href]="release.macUrl" role="button">Mac</a>
+      <a class="btn btn-primary btn-lg btn-bg-dark ml-1 mb-1" [href]="release.linuxUrl" role="button">Linux</a>
     </div>
     <div class="col-3">
-      <h1 class="version-badge"><span class="badge badge-info">{{ release.version }}</span></h1>
+      <h1 class="version-badge"><span class="badge badge-info btn-bg-light">{{ release.version }}</span></h1>
     </div>
   </div>
 </div>

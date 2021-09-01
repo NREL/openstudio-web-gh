@@ -1,3 +1,28 @@
-<h2>News</h2>
+<h1>Follow Us</h1>
+
+<ul>
+  <li>
+    <a href="https://www.facebook.com/NRELOpenStudio-168423909887080/" title="Facebook">
+      <img src="assets/images/social-media/facebook.png" alt="Facebook icon">
+    </a>
+  </li>
+  <li>
+    <a href="https://twitter.com/NRELOpenStudio" title="Twitter">
+      <img src="assets/images/social-media/twitter.png" alt="Twitter icon">
+    </a>
+  </li>
+  <li>
+    <a href="https://www.youtube.com/user/NRELOpenStudio" title="YouTube">
+      <img src="assets/images/social-media/youtube.png" alt="YouTube icon">
+    </a>
+  </li>
+  <li>
+    <a routerLink="/forum" title="Contact">
+      <img src="assets/images/social-media/email.png" alt="Contact icon">
+    </a>
+  </li>
+</ul>
+
+<h1>News</h1>
 <app-news-item *ngFor="let newsItem of news.slice(0, 3)" [news]="newsItem"></app-news-item>
 <a routerLink="/news" *ngIf="news.length > 3">more</a>

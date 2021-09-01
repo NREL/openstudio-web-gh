@@ -1,1 +1,8 @@
 <h1 class="page-header">Major Recent Publications</h1>
+<div>
+  <div class="date d-flex justify-content-end">Updated 02/25/2020</div>
+
+  <ol>
+    <li *ngFor="let publication of publications" [innerHTML]="publication.html"></li>
+  </ol>
+</div>

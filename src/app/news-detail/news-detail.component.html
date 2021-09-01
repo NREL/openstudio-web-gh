@@ -1,3 +1,3 @@
 <h1 class="page-header">{{ newsItem.title }}</h1>
-<p><small class="text-muted"><em>Submitted on {{ newsItem.time | dateTimeFromSql | dateTimeToFormat:'ccc, MM/dd/yyyy - HH:mm' }}</em></small></p>
-<p><small [innerHTML]="newsItem.html"></small></p>
+<p class="text-muted"><em>Submitted on {{ newsItem.time | dateTimeFromSql | dateTimeToFormat:'ccc, MM/dd/yyyy - HH:mm' }}</em></p>
+<p [innerHTML]="sanitize(newsItem.html)"></p>

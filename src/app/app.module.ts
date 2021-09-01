@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LuxonModule } from 'luxon-angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ContactComponent } from './contact/contact.component';
 import { ContributionPolicyComponent } from './contribution-policy/contribution-policy.component';
 import { DeveloperNewsComponent } from './developer-news/developer-news.component';
 import { DevelopersComponent } from './developers/developers.component';
@@ -26,7 +26,6 @@ import { TruncateHTMLPipe } from './shared/pipes/truncate-html.pipe';
 @NgModule({
   declarations: [
     AppComponent,
-    ContactComponent,
     ContributionPolicyComponent,
     DeveloperNewsComponent,
     DevelopersComponent,
@@ -46,6 +45,7 @@ import { TruncateHTMLPipe } from './shared/pipes/truncate-html.pipe';
   ],
   imports: [
     AppRoutingModule,
+    BrowserAnimationsModule,
     BrowserModule,
     LuxonModule,
     NgbModule

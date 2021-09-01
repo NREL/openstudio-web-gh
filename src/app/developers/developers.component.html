@@ -3,14 +3,14 @@
 <div class="row">
   <main class="col-md-9">
     <div class="card card-body bg-light">
-      <h2 class="card-title d-flex align-items-center">
-        <img src="assets/images/github-logo.png" srcset="assets/images/github-logo-2x.png 2x" class="github-logo pr-3" alt="GitHub">GitHub
+      <h2 class="github card-title d-flex align-items-center my-3">
+        <img src="assets/images/github-logo.png" srcset="assets/images/github-logo-2x.png 2x" class="github-logo" alt="GitHub">
+        <span class="ml-2">GitHub</span>
       </h2>
       <div class="row">
         <div class="col-sm-6">
           <p>OpenStudio uses GitHub as the source code repository.</p>
         </div>
-
         <div class="col-sm-6">
           <p>Visit the OpenStudio wiki for information on getting started as a developer. View the SDK documentation for more usage details.</p>
         </div>
@@ -19,13 +19,13 @@
       <div class="row">
         <div class="col-sm-6">
           <div class="d-flex justify-content-center">
-            <a class="btn btn-primary" href="https://github.com/NREL/OpenStudio" role="button">Access Code on GitHub</a>
+            <a class="btn btn-primary btn-lg btn-bg-dark" href="https://github.com/NREL/OpenStudio" role="button">Access Code on GitHub</a>
           </div>
         </div>
         <div class="col-sm-6">
           <div class="d-flex justify-content-center">
-            <a class="btn btn-primary mx-1" href="https://github.com/NREL/OpenStudio/wiki" role="button">Wiki</a>
-            <a class="btn btn-primary mx-1" href="https://openstudio-sdk-documentation.s3.amazonaws.com/index.html" role="button">SDK Documentation</a>
+            <a class="btn btn-primary btn-lg mx-1 btn-bg-dark" href="https://github.com/NREL/OpenStudio/wiki" role="button">Wiki</a>
+            <a class="btn btn-primary btn-lg mx-1 btn-bg-dark" href="https://openstudio-sdk-documentation.s3.amazonaws.com/index.html" role="button">SDK Documentation</a>
           </div>
         </div>
       </div>
@@ -36,7 +36,7 @@
 
   <aside class="col-md-3">
     <div class="card card-body bg-light quick-links">
-      <h3 class="card-title">Quick Links</h3>
+      <h2 class="card-title">Quick Links</h2>
       <p class="card-text"><a href="https://github.com/NREL/OpenStudio/blob/develop/CONTRIBUTING.md">Contributing</a></p>
       <p class="card-text"><a routerLink="/openstudio-contribution-policy">Contribution Policy</a></p>
       <p class="card-text"><a href="https://github.com/NREL/OpenStudio/blob/develop/CONTRIBUTING.md">Submit a bug</a></p>
@@ -44,8 +44,8 @@
       <p class="card-text"><a href="https://github.com/NREL/OpenStudio/wiki/OpenStudio-SDK-Version-Compatibility-Matrix">OpenStudio Compatibility Matrix</a></p>
       <p class="card-text"><a href="https://github.com/NREL/OpenStudio/graphs/contributors">Contributors</a></p>
     </div>
-    <div class="mt-5">
-      <h2>Developer News</h2>
+    <div class="mt-4">
+      <h1>Developer News</h1>
       <app-news-item *ngFor="let newsItem of developerNews.slice(0, 3)" [news]="newsItem"></app-news-item>
       <a routerLink="/developer-news" *ngIf="developerNews.length > 3">more</a>
     </div>
