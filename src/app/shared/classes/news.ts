@@ -140,7 +140,7 @@ export const news: NewsItem[] = [{
   html: `OpenStudio 2.0.0 has been released.
         This release brings the new <a href="http://nrel.github.io/OpenStudio-user-documentation/reference/command_line_interface/">OpenStudio Command Line Interface</a> (CLI) for applying OpenStudio Measures and running simulations easily.
         This release also includes the second version of the Parametric Analysis Tool (PAT) for parametric studies.
-        Packages can be downloaded <a href="https://www.openstudio.net/developers">here</a>.  Complete release notes are available <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.0.0">here</a>.`
+        Packages can be downloaded <a href="developers">here</a>.  Complete release notes are available <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.0.0">here</a>.`
 }, {
   title: 'OpenStudio 1.14.0 Release',
   time: '2016-12-14 08:04:48 -0700',
