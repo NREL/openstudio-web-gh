@@ -39,6 +39,19 @@ $openstudio-web-theme: mat-light-theme((
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+@mixin font-face($name, $path, $weight: null, $style: null) {
+  @font-face {
+    font-family: quote($name);
+    font-style: $style;
+    font-weight: $weight;
+    src: url(quote($path + '.woff2')) format('woff2');
+  }
+}
+
+@include font-face(Roboto, './assets/fonts/roboto/Roboto-Light', 300, normal);
+@include font-face(Roboto, './assets/fonts/roboto/Roboto-Regular', normal, normal);
+@include font-face(Roboto, './assets/fonts/roboto/Roboto-Bold', bold, normal);
+
 h1.page-header {
   border-bottom: 1px solid #eee;
   font-size: 2rem;
