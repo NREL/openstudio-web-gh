@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LuxonModule } from 'luxon-angular';
 
@@ -21,9 +22,6 @@ import { NewsItemComponent } from './shared/components/news-item/news-item.compo
 import { PaginationComponent } from './shared/components/pagination/pagination.component';
 import { ReleaseCardComponent } from './shared/components/release-card/release-card.component';
 import { TruncateHTMLPipe } from './shared/pipes/truncate-html.pipe';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { PublicationComponent } from "./shared/components/publication/publication.component";
 
 @NgModule({
   declarations: [
@@ -43,16 +41,14 @@ import { PublicationComponent } from "./shared/components/publication/publicatio
     PaginationComponent,
     PublicationsComponent,
     ReleaseCardComponent,
-    TruncateHTMLPipe,
-    PublicationComponent,
+    TruncateHTMLPipe
   ],
   imports: [
     AppRoutingModule,
+    BrowserAnimationsModule,
     BrowserModule,
     LuxonModule,
-    NgbModule,
-    BrowserAnimationsModule,
-    FontAwesomeModule
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

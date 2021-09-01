@@ -1,35 +1,28 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<h1 style="font-size:1.8rem;">Follow Us</h1>
-<section>
-  <ul style="padding:10px;list-style-type:none;">
-    <li class="facebook first" style="display:inline; margin-right:10px;margin-left:-10px;">
-      <a href="https://www.facebook.com/NRELOpenStudio-168423909887080/" title="facebook">
-        <img src="assets/images/social_media//facebook.png">
-      </a>
-    </li>
-    <li class="twitter" style="display:inline; margin-right:10px">
-      <a href="https://twitter.com/NRELOpenStudio" title="Twitter">
-        <img src="assets/images/social_media//twitter.png" alt="Twitter icon">
-      </a>
-    </li>
-    <li class=""googleplus style="display:inline; margin-right:10px">
-      <a href="https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://plus.google.com/103565567140730094420/posts&followup=https://plus.google.com/103565567140730094420/posts" title="Google+">
-        <img src="assets/images/social_media/googleplus.png" alt="Google+ icon">
-      </a>
-    </li>
-    <li class="youtube" style="display:inline; margin-right:10px">
-      <a href="https://www.youtube.com/user/NRELOpenStudio">
-        <img src="assets/images/social_media/youtube.png" alt="YouTube icon">
-      </a>
-    </li>
-    <li class="contact" style="display:inline;">
-      <a href="forum" title="Contact">
-        <img src="assets/images/social_media/email.png" alt="Contact icon">
-      </a>
-    </li>
-  </ul>
-</section>
+<h1>Follow Us</h1>
 
-<h1 style="font-size:1.8rem;margin-top:30px;margin-bottom:20px;">News</h1>
+<ul>
+  <li>
+    <a href="https://www.facebook.com/NRELOpenStudio-168423909887080/" title="Facebook">
+      <img src="assets/images/social-media/facebook.png" alt="Facebook icon">
+    </a>
+  </li>
+  <li>
+    <a href="https://twitter.com/NRELOpenStudio" title="Twitter">
+      <img src="assets/images/social-media/twitter.png" alt="Twitter icon">
+    </a>
+  </li>
+  <li>
+    <a href="https://www.youtube.com/user/NRELOpenStudio" title="YouTube">
+      <img src="assets/images/social-media/youtube.png" alt="YouTube icon">
+    </a>
+  </li>
+  <li>
+    <a routerLink="/forum" title="Contact">
+      <img src="assets/images/social-media/email.png" alt="Contact icon">
+    </a>
+  </li>
+</ul>
+
+<h1>News</h1>
 <app-news-item *ngFor="let newsItem of news.slice(0, 3)" [news]="newsItem"></app-news-item>
 <a routerLink="/news" *ngIf="news.length > 3">more</a>

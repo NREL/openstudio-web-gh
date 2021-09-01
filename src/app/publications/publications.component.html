@@ -1,14 +1,8 @@
-<h1 class="page-header" style="font-size:2rem;">Major Recent Publications</h1>
-<div class="region region-content">
-  <section id="block-system-main" class="block block-system contextual-links-region clearfix">
-    <div>
-      <span style="float:right;">updated 2/25/2020</span>
-    </div>
-    <br style="clear:both;"><br>
-    <div class="region region-content">
-      <ol>
-        <app-publication *ngFor="let publication of publications" [publication]="publication"></app-publication>
-      </ol>
-    </div>
-  </section>
+<h1 class="page-header">Major Recent Publications</h1>
+<div>
+  <div class="date d-flex justify-content-end">Updated 02/25/2020</div>
+
+  <ol>
+    <li *ngFor="let publication of publications" [innerHTML]="publication.html"></li>
+  </ol>
 </div>

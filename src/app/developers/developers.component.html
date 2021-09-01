@@ -1,17 +1,18 @@
-<h1 class="page-header" style="font-size:2rem;">Developers</h1>
+<h1 class="page-header">Developers</h1>
 
 <div class="row">
   <main class="col-md-9">
-    <div class="card card-body bg-light" style="height:250px;">
-      <h2 class="card-title d-flex align-items-center">
-        <img src="assets/images/github-logo.png" srcset="assets/images/github-logo-2x.png 2x" class="github-logo pr-3" alt="GitHub" style="padding-top:20px;"><p style="font-size:1.8rem;margin-bottom:-3px;margin-left:-8px;padding-top:20px;">GitHub</p>
+    <div class="card card-body bg-light">
+      <h2 class="github card-title d-flex align-items-center my-3">
+        <img src="assets/images/github-logo.png" srcset="assets/images/github-logo-2x.png 2x" class="github-logo" alt="GitHub">
+        <span class="ml-2">GitHub</span>
       </h2>
-     <div class="row">
+      <div class="row">
         <div class="col-sm-6">
           <p>OpenStudio uses GitHub as the source code repository.</p>
         </div>
-        <div class="col-sm-6" style="margin-left:-20px; margin-right:-20px;">
-          <p style="width:400px;">Visit the OpenStudio wiki for information on getting started as a developer. View the SDK documentation for more usage details.</p>
+        <div class="col-sm-6">
+          <p>Visit the OpenStudio wiki for information on getting started as a developer. View the SDK documentation for more usage details.</p>
         </div>
       </div>
 
@@ -34,8 +35,8 @@
   </main>
 
   <aside class="col-md-3">
-    <div class="card card-body bg-light quick-links" style="height:250px;">
-      <h2 class="card-title" style="margin-bottom:5px;">Quick Links</h2>
+    <div class="card card-body bg-light quick-links">
+      <h2 class="card-title">Quick Links</h2>
       <p class="card-text"><a href="https://github.com/NREL/OpenStudio/blob/develop/CONTRIBUTING.md">Contributing</a></p>
       <p class="card-text"><a routerLink="/openstudio-contribution-policy">Contribution Policy</a></p>
       <p class="card-text"><a href="https://github.com/NREL/OpenStudio/blob/develop/CONTRIBUTING.md">Submit a bug</a></p>
@@ -43,8 +44,8 @@
       <p class="card-text"><a href="https://github.com/NREL/OpenStudio/wiki/OpenStudio-SDK-Version-Compatibility-Matrix">OpenStudio Compatibility Matrix</a></p>
       <p class="card-text"><a href="https://github.com/NREL/OpenStudio/graphs/contributors">Contributors</a></p>
     </div>
-    <div class="mt-5">
-      <h1 style="margin-top:-25px;">Developer News</h1>
+    <div class="mt-4">
+      <h1>Developer News</h1>
       <app-news-item *ngFor="let newsItem of developerNews.slice(0, 3)" [news]="newsItem"></app-news-item>
       <a routerLink="/developer-news" *ngIf="developerNews.length > 3">more</a>
     </div>

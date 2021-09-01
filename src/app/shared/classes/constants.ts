@@ -28,6 +28,8 @@ export type PluginRelease = {
   url: `${string}.rbz`,
 };
 
+export type Publication = { html: string };
+
 export const getTitle = (route: string) => {
   let title = '';
   switch (route) {
@@ -72,5 +74,3 @@ export const findNewsItem = (timestamp: number, newsType: NewsType): NewsItem | 
     return developerNews.find(newsItem => newsItem.time === timestampStr);
   }
 };
-
-export type Publication = { html: string };

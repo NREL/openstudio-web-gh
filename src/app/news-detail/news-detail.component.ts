@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
 import { findNewsItem, NewsItem, NewsType } from '../shared/classes/constants';
 
@@ -14,7 +15,8 @@ export class NewsDetailComponent {
 
   constructor(
     private route: ActivatedRoute,
-    private router: Router
+    private router: Router,
+    private sanitizer: DomSanitizer
   ) {
     this.newsType = this.route.snapshot.url[0].path as NewsType;
     const timestamp = this.route.snapshot.paramMap.get('timestamp');
@@ -32,6 +34,10 @@ export class NewsDetailComponent {
       // Timestamp not found
       this.router.navigate([this.newsType]);
     }
+  }
+
+  sanitize(html: string): SafeHtml {
+    return this.sanitizer.bypassSecurityTrustHtml(html);
   }
 
 }

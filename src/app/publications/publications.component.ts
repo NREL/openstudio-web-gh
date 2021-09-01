@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { publications } from "../shared/classes/publications";
+import { publications } from '../shared/classes/publications';
 
 @Component({
   selector: 'app-publications',
@@ -8,7 +8,4 @@ import { publications } from "../shared/classes/publications";
 })
 export class PublicationsComponent {
   readonly publications = publications;
-
-  constructor() {
-  }
 }

@@ -1,4 +1,4 @@
-import { Publication } from "./constants";
+import { Publication } from './constants';
 
 export const publications: Publication[] = [{
   html: `Abbaas, E.S., A.A. Saif, M. Munaaim, and M.A. Othuman Mydin. “Influence of Courtyard Ventilation on Thermal Performance of Office Building in Hot-Humid Climate: A Case Study,” Vol. 34, 2018. <a href="https://doi.org/10.1051/e3sconf/20183402053">https://doi.org/10.1051/e3sconf/20183402053</a>.`
@@ -9,7 +9,7 @@ export const publications: Publication[] = [{
 }, {
   html: `Anton, I., and D. TǍnase. “Informed Geometries. Parametric Modelling and Energy Analysis in Early Stages of Design,” 85:9–16, 2016. <a href="https://doi.org/10.1016/j.egypro.2015.12.269">https://doi.org/10.1016/j.egypro.2015.12.269</a>.`
 }, {
-  html: `Aydin, E.E., H.O. Kaya, and I. Kahraman. “A Comparison between Building Energy Simulation and Measurement Results for a Municipality Building,” 653–60, 2016. <a href="http://cesb.cz/">http://cesb.cz/</a>.`
+  html: `Aydin, E.E., H.O. Kaya, and I. Kahraman. “A Comparison between Building Energy Simulation and Measurement Results for a Municipality Building,” 653–60, 2016. <a href="https://cesb.cz/">https://cesb.cz/</a>.`
 }, {
   html: `Bagnasco, A., S. Massucco, M. Saviozzi, F. Silvestro, and A. Vinci. “Design and Validation of a Detailed Building Thermal Model Considering Occupancy and Temperature Sensors,” 2018. <a href="https://doi.org/10.1109/RTSI.2018.8548424">https://doi.org/10.1109/RTSI.2018.8548424</a>.`
 }, {
@@ -61,7 +61,7 @@ export const publications: Publication[] = [{
 }, {
   html: `Hassanein, A.A.M., L. Qiu, P. Junting, G. Yihong, F. Witarsa, and A.A. Hassanain. “Simulation and Validation of a Model for Heating Underground Biogas Digesters by Solar Energy.” <em>Ecological Engineering</em> 82 (2015): 336–44. <a href="https://doi.org/10.1016/j.ecoleng.2015.05.010">https://doi.org/10.1016/j.ecoleng.2015.05.010</a>.`
 }, {
-  html: `Heidarinejad, M., M. Dahlhausen, J.R. Wentz, J.B. Li, M. Wang, Y. Sun, N. Mattise, C. Casey, J. Srebric, and R. Mistrick. “An Overview of the Web-Based Integration of Energy, Daylight, and Airflow Simulations to Facilitate Implementation of Energy Efficiency Measures,” 354–61, 2014. <a href="https://ashraem.confex.com/ashraem/emc14/cfp.cg">https://ashraem.confex.com/ashraem/emc14/cfp.cg</a>.`
+  html: `Heidarinejad, M., M. Dahlhausen, J.R. Wentz, J.B. Li, M. Wang, Y. Sun, N. Mattise, C. Casey, J. Srebric, and R. Mistrick. “An Overview of the Web-Based Integration of Energy, Daylight, and Airflow Simulations to Facilitate Implementation of Energy Efficiency Measures,” 354–61, 2014. <a href="https://ashraem.confex.com/ashraem/emc14/cfp.cgi">https://ashraem.confex.com/ashraem/emc14/cfp.cgi</a>.`
 }, {
   html: `Heidarinejad, M., N. Mattise, K. Sharma, and J. Srebric. “Creating Geometry with Basic Shape Templates in OpenStudio,” 205:1990–95, 2017. <a href="https://doi.org/10.1016/j.proeng.2017.10.068">https://doi.org/10.1016/j.proeng.2017.10.068</a>.`
 }, {
@@ -124,7 +124,7 @@ export const publications: Publication[] = [{
 }, {
   html: `Mamirov, M., A. Zhamanbay, K. Kalibekov, M. Mamirov, Y. Yertay, and C.-S. Shon. “Evaluation of Thermal Properties of Aerated Concrete Used for Student Residential Building, Astana, Kazakhstan,” Vol. 2004, 2018. <a href="https://doi.org/10.1063/1.5051101">https://doi.org/10.1063/1.5051101</a>.`
 }, {
-  html: `McCombs, Bailey. “An Open Studio Approach to Adolescent Identity Formation: A Development of a Method.” <em>Expressive Therapies Capstone Theses</em>, May 18, 2019. <a href="https://digitalcommons.lesley.edu/expressive_theses/176">https://digitalcommons.lesley.edu/expressive_theses/176</a>.`
+  html: `McCombs, Bailey. “An Open Studio Approach to Adolescent Identity Formation: A Development of a Method.” <em>Expressive Therapies Capstone Theses</em>, May 18, 2019. <a href="https://digitalcommons.lesley.edu/expressive_theses/176/">https://digitalcommons.lesley.edu/expressive_theses/176/</a>.`
 }, {
   html: `Miller, C., D. Thomas, S.D. Irigoyen, C. Hersberger, Z. Nagy, D. Rossi, and A. Schlueter. “BIM-Extracted Energyplus Model Calibration for Retrofit Analysis of a Historically Listed Building in Switzerland,” 331–38, 2014. <a href="https://ashraem.confex.com/ashraem/emc14/cfp.cgi">https://ashraem.confex.com/ashraem/emc14/cfp.cgi</a>.`
 }, {
@@ -175,7 +175,7 @@ export const publications: Publication[] = [{
   html: `Weaver, E., N. Long, K. Fleming, M. Schott, K. Benne, and E. Hale. “Rapid Application Development with OpenStudio: Preprint.” National Renewable Energy Lab. (NREL), Golden, CO (United States), May 1, 2012. <a href="https://www.osti.gov/biblio/1040934-rapid-application-development-openstudio-preprint">https://www.osti.gov/biblio/1040934-rapid-application-development-openstudio-preprint</a>.`
 }, {
   html: `Wilson, Eric J. (ORCID:000000033185655X), and Noel D. Merket. “An Interactive Visualization Tool for Large-Scale Building Stock Modeling.” Atlanta, GA: American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASHRAE), September 26, 2018.
-        <a href="https://www.ashrae.org/File%20Library/Conferences/Specialty%20Conferences/2018%20Building%20Performance%20Analysis%20Conference%20and%20SimBuild/Papers/C047.pdf">https://www.ashrae.org/File%20Library/Conferences/Specialty%20Conferences/2018%20Building%20Performance%20Analysis%20Conference%20and%20SimBuild/Papers/C047.pdf</a>.`
+        <a href="https://www.ashrae.org/File%20Library/Conferences/Specialty%20Conferences/2018%20Building%20Performance%20Analysis%20Conference%20and%20SimBuild/Papers/C047.pdf">https://www.ashrae.org/File Library/Conferences/Specialty Conferences/2018 Building Performance Analysis Conference and SimBuild/Papers/C047.pdf</a>.`
 }, {
   html: `Wilson, Eric J. (ORCID:000000033185655X), Andrew S. (ORCID:0000000254905134) Parker, and Natalie Mims Frick. “End-Use Load Profiles for the U.S. Building Stock: Technical Advisory Group Meeting #1.” National Renewable Energy Lab. (NREL), Golden, CO (United States), August 20, 2019. <a href="https://www.osti.gov/biblio/1558902-end-use-load-profiles-building-stock-technical-advisory-group-meeting">https://www.osti.gov/biblio/1558902-end-use-load-profiles-building-stock-technical-advisory-group-meeting</a>.`
 }, {
@@ -188,4 +188,4 @@ export const publications: Publication[] = [{
   html: `Yoon, J.H., R. Bladick, and A. Novoselac. “Demand Response for Residential Buildings Based on Dynamic Price of Electricity.” <em>Energy and Buildings</em> 80 (2014): 531–41. <a href="https://doi.org/10.1016/j.enbuild.2014.05.002">https://doi.org/10.1016/j.enbuild.2014.05.002</a>.`
 }, {
   html: `Yu, N., Y. Jiang, L. Luo, S. Lee, A. Jallow, D. Wu, J.I. Messner, R.M. Leicht, and J. Yen. “Integrating BIMserver and OpenStudio for Energy Efficient Building,” 516–23, 2013. <a href="https://ascelibrary.org/doi/10.1061/9780784413029.065">https://ascelibrary.org/doi/10.1061/9780784413029.065</a>.`
-}]
+}];

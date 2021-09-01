@@ -3,8 +3,8 @@ import { NewsItem } from './constants';
 export const news: NewsItem[] = [{
   title: 'BCL 2.0 implementation ready for public testing',
   time: '2021-08-11 12:33:40 -0600',
-  html: `NREL has completed development of Building Component Library 2.0 and it is now available for public testing at <a href="https://bcl2.nrel.gov/">https://bcl2.nrel.gov/</a>. The main BCL website is deprecated and will be replaced replaced by this new implementation.<br/>
-        BCL 2.0 uses a set of GitHub repositories as the back-end for robustness, transparency, and flexibility: version-controlled Measures, Components, Weather Files, and more. Instructions are available on the new site for organizations and groups with BCL content to migrate their components and measures to GitHub repositories.`
+  html: `<p>NREL has completed development of Building Component Library 2.0 and it is now available for public testing at <a href="https://bcl2.nrel.gov/">https://bcl2.nrel.gov/</a>. The main BCL website is deprecated and will be replaced replaced by this new implementation.</p>
+<p>BCL 2.0 uses a set of GitHub repositories as the back-end for robustness, transparency, and flexibility: version-controlled Measures, Components, Weather Files, and more. Instructions are available on the new site for organizations and groups with BCL content to migrate their components and measures to GitHub repositories.</p>`
 }, {
   title: 'OpenStudio 3.2.1 SDK Release',
   time: '2021-06-28 11:00:35 -0600',
@@ -59,44 +59,35 @@ export const news: NewsItem[] = [{
 }, {
   title: 'A Shift in BTO’s BEM Strategy: A New Future for the OpenStudio Application',
   time: '2018-09-06 15:22:04 -0600',
-  html: `<p>Whole-building energy modeling (BEM) is a multi-purpose enabling technology for improving building energy performance.
-        BEM supports energy-efficiency applications such as integrated design, code development and compliance, ratings, program design and administration, product design, and policy and investment analysis.
-        The U.S. Department of Energy’s Building Technologies Office (BTO) has supported BEM research and development for decades and has itself been a significant consumer of BEM.
-        A significant part of BTO’s strategy is funding and managing the development of BEM software.
-        The focus has largely been on physics engines such as DOE-2 and EnergyPlus—where BTO has emphasized transparency, advanced capabilities, and accuracy—but BTO has developed some applications as well.
-        One highly visible example is the OpenStudio Application, a graphical model editing environment that works in conjunction with the OpenStudio SketchUp plug-in.
-        Together, these have been responsible for a significant increase in EnergyPlus adoption.</p>
+  html: `<p>Whole-building energy modeling (BEM) is a multi-purpose enabling technology for improving building energy performance. BEM supports energy-efficiency applications such as integrated design, code development and compliance, ratings, program design and administration, product design, and policy and investment analysis. The U.S. Department of Energy’s Building Technologies Office (BTO) has supported BEM research and development for decades and has itself been a significant consumer of BEM. A significant part of BTO’s strategy is funding and managing the development of BEM software. The focus has largely been on physics engines such as DOE-2 and EnergyPlus—where BTO has emphasized transparency, advanced capabilities, and accuracy—but BTO has developed some applications as well. One highly visible example is the OpenStudio Application, a graphical model editing environment that works in conjunction with the OpenStudio SketchUp plug-in. Together, these have been responsible for a significant increase in EnergyPlus adoption.   </p>
 
         <div style="padding-top:40px;padding-bottom:40px;">
         <div style=" text-align:center;display: inline-block;">
-        <img class="ossap" src="assets/images/osapp.png" width="43%" style="padding-right:30px;" /><img src="assets/images/sketchup.png" width="35%" /></div>
-        <div style="text-align: center; margin:auto;padding-top:5px;"><strong>Screenshots of OpenStudio Application and OpenStudio SketchUp Plug-In</strong></div></div>
-        <br/>
-        <p>Despite the success of the OpenStudio Application the most expedient and effective growth channel for BEM in general, and for open-source BEM tools in particular, is private-sector applications and services.
-        <strong>After a year-long discussion with industry stakeholders, including the IBPSA-USA Advocacy Committee, BTO has decided to transition responsibility for management, development, distribution, and support of the OpenStudio Application to third parties by April 2020.</strong>
-        This planned transition follows BTO’s previous move to de-emphasize and eventually phase-out the OpenStudio SketchUp Plug-in from its portfolio. BTO and the national labs will spend the next 18-plus months working to maximize the chances of a successful transition and to minimize disruption to existing OpenStudio Application users. </p>
+        <img src="assets/images/osapp.png" width="43%" style="padding-right:30px;"><img src="assets/images/sketchup.png" width="35%">
+        </div>
+        <div style="text-align: center; margin:auto;padding-top:5px;"><strong>Screenshots of OpenStudio Application and OpenStudio SketchUp Plug-In</strong></div>
+        </div>
+
+        <p>Despite the success of the OpenStudio Application the most expedient and effective growth channel for BEM in general, and for open-source BEM tools in particular, is private-sector applications and services. <strong>After a year-long discussion with industry stakeholders, including the IBPSA-USA Advocacy Committee, BTO has decided to transition responsibility for management, development, distribution, and support of the OpenStudio Application to third parties by April 2020.</strong> This planned transition follows BTO’s previous move to de-emphasize and eventually phase-out the OpenStudio SketchUp Plug-in from its portfolio. BTO and the national labs will spend the next 18-plus months working to maximize the chances of a successful transition and to minimize disruption to existing OpenStudio Application users.</p>
+
         <div style="padding-top:40px;padding-bottom:40px;">
-        <img style="display:inline;margin-left:auto;margin-right:auto;" src="assets/images/timeline.png" width="70%" /><br/>
-        <div style="text-align:center;margin:auto;padding-top:10px;"><strong>OpenStudio Application Transition Timeline</strong></div></div>
-        <p>The OpenStudio Application and SketchUp Plug-in are small parts of the larger OpenStudio project. The project also includes a set of non-graphical components collectively referred to as the OpenStudio SDK (Software Development Kit).
-        The SDK provides programmatic access to EnergyPlus inputs and outputs via the OpenStudio Model API (Application Programming Interface), support for scripting and workflow automation via OpenStudio Measures and the OpenStudio CLI (Command Line Interface), prototype building models via the OpenStudio Standards gem, and large-scale simulation on local, cluster, and cloud resources via OpenStudio Server.
-        <strong>BTO plans to retain the OpenStudio SDK—along with the graphical Parametric Analysis Tool (PAT) and Floorspace.JS geometry widget—within its open-source BEM software portfolio. Additionally, the Building Component Library (BCL) will continue to be maintained as a publicly available repository for OpenStudio Measures and other content.
-        </strong> These components and capabilities benefit BTO and its project and analysis portfolio; they benefit end-users via a growing number of third-party applications and services that build upon them. Going forward, BTO will focus on supporting these components and developers who wish to take advantage of them.</p>
+        <img style="display:block;margin-left:auto;margin-right:auto;" src="assets/images/timeline.png" width="70%">
+        <div style="text-align:center;margin:auto;padding-top:10px;"><strong>OpenStudio Application Transition Timeline</strong></div>
+        </div>
+
+        <p>The OpenStudio Application and SketchUp Plug-in are small parts of the larger OpenStudio project. The project also includes a set of non-graphical components collectively referred to as the OpenStudio SDK (Software Development Kit). The SDK provides programmatic access to EnergyPlus inputs and outputs via the OpenStudio Model API (Application Programming Interface), support for scripting and workflow automation via OpenStudio Measures and the OpenStudio CLI (Command Line Interface), prototype building models via the OpenStudio Standards gem, and large-scale simulation on local, cluster, and cloud resources via OpenStudio Server. <strong>BTO plans to retain the OpenStudio SDK—along with the graphical Parametric Analysis Tool (PAT) and Floorspace.JS geometry widget—within its open-source BEM software portfolio. Additionally, the Building Component Library (BCL) will continue to be maintained as a publicly available repository for OpenStudio Measures and other content.</strong> These components and capabilities benefit BTO and its project and analysis portfolio; they benefit end-users via a growing number of third-party applications and services that build upon them. Going forward, BTO will focus on supporting these components and developers who wish to take advantage of them.</p>
+
         <p>BTO and the labs plan to engage stakeholders throughout this process to both provide updates and receive feedback. Questions, concerns, or comments about this plan can be sent to <a href="mailto:openstudio@nrel.gov?subject=OpenStudio%20Application%20Separation">openstudio@nrel.gov</a>.</p>
-        <br/>
+        <br>
         <h2>Frequently Asked Questions</h2>
-        <ul><li>Why is BTO making this transition?
-        <ul style="padding-bottom:10px;"><li>The planned transition of the OpenStudio Application is BTO’s attempt to balance interests stated by industry and formalized by the IBPSA-USA Advocacy Committee (<a href="https://www.ibpsa.us/committee/advocacy-committee"
-        target="_blank">https://www.ibpsa.us/committee/advocacy-committee</a>) with needs of current users that depend on the OpenStudio Application for business needs.</li></ul></li>
+        <ul>
+        <li>Why is BTO making this transition?
+        <ul style="padding-bottom:10px;"><li>The planned transition of the OpenStudio Application is BTO’s attempt to balance interests stated by industry and formalized by the IBPSA-USA Advocacy Committee (<a href="https://www.ibpsa.us/committee/advocacy-committee" target="_blank">https://www.ibpsa.us/committee/advocacy-committee</a>) with needs of current users that depend on the OpenStudio Application for business needs.</li></ul></li>
         <li>Will the OpenStudio Application remain available throughout the transition?
-        <ul style="padding-bottom:10px;"><li>Three OpenStudio SDK releases are planned during the transition period (April 2019, October 2019, April 2020).  Updates to and installers for the OpenStudio Application will be made available at each of these OpenStudio SDK releases.
-        Source code and installers for the OpenStudio Application up to and including the April 2020 release will remain available after the transition period. </li></ul></li>
-        <li>Who will the OpenStudio Application transition to?  Will the OpenStudio Application still be open-source/freeware after the transition? <ul style="padding-bottom:10px;"><li>The OpenStudio Application is currently licensed under a BSD 4-Clause open-source license.
-        This license allows for any entity to fork the code for further development and distribution under a variety of licenses, open-source and otherwise.
-        Currently, BTO and NREL are not considering transferring copyright of the OpenStudio Application or changing the open-source BSD 4-Clause license for code maintained by NREL before or during the transition period.
-        NREL may explore licensing options for the use of the OpenStudio trademark or other assets by interested third-party developers and distributors upon request.  Given the recent timing of this announcement, no entity or entities have yet announced specific plans to continue support for the OpenStudio Application after the transition period.
-        Any entities interested in potentially supporting or maintaining the OpenStudio Application should contact <a href="mailto:openstudio@nrel.gov">OpenStudio@nrel.gov</a> with any questions. </li></ul></li>
-        <li>How can I be involved in this or other changes to OpenStudio in the future? <ul style="padding-bottom:10px;"><li>For future significant changes, BTO aims to gather broad stakeholder feedback before finalizing decisions. More information will be provided at a relevant time.</li></ul></li></ul>`
+        <ul style="padding-bottom:10px;"><li>Three OpenStudio SDK releases are planned during the transition period (April 2019, October 2019, April 2020).  Updates to and installers for the OpenStudio Application will be made available at each of these OpenStudio SDK releases.  Source code and installers for the OpenStudio Application up to and including the April 2020 release will remain available after the transition period. </li></ul></li>
+        <li>Who will the OpenStudio Application transition to?  Will the OpenStudio Application still be open-source/freeware after the transition? <ul style="padding-bottom:10px;"><li>The OpenStudio Application is currently licensed under a BSD 4-Clause open-source license.  This license allows for any entity to fork the code for further development and distribution under a variety of licenses, open-source and otherwise. Currently, BTO and NREL are not considering transferring copyright of the OpenStudio Application or changing the open-source BSD 4-Clause license for code maintained by NREL before or during the transition period. NREL may explore licensing options for the use of the OpenStudio trademark or other assets by interested third-party developers and distributors upon request.  Given the recent timing of this announcement, no entity or entities have yet announced specific plans to continue support for the OpenStudio Application after the transition period. Any entities interested in potentially supporting or maintaining the OpenStudio Application should contact <a href="mailto:openstudio@nrel.gov">OpenStudio@nrel.gov</a> with any questions. </li></ul></li>
+        <li>How can I be involved in this or other changes to OpenStudio in the future? <ul style="padding-bottom:10px;"><li>For future significant changes, BTO aims to gather broad stakeholder feedback before finalizing decisions. More information will be provided at a relevant time.</li></ul></li>
+        </ul>`
 }, {
   title: 'OpenStudio 2.6.0 Release',
   time: '2019-07-13 13:23:15 -0600',

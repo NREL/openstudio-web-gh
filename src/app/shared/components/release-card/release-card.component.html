@@ -1,11 +1,11 @@
 <div class="card card-body bg-light">
-  <h1 class="card-title mb-2" style="font-size:2rem;padding-top:10px;">{{ release.title }}</h1>
+  <h1 class="card-title my-2">{{ release.title }}</h1>
   <div class="row" *ngIf="release.type === 'developer-sdk'">
     <div class="col-9">
-      <h4 class="card-subtitle mb-2 text-muted" style="padding-bottom:10px;">This is the latest stable software version.</h4>
+      <h4 class="card-subtitle mb-2 text-muted">This is the latest stable software version.</h4>
     </div>
     <div class="col-3">
-      <h4 class="card-subtitle mb-2 text-muted" style="margin-left:-50px;">Latest Development Package Version</h4>
+      <h4 class="card-subtitle mb-2 text-muted">Latest Development Package Version</h4>
     </div>
   </div>
   <div class="row" *ngIf="release.type !== 'developer-sdk'">
@@ -14,15 +14,15 @@
   </div>
   <div class="row">
     <div class="col-9" *ngIf="release.type === 'plugin'">
-      <a class="btn btn-primary btn-lg btn-bg-dark" [href]="release.url" role="button" style="margin-left:30px;">SketchUp 2019</a>
+      <a class="btn btn-primary btn-lg btn-bg-dark ml-lg-5 mb-1" [href]="release.url" role="button">SketchUp 2019</a>
     </div>
     <div class="col-9" *ngIf="release.type !== 'plugin'">
-      <a class="btn btn-primary btn-lg mr-1 btn-bg-dark" [href]="release.winUrl" role="button" style="margin-left:30px;">Windows (x64)</a>
-      <a class="btn btn-primary btn-lg mx-1 btn-bg-dark" [href]="release.macUrl" role="button">Mac</a>
-      <a class="btn btn-primary btn-lg ml-1 btn-bg-dark" [href]="release.linuxUrl" role="button">Linux</a>
+      <a class="btn btn-primary btn-lg btn-bg-dark mr-1 ml-lg-5 mb-1" [href]="release.winUrl" role="button">Windows (x64)</a>
+      <a class="btn btn-primary btn-lg btn-bg-dark mx-1 mb-1" [href]="release.macUrl" role="button">Mac</a>
+      <a class="btn btn-primary btn-lg btn-bg-dark ml-1 mb-1" [href]="release.linuxUrl" role="button">Linux</a>
     </div>
     <div class="col-3">
-      <h1 class="version-badge"><span class="badge badge-info btn-bg-light" style="font-size:1.8rem;">{{ release.version }}</span></h1>
+      <h1 class="version-badge"><span class="badge badge-info btn-bg-light">{{ release.version }}</span></h1>
     </div>
   </div>
 </div>

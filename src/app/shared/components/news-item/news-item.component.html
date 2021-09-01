@@ -1,5 +1,5 @@
-<div class="mb-1 mt-4">
-  <a [routerLink]="url" style="font-size:1rem;">{{ news.title }}</a>
+<div class="mb-1 mt-4 title">
+  <a [routerLink]="url">{{ news.title }}</a>
 </div>
 <p class="mb-3 mt-1" [innerHTML]="news.html | truncateHTML"></p>
-<p class="mt-1" style="font-size:0.9rem;">Posted on {{ news.time | dateTimeFromSql | dateTimeToFormat:'MM/dd/yyyy - HH:mm' }}</p>
+<p class="mt-1">Posted on {{ news.time | dateTimeFromSql | dateTimeToFormat:'MM/dd/yyyy - HH:mm' }}</p>
