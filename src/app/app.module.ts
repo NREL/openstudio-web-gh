@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 import { LuxonModule } from 'luxon-angular';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -48,7 +48,7 @@ import { TruncateHTMLPipe } from './shared/pipes/truncate-html.pipe';
     BrowserAnimationsModule,
     BrowserModule,
     LuxonModule,
-    NgbModule
+    NgbCollapseModule
   ],
   providers: [],
   bootstrap: [AppComponent]

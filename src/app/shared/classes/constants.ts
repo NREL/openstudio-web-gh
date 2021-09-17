@@ -16,6 +16,7 @@ export type Release = {
   title: string
   type: 'sdk' | 'openstudio-application' | 'pat' | 'developer-sdk',
   version: Version,
+  sha?: string,
   winUrl: `${string}.exe`,
   macUrl: `${string}.dmg`,
   linuxUrl: `${string}.deb`,

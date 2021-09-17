@@ -35,6 +35,11 @@
                 "input": "src/assets/images/",
                 "output": "/assets/images/"
               },
+              {
+                "glob": "**/*",
+                "input": "src/assets/static/",
+                "output": "/"
+              },
               "src/favicon.ico"
             ],
             "styles": [
@@ -108,6 +113,11 @@
                 "glob": "**/*",
                 "input": "src/assets/images/",
                 "output": "/assets/images/"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets/static/",
+                "output": "/"
               },
               "src/favicon.ico"
             ],

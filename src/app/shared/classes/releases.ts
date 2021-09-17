@@ -4,13 +4,15 @@ export const releases: (Release | PluginRelease)[] = [{
   title: 'OpenStudio Release',
   type: 'sdk',
   version: '3.2.1',
-  winUrl: 'https://openstudio-builds.s3.us-east-1.amazonaws.com/3.2.1/OpenStudio-3.2.1%2Bbdbdbc9da6-Windows.exe',
-  macUrl: 'https://openstudio-builds.s3.us-east-1.amazonaws.com/3.2.1/OpenStudio-3.2.1%2Bbdbdbc9da6-Darwin.dmg',
-  linuxUrl: 'https://openstudio-builds.s3.us-east-1.amazonaws.com/3.2.1/OpenStudio-3.2.1%2Bbdbdbc9da6-Ubuntu-20.04.deb'
+  sha: 'bdbdbc9da6',
+  winUrl: 'https://openstudio-builds.s3.us-east-1.amazonaws.com/3.2.1/OpenStudio-3.2.1+bdbdbc9da6-Windows.exe',
+  macUrl: 'https://openstudio-builds.s3.us-east-1.amazonaws.com/3.2.1/OpenStudio-3.2.1+bdbdbc9da6-Darwin.dmg',
+  linuxUrl: 'https://openstudio-builds.s3.us-east-1.amazonaws.com/3.2.1/OpenStudio-3.2.1+bdbdbc9da6-Ubuntu-20.04.deb'
 }, {
   title: 'OpenStudio Application Release',
   type: 'openstudio-application',
   version: '1.2.0',
+  sha: '72d719fabe',
   winUrl: 'https://github.com/openstudiocoalition/OpenStudioApplication/releases/download/v1.2.0/OpenStudioApplication-1.2.0+72d719fabe-Windows.exe',
   macUrl: 'https://github.com/openstudiocoalition/OpenStudioApplication/releases/download/v1.2.0/OpenStudioApplication-1.2.0+72d719fabe-macOS10.14-x86_64.dmg',
   linuxUrl: 'https://github.com/openstudiocoalition/OpenStudioApplication/releases/download/v1.2.0/OpenStudioApplication-1.2.0+72d719fabe-Ubuntu20.04.deb'
@@ -32,7 +34,7 @@ export const developerRelease: Release = {
   title: 'Latest Development Package',
   type: 'developer-sdk',
   version: '3.2.1',
-  winUrl: 'https://openstudio-builds.s3.us-east-1.amazonaws.com/3.2.1/OpenStudio-3.2.1%2Bbdbdbc9da6-Windows.exe',
-  macUrl: 'https://openstudio-builds.s3.us-east-1.amazonaws.com/3.2.1/OpenStudio-3.2.1%2Bbdbdbc9da6-Darwin.dmg',
-  linuxUrl: 'https://openstudio-builds.s3.us-east-1.amazonaws.com/3.2.1/OpenStudio-3.2.1%2Bbdbdbc9da6-Ubuntu-20.04.deb'
+  winUrl: 'https://openstudio-builds.s3.us-east-1.amazonaws.com/3.2.1/OpenStudio-3.2.1+bdbdbc9da6-Windows.exe',
+  macUrl: 'https://openstudio-builds.s3.us-east-1.amazonaws.com/3.2.1/OpenStudio-3.2.1+bdbdbc9da6-Darwin.dmg',
+  linuxUrl: 'https://openstudio-builds.s3.us-east-1.amazonaws.com/3.2.1/OpenStudio-3.2.1+bdbdbc9da6-Ubuntu-20.04.deb'
 };
