@@ -5,9 +5,9 @@ export const releases: (Release | PluginRelease)[] = [{
   type: 'sdk',
   version: '3.2.1',
   sha: 'bdbdbc9da6',
-  winUrl: 'https://openstudio-builds.s3.us-east-1.amazonaws.com/3.2.1/OpenStudio-3.2.1+bdbdbc9da6-Windows.exe',
-  macUrl: 'https://openstudio-builds.s3.us-east-1.amazonaws.com/3.2.1/OpenStudio-3.2.1+bdbdbc9da6-Darwin.dmg',
-  linuxUrl: 'https://openstudio-builds.s3.us-east-1.amazonaws.com/3.2.1/OpenStudio-3.2.1+bdbdbc9da6-Ubuntu-20.04.deb'
+  winUrl: 'https://github.com/NREL/OpenStudio/releases/download/v3.2.1/OpenStudio-3.2.1+bdbdbc9da6-Windows.exe',
+  macUrl: 'https://github.com/NREL/OpenStudio/releases/download/v3.2.1/OpenStudio-3.2.1+bdbdbc9da6-Darwin.dmg',
+  linuxUrl: 'https://github.com/NREL/OpenStudio/releases/download/v3.2.1/OpenStudio-3.2.1+bdbdbc9da6-Ubuntu-20.04.deb'
 }, {
   title: 'OpenStudio Application Release',
   type: 'openstudio-application',
@@ -34,7 +34,7 @@ export const developerRelease: Release = {
   title: 'Latest Development Package',
   type: 'developer-sdk',
   version: '3.2.1',
-  winUrl: 'https://openstudio-builds.s3.us-east-1.amazonaws.com/3.2.1/OpenStudio-3.2.1+bdbdbc9da6-Windows.exe',
-  macUrl: 'https://openstudio-builds.s3.us-east-1.amazonaws.com/3.2.1/OpenStudio-3.2.1+bdbdbc9da6-Darwin.dmg',
-  linuxUrl: 'https://openstudio-builds.s3.us-east-1.amazonaws.com/3.2.1/OpenStudio-3.2.1+bdbdbc9da6-Ubuntu-20.04.deb'
+  winUrl: 'https://github.com/NREL/OpenStudio/releases/download/v3.2.1/OpenStudio-3.2.1+bdbdbc9da6-Windows.exe',
+  macUrl: 'https://github.com/NREL/OpenStudio/releases/download/v3.2.1/OpenStudio-3.2.1+bdbdbc9da6-Darwin.dmg',
+  linuxUrl: 'https://github.com/NREL/OpenStudio/releases/download/v3.2.1/OpenStudio-3.2.1+bdbdbc9da6-Ubuntu-20.04.deb'
 };
