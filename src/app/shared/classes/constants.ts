@@ -12,6 +12,8 @@ export type NewsItem = {
 
 export type NewsType = 'developer-news' | 'news';
 
+export type Platform = 'windows' | 'mac' | 'linux';
+
 export type Release = {
   title: string
   type: 'sdk' | 'openstudio-application' | 'pat' | 'developer-sdk',

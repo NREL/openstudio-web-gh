@@ -50,7 +50,6 @@ import { TruncateHTMLPipe } from './shared/pipes/truncate-html.pipe';
     LuxonModule,
     NgbCollapseModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {
