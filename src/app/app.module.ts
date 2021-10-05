@@ -12,7 +12,6 @@ import { DevelopersComponent } from './developers/developers.component';
 import { DownloadsComponent } from './downloads/downloads.component';
 import { FooterComponent } from './footer/footer.component';
 import { ForumComponent } from './forum/forum.component';
-import {GoogleAnalyticsService} from './google-analytics.service';
 import { HomeSidebarComponent } from './home/components/home-sidebar/home-sidebar.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -51,7 +50,6 @@ import { TruncateHTMLPipe } from './shared/pipes/truncate-html.pipe';
     LuxonModule,
     NgbCollapseModule
   ],
-  providers: [GoogleAnalyticsService],
   bootstrap: [AppComponent]
 })
 export class AppModule {

@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { PluginRelease, Release } from '../../classes/constants';
-import { GoogleAnalyticsService } from '../../../google-analytics.service';
+import { Platform, PluginRelease, Release } from '../../classes/constants';
+import { GoogleAnalyticsService } from '../../services/google-analytics.service';
 
 @Component({
   selector: 'app-release-card',
@@ -10,7 +10,8 @@ import { GoogleAnalyticsService } from '../../../google-analytics.service';
 export class ReleaseCardComponent implements OnInit {
   @Input() release: Release | PluginRelease;
 
-  constructor( public googleAnalyticsService: GoogleAnalyticsService ) { }
+  constructor(private googleAnalyticsService: GoogleAnalyticsService) {
+  }
 
   ngOnInit(): void {
     if (!this.release) {
@@ -18,10 +19,8 @@ export class ReleaseCardComponent implements OnInit {
     }
   }
 
-  trackDownload(type, platform){ 
-    this
-    .googleAnalyticsService
-    .eventEmitter("download", "download", type, platform, 0);
-  } 
+  trackDownload(type: 'sdk' | 'openstudio-application' | 'pat' | 'developer-sdk', platform: Platform, linkUrl: string): void {
+    this.googleAnalyticsService.downloadEvent(type, platform, linkUrl);
+  }
 
 }
