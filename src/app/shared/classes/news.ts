@@ -1,6 +1,10 @@
 import { NewsItem } from './constants';
 
-export const news: NewsItem[] = [{
+export const news: NewsItem[] = [ {
+   title: 'OpenStudio 3.3.0 SDK Release',
+   time: '2021-11-05 11:00:00 -0600',
+   html: `OpenStudio 3.3.0 SDK has been released. 3.3.0 is a major release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.3.0">Release  Notes</a> for more information.`
+}, {
   title: 'BCL 2.0 implementation ready for public testing',
   time: '2021-08-11 12:33:40 -0600',
   html: `<p>NREL has completed development of Building Component Library 2.0 and it is now available for public testing at <a href="https://bcl2.nrel.gov/">https://bcl2.nrel.gov/</a>. The main BCL website is deprecated and will be replaced replaced by this new implementation.</p>
