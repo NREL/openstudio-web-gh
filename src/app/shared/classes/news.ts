@@ -1,26 +1,26 @@
 import { NewsItem } from './constants';
 
-export const news: NewsItem[] = [ {
-   title: 'OpenStudio 3.3.0 SDK Release',
-   time: '2021-11-05 11:00:00 -0600',
-   html: `OpenStudio 3.3.0 SDK has been released. 3.3.0 is a major release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.3.0">Release  Notes</a> for more information.`
+export const news: NewsItem[] = [{
+  title: 'OpenStudio 3.3.0 SDK Release',
+  time: '2021-11-05 11:00:00 -0600',
+  html: 'OpenStudio 3.3.0 SDK has been released. 3.3.0 is a major release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.3.0">Release Notes</a> for more information.'
 }, {
   title: 'BCL 2.0 implementation ready for public testing',
   time: '2021-08-11 12:33:40 -0600',
-  html: `<p>NREL has completed development of Building Component Library 2.0 and it is now available for public testing at <a href="https://bcl2.nrel.gov/">https://bcl2.nrel.gov/</a>. The main BCL website is deprecated and will be replaced replaced by this new implementation.</p>
+  html: `<p>NREL has completed development of Building Component Library 2.0 and it is now available for public testing at <a href="https://bcl2.nrel.gov/">https://bcl2.nrel.gov/</a>. The main BCL website is deprecated and will be replaced by this new implementation.</p>
 <p>BCL 2.0 uses a set of GitHub repositories as the back-end for robustness, transparency, and flexibility: version-controlled Measures, Components, Weather Files, and more. Instructions are available on the new site for organizations and groups with BCL content to migrate their components and measures to GitHub repositories.</p>`
 }, {
   title: 'OpenStudio 3.2.1 SDK Release',
   time: '2021-06-28 11:00:35 -0600',
-  html: `OpenStudio 3.2.1 SDK has been released. 3.2.1 is a minor release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.2.1">Release Notes</a> for more information.`
+  html: 'OpenStudio 3.2.1 SDK has been released. 3.2.1 is a minor release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.2.1">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio 3.2.0 SDK Release',
   time: '2021-05-05 02:01:23 -0600',
-  html: `OpenStudio 3.2.0 SDK has been released. 3.2.0 is a major release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.2.0">Release Notes</a> for more information.`
+  html: 'OpenStudio 3.2.0 SDK has been released. 3.2.0 is a major release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.2.0">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio Application v1.1.0',
   time: '2021-01-28 11:44:01 -0700',
-  html: `OpenStudio Application v1.1.0 has been released. This release is the first update of the separated OpenStudio SDK from the Application. View the complete <a href="https://github.com/openstudiocoalition/OpenStudioApplication/releases/tag/v1.1.0">Release Notes</a>.`
+  html: 'OpenStudio Application v1.1.0 has been released. This release is the first update of the separated OpenStudio SDK from the Application. View the complete <a href="https://github.com/openstudiocoalition/OpenStudioApplication/releases/tag/v1.1.0">Release Notes</a>.'
 }, {
   title: 'New BCL implementation coming soon',
   time: '2020-11-11 13:02:04 -0700',
@@ -35,31 +35,31 @@ export const news: NewsItem[] = [ {
 }, {
   title: 'OpenStudio Application v1.0.0',
   time: '2020-04-27 17:22:34 -0600',
-  html: `OpenStudio Application v1.0.0 has been released.  This release marks the first installment of the separated OpenStudio SDK from the Application.  View the complete <a href="https://github.com/NREL/OpenStudioApplication/releases/tag/v1.0.0">Release Notes</a>.`
+  html: 'OpenStudio Application v1.0.0 has been released.  This release marks the first installment of the separated OpenStudio SDK from the Application.  View the complete <a href="https://github.com/NREL/OpenStudioApplication/releases/tag/v1.0.0">Release Notes</a>.'
 }, {
   title: 'OpenStudio 3.0.0 Release',
   time: '2020-04-27 10:11:46 -0600',
-  html: `OpenStudio 3.0.0 has been released. In OpenStudio 3.0.0, the SDK, standards, and server have all received improvements. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.0.0">Release Notes</a>.`
+  html: 'OpenStudio 3.0.0 has been released. In OpenStudio 3.0.0, the SDK, standards, and server have all received improvements. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.0.0">Release Notes</a>.'
 }, {
   title: 'OpenStudio 2.9.1 Release',
   time: '2019-12-06 17:03:47 -0700',
-  html: `OpenStudio 2.9.1 has been released. In OpenStudio 2.9.1, the SDK, standards, and server have all received improvements. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.9.1">Release Notes</a>.`
+  html: 'OpenStudio 2.9.1 has been released. In OpenStudio 2.9.1, the SDK, standards, and server have all received improvements. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.9.1">Release Notes</a>.'
 }, {
   title: 'OpenStudio SDK v3.0.0-pre1 and OpenStudio Application v1.0.0-pre1',
   time: '2019-11-20 13:45:34 -0700',
-  html: `Pre-releases of OpenStudio SDK v3.0.0 and OpenStudio Application v1.0.0 have been released.  This pre-release marks the first installment of the separated OpenStudio SDK from the Application.  View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.0.0-pre1">Release Notes</a>.`
+  html: 'Pre-releases of OpenStudio SDK v3.0.0 and OpenStudio Application v1.0.0 have been released.  This pre-release marks the first installment of the separated OpenStudio SDK from the Application.  View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.0.0-pre1">Release Notes</a>.'
 }, {
   title: 'OpenStudio 2.9.0 Release',
   time: '2019-10-11 14:09:07 -0600',
-  html: `OpenStudio 2.9.0 has been released. In OpenStudio 2.9.0, the SDK, standards, and server have all received improvements. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.9.0">Release Notes</a>.`
+  html: 'OpenStudio 2.9.0 has been released. In OpenStudio 2.9.0, the SDK, standards, and server have all received improvements. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.9.0">Release Notes</a>.'
 }, {
   title: 'OpenStudio 2.8.0 Release',
   time: '2019-04-15 10:44:05 -0600',
-  html: `OpenStudio 2.8.0 has been released. ` + `<br/>` + `In OpenStudio 2.8.0, the SDK, standards, and server have all received improvements.  View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.8.0">Release Notes</a>.`
+  html: 'OpenStudio 2.8.0 has been released. <br/>In OpenStudio 2.8.0, the SDK, standards, and server have all received improvements.  View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.8.0">Release Notes</a>.'
 }, {
   title: 'OpenStudio 2.7.0 Release',
   time: '2018-10-16 11:39:59 -0600',
-  html: `OpenStudio 2.7.0 has been released. ` + `<br/>` + `In OpenStudio 2.7.0, the SDK, standards, and server have all received improvements.  View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.7.0">Release Notes</a>.`
+  html: 'OpenStudio 2.7.0 has been released. <br/>In OpenStudio 2.7.0, the SDK, standards, and server have all received improvements.  View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.7.0">Release Notes</a>.'
 }, {
   title: 'A Shift in BTO’s BEM Strategy: A New Future for the OpenStudio Application',
   time: '2018-09-06 15:22:04 -0600',
@@ -95,11 +95,11 @@ export const news: NewsItem[] = [ {
 }, {
   title: 'OpenStudio 2.6.0 Release',
   time: '2019-07-13 13:23:15 -0600',
-  html: `OpenStudio 2.6.0 has been released. <br/>In OpenStudio 2.6.0, the SDK, standards, and server have all received improvements.  This release includes new features to help write better measures.  View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.6.0">Release Notes</a>.`
+  html: 'OpenStudio 2.6.0 has been released. <br/>In OpenStudio 2.6.0, the SDK, standards, and server have all received improvements.  This release includes new features to help write better measures.  View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.6.0">Release Notes</a>.'
 }, {
   title: 'OpenStudio 2.5.0 Release',
   time: '2018-03-30 10:50:23 -0600',
-  html: `OpenStudio 2.5.0 has been released. In OpenStudio 2.5.0, the SDK, standards, and server have all received improvements. OpenStudio 2.5.0 also incorporates EnergyPlus 8.9. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.5.0">Release Notes</a>.`
+  html: 'OpenStudio 2.5.0 has been released. In OpenStudio 2.5.0, the SDK, standards, and server have all received improvements. OpenStudio 2.5.0 also incorporates EnergyPlus 8.9. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.5.0">Release Notes</a>.'
 }, {
   title: 'OpenStudio 2.4.0 Release',
   time: '2018-01-05 10:03:08 -0700',
@@ -248,7 +248,7 @@ export const news: NewsItem[] = [ {
 }, {
   title: 'Check out our new feedback link!',
   time: '2015-8-18 12:24:15 -0600',
-  html: `The EnergyPlus and OpenStudio webpages now include a "Feedback" link in the navigation bar. This takes you to a UserVoice site for capturing and voting on feature requests.`
+  html: 'The EnergyPlus and OpenStudio webpages now include a "Feedback" link in the navigation bar. This takes you to a UserVoice site for capturing and voting on feature requests.'
 }, {
   title: 'New single sign-on for EnergyPlus and OpenStudio',
   time: '2015-08-10 23:22:18 -0600',
@@ -288,7 +288,7 @@ export const news: NewsItem[] = [ {
 }, {
   title: 'Supports EnergyPlus 8.2 Update 1',
   time: '2014-12-11 12:51:55 -0700',
-  html: `OpenStudio 1.5.4 has just been released with support for <a href="https://github.com/NREL/EnergyPlus/releases/tag/v8.2.0-Update-1.2">EnergyPlus 8.2 update 1</a>`
+  html: 'OpenStudio 1.5.4 has just been released with support for <a href="https://github.com/NREL/EnergyPlus/releases/tag/v8.2.0-Update-1.2">EnergyPlus 8.2 update 1</a>'
 }, {
   title: 'OpenStudio 1.4.0 Release',
   time: '2014-07-01 09:18:24 -0600',
@@ -326,7 +326,7 @@ export const news: NewsItem[] = [ {
 }, {
   title: 'New OpenStudio Developer Mailing List',
   time: '2014-01-09 15:57:52 -0700',
-  html: `<p>Join the OpenStudio Developer Mailing List for important announcements about changes to the OpenStudio APIs or build configurations. Visit the&nbsp;<a href="/developers">Developers</a>&nbsp;page to join the mailing list.</p>`
+  html: '<p>Join the OpenStudio Developer Mailing List for important announcements about changes to the OpenStudio APIs or build configurations. Visit the&nbsp;<a href="/developers">Developers</a>&nbsp;page to join the mailing list.</p>'
 }, {
   title: 'OpenStudio 1.1.0 Release',
   time: '',
@@ -385,7 +385,7 @@ export const news: NewsItem[] = [ {
 }, {
   title: 'Recorded Webinar: Green Building XML and the New EnergyPlus GUIs from LBNL and NREL',
   time: '2013-01-24 13:13:17 -0700',
-  html: `<p>Watch a recording of the January 22, 2013&nbsp;<a href="https://vimeo.com/57962951">webinar</a>&nbsp;demonstrating OpenStudio and Symergy&#39;s gbXML workflows. The OpenStudio segment begins at around the 15-minute mark.</p>`
+  html: '<p>Watch a recording of the January 22, 2013&nbsp;<a href="https://vimeo.com/57962951">webinar</a>&nbsp;demonstrating OpenStudio and Symergy&#39;s gbXML workflows. The OpenStudio segment begins at around the 15-minute mark.</p>'
 }, {
   title: 'OpenStudio 0.10.0 Release',
   time: '2012-12-20 09:30:39 -0700',
@@ -515,7 +515,7 @@ export const news: NewsItem[] = [ {
 }, {
   title: 'First Release of the OpenStudio Policy Anaysis Tool',
   time: '2011-06-27 15:06:40 -0600',
-  html: `<p>The OpenStudio Policy Analysis Tool is an intuitive graphical user interface (GUI) that enables simple modeling and analysis by providing the ability to visually compare sets of perturbation results and evaluate those results against collections of standards rules.</p>`
+  html: '<p>The OpenStudio Policy Analysis Tool is an intuitive graphical user interface (GUI) that enables simple modeling and analysis by providing the ability to visually compare sets of perturbation results and evaluate those results against collections of standards rules.</p>'
 }, {
   title: 'Energy Modeling for Retrofit Projects',
   time: '2011-06-27 15:05:33 -0600',
@@ -534,5 +534,5 @@ export const news: NewsItem[] = [ {
 }, {
   title: 'OpenStudio Release 9/30/2010',
   time: '2010-09-30 10:16:53 -0600',
-  html: `<p>The 9/30/2010 release version of the OpenStudio Suite (version 0.2.0) including an updated version of SketchUp Plug-in (version 1.1.0) is now available. See <a href="../downloads">Download Instructions</a> for further details.</p>`
+  html: '<p>The 9/30/2010 release version of the OpenStudio Suite (version 0.2.0) including an updated version of SketchUp Plug-in (version 1.1.0) is now available. See <a href="../downloads">Download Instructions</a> for further details.</p>'
 }];

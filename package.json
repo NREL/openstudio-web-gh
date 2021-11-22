@@ -7,7 +7,7 @@
     "build": "ng build && npm run generateUpdate",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint",
+    "lint": "ng lint --fix",
     "generateUpdate": "cross-env TS_NODE_COMPILER_OPTIONS={\\\"module\\\":\\\"commonjs\\\"} ts-node tools/generateUpdate.ts"
   },
   "private": true,
