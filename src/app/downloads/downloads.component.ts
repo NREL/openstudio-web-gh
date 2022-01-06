@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Release } from '../shared/classes/constants';
 import { releases } from '../shared/classes/releases';
 
 @Component({
@@ -12,4 +13,8 @@ export class DownloadsComponent {
   constructor() {
   }
 
+  version(type: Release['type']): string {
+    const release = releases.find(release => release.type === type);
+    return release ? release.version : '';
+  }
 }
