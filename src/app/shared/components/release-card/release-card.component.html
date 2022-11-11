@@ -9,16 +9,14 @@
     </div>
   </div>
   <div class="row" *ngIf="release.type !== 'developer-sdk'">
-    <h4 class="col-9 card-subtitle mb-3 text-muted"><span *ngIf="release.type !== 'plugin'">Select your platform to start the download</span></h4>
+    <h4 class="col-9 card-subtitle mb-3 text-muted"><span>Select your platform to start the download</span></h4>
     <h4 class="col-3 card-subtitle mb-2 text-muted">Current version</h4>
   </div>
   <div class="row">
-    <div class="col-9" *ngIf="release.type === 'plugin'">
-      <a class="btn btn-primary btn-lg btn-bg-dark ml-lg-5 mb-1" [href]="release.url" role="button">SketchUp 2019</a>
-    </div>
-    <div class="col-9" *ngIf="release.type !== 'plugin'">
+    <div class="col-9">
       <a class="btn btn-primary btn-lg btn-bg-dark mr-1 ml-lg-5 mb-1" [href]="release.winUrl" (click)="trackDownload(release.type, 'windows', release.winUrl)" role="button">Windows (x64)</a>
       <a class="btn btn-primary btn-lg btn-bg-dark mx-1 mb-1" [href]="release.macUrl" (click)="trackDownload(release.type, 'mac', release.macUrl)" role="button">Mac</a>
+      <a *ngIf="release.macArmUrl" class="btn btn-primary btn-lg btn-bg-dark mx-1 mb-1" [href]="release.macArmUrl" (click)="trackDownload(release.type, 'mac', release.macArmUrl)" role="button">Mac (ARM64)</a>
       <a class="btn btn-primary btn-lg btn-bg-dark ml-1 mb-1" [href]="release.linuxUrl" (click)="trackDownload(release.type, 'linux', release.linuxUrl)" role="button">Linux</a>
     </div>
     <div class="col-3">

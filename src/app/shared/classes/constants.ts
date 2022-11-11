@@ -21,14 +21,8 @@ export type Release = {
   sha?: string,
   winUrl: `${string}.exe`,
   macUrl: `${string}.dmg`,
+  macArmUrl?: `${string}-arm64.dmg`,
   linuxUrl: `${string}.deb`,
-};
-
-export type PluginRelease = {
-  title: string
-  type: 'plugin',
-  version: Version,
-  url: `${string}.rbz`,
 };
 
 export type Publication = { html: string };

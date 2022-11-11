@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Platform, PluginRelease, Release } from '../../classes/constants';
+import { Platform, Release } from '../../classes/constants';
 import { GoogleAnalyticsService } from '../../services/google-analytics.service';
 
 @Component({
@@ -8,7 +8,7 @@ import { GoogleAnalyticsService } from '../../services/google-analytics.service'
   styleUrls: ['./release-card.component.scss']
 })
 export class ReleaseCardComponent implements OnInit {
-  @Input() release: Release | PluginRelease;
+  @Input() release: Release;
 
   constructor(private googleAnalyticsService: GoogleAnalyticsService) {
   }
