@@ -10,6 +10,8 @@ export class GoogleAnalyticsService {
     platform: Platform,
     linkUrl: string
   ): void {
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
     gtag('event', 'download', {
       type,
       platform,
