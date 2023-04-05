@@ -1,56 +1,51 @@
 
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
-@import '~@angular/material/theming';
+@use '@angular/material' as mat;
 // Plus imports for other components in your app.
 
 // Include the common styles for Angular Material. We include this here so that you only
 // have to load a single css file for Angular Material in your app.
 // Be sure that you only ever include this mixin once!
-@include mat-core();
+@include mat.core();
 
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$openstudio-web-primary: mat-palette($mat-indigo);
-$openstudio-web-accent: mat-palette($mat-pink, A200, A100, A400);
+$openstudio-web-primary: mat.define-palette(mat.$indigo-palette);
+$openstudio-web-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
-$openstudio-web-warn: mat-palette($mat-red);
+$openstudio-web-warn: mat.define-palette(mat.$red-palette);
+
+$openstudio-web-typography: mat.define-typography-config();
 
 // Create the theme object. A theme consists of configurations for individual
 // theming systems such as "color" or "typography".
-$openstudio-web-theme: mat-light-theme((
+$openstudio-web-theme: mat.define-light-theme((
   color: (
     primary: $openstudio-web-primary,
     accent: $openstudio-web-accent,
     warn: $openstudio-web-warn,
-  )
+  ),
+  typography: $openstudio-web-typography
 ));
 
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
-@include angular-material-theme($openstudio-web-theme);
+@include mat.all-component-themes($openstudio-web-theme);
+@include mat.all-component-typographies($openstudio-web-typography);
 
 /* Importing Bootstrap SCSS file. */
-@import '~bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap/scss/bootstrap';
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
-@mixin font-face($name, $path, $weight: null, $style: null) {
-  @font-face {
-    font-family: quote($name);
-    font-style: $style;
-    font-weight: $weight;
-    src: url(quote($path + '.woff2')) format('woff2');
-  }
+.mat-typography * {
+  letter-spacing: normal !important;
 }
-
-@include font-face(Roboto, './assets/fonts/roboto/Roboto-Light', 300, normal);
-@include font-face(Roboto, './assets/fonts/roboto/Roboto-Regular', normal, normal);
-@include font-face(Roboto, './assets/fonts/roboto/Roboto-Bold', bold, normal);
 
 h1.page-header {
   border-bottom: 1px solid #eee;

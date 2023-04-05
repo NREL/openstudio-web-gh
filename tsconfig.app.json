@@ -3,12 +3,13 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": []
+    "types": [
+      "@angular/localize",
+      "gtag.js"
+    ]
   },
   "files": [
-    "src/main.ts",
-    "src/polyfills.ts",
-    "node_modules/@types/gtag.js/index.d.ts"
+    "src/main.ts"
   ],
   "include": [
     "src/**/*.d.ts"
