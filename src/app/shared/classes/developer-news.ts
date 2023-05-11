@@ -1,9 +1,13 @@
 import { NewsItem } from './constants';
 
 export const developerNews: NewsItem[] = [{
+  title: 'OpenStudio 3.6.0 SDK Release',
+  time: '2023-05-09 12:00:00 -0600',
+  html: 'OpenStudio 3.6.0 SDK has been released. 3.6.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.6.0">Release Notes</a> for more information.'
+}, {
   title: 'OpenStudio 3.5.1 SDK Release',
-  time: '2023-11-11 12:00:00 -0700',
-  html: 'OpenStudio 3.5.1 SDK has been released. 3.5.1 is a minor release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.5.1">Release Notes</a> for more information.'
+  time: '2023-01-11 12:00:00 -0700',
+  html: 'OpenStudio 3.5.1 SDK has been released. 3.5.1 is a minor release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.5.1">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio 3.5.0 SDK Release',
   time: '2022-11-11 10:00:00 -0700',
@@ -58,7 +62,7 @@ export const developerNews: NewsItem[] = [{
 }, {
   title: 'OpenStudio 2.0.0 Released',
   time: '2016-12-22 12:04:19 -0700',
-  html: `OpenStudio 2.0.0 has been released.  This release brings the new <a href="http://nrel.github.io/OpenStudio-user-documentation/reference/command_line_interface/">OpenStudio Command Line Interface</a>
+  html: `OpenStudio 2.0.0 has been released.  This release brings the new <a href="https://nrel.github.io/OpenStudio-user-documentation/reference/command_line_interface/">OpenStudio Command Line Interface</a>
         (CLI) for applying OpenStudio Measures and running simulations easily.  This release also includes a new implementation of the Parametric Analysis Tool implemented as a web application.
         Complete release notes are available <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.0.0">here</a>.`
 }, {
