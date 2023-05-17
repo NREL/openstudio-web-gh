@@ -15,6 +15,7 @@ type Cue = {
 export class HomeComponent implements OnDestroy, OnInit {
   captions = '';
 
+  private captionsLoaded = false;
   private cues: Cue[] = [];
   private interval: number;
   private lastCue = -1;
@@ -23,7 +24,6 @@ export class HomeComponent implements OnDestroy, OnInit {
   private readonly pollingInterval = 100;
 
   constructor(private cdRef: ChangeDetectorRef) {
-    this.loadCaptions();
   }
 
   async ngOnInit(): Promise<void> {
@@ -34,7 +34,8 @@ export class HomeComponent implements OnDestroy, OnInit {
 
     this.player = new YT.Player('player', {
       events: {
-        onReady: this.onReady
+        onReady: this.onReady,
+        onStateChange: this.onStateChange
       }
     });
   }
@@ -71,6 +72,13 @@ export class HomeComponent implements OnDestroy, OnInit {
       }
     }, this.pollingInterval);
   };
+
+  private onStateChange = () => {
+    if (!this.captionsLoaded) {
+      this.captionsLoaded = true;
+      this.loadCaptions();
+    }
+  }
 
   private updateCaptions(time: number) {
     const cue = this.cues.find(({endTime, startTime}) => time >= startTime && time <= endTime);
