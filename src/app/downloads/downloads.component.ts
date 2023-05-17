@@ -10,9 +10,6 @@ import { releases } from '../shared/classes/releases';
 export class DownloadsComponent {
   readonly releases = releases;
 
-  constructor() {
-  }
-
   version(type: Release['type']): string {
     const release = releases.find(release => release.type === type);
     return release ? release.version : '';

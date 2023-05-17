@@ -9,7 +9,3 @@
 li:not(:last-child) {
   margin-bottom: 1rem;
 }
-
-:host::ng-deep a[href$=".pdf"]:after {
-  content: " (PDF)";
-}

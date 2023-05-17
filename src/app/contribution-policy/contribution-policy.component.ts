@@ -6,8 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./contribution-policy.component.scss']
 })
 export class ContributionPolicyComponent {
-
-  constructor() {
-  }
-
 }
