@@ -1,3 +1,18 @@
-iframe {
-  max-width: 100%;
+iframe, #captions {
+  max-width: 560px;
+}
+
+#captions {
+  margin: 0 auto;
+  min-height: 60px;
+
+  > span {
+    font-weight: bold;
+  }
+
+  > p {
+    font-style: italic;
+    margin: 0;
+    white-space: pre;
+  }
 }
