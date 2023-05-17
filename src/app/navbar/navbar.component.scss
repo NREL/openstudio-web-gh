@@ -8,10 +8,14 @@
 }
 
 .navbar-brand {
-  color: gray;
+  color: #6b6b6b;
   font-size: 32px;
   margin-bottom: -5px;
   margin-right: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #6b6b6b;
 }
 
 @media (min-width: 992px) {
