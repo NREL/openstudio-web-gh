@@ -5,41 +5,29 @@
     <app-release-card *ngFor="let release of releases" [release]="release"></app-release-card>
 
     <div class="card card-body bg-light">
-      <div class="row">
-        <div class="col-sm-12">
-          <h2 class="card-title">OpenStudio Application</h2>
-          <h4 class="card-subtitle mb-2 text-muted">The OpenStudio Application is managed by the OpenStudio Coalition. Visit their website to download the latest release.</h4>
+      <h2 class="card-title">OpenStudio Application</h2>
+      <h3 class="card-subtitle mb-2 text-muted">The OpenStudio Application is managed by the OpenStudio Coalition. Visit their website to download the latest release.</h3>
 
-          <a class="btn btn-primary btn-lg btn-bg-dark ml-lg-5 mb-1" href="https://openstudiocoalition.org" role="button">OpenStudio Coalition Website</a>
-        </div>
-      </div>
+      <a class="btn btn-primary btn-lg btn-bg-dark ml-lg-5 mb-1 align-self-start" href="https://openstudiocoalition.org" role="button">OpenStudio Coalition Website</a>
     </div>
 
     <div class="card card-body bg-light">
-      <div class="row">
-        <div class="col-sm-12">
-          <h2 class="card-title">SketchUp Plug-in</h2>
-          <h4 class="card-subtitle mb-2 text-muted">The SketchUp Plug-in is managed by the OpenStudio Coalition. Visit their website to download the latest release.</h4>
+      <h2 class="card-title">SketchUp Plug-in</h2>
+      <h3 class="card-subtitle mb-2 text-muted">The SketchUp Plug-in is managed by the OpenStudio Coalition. Visit their website to download the latest release.</h3>
 
-          <a class="btn btn-primary btn-lg btn-bg-dark ml-lg-5 mb-1" href="https://openstudiocoalition.org" role="button">OpenStudio Coalition Website</a>
-        </div>
-      </div>
+      <a class="btn btn-primary btn-lg btn-bg-dark ml-lg-5 mb-1 align-self-start" href="https://openstudiocoalition.org" role="button">OpenStudio Coalition Website</a>
     </div>
 
     <div class="card card-body bg-light">
-      <div class="row">
-        <div class="col-sm-12">
-          <h2 class="card-title">Legacy OpenStudio Plug-in</h2>
-          <h4 class="card-subtitle mb-2 text-muted">This is the legacy version of the OpenStudio SketchUp Plug-in.</h4>
-        </div>
-        <div class="col-sm-4">
-          <p>The Legacy OpenStudio SketchUp Plug-in has been relaunched as Euclid by Big Ladder Software. Visit the new <a href="https://bigladdersoftware.com/projects/euclid/">project website</a>.</p>
-        </div>
-      </div>
+      <h2 class="card-title">Legacy OpenStudio Plug-in</h2>
+      <h3 class="card-subtitle mb-2 text-muted">This is the legacy version of the OpenStudio SketchUp Plug-in.</h3>
+
+      <p>The Legacy OpenStudio SketchUp Plug-in has been relaunched as Euclid by Big Ladder Software. Visit the new <a href="https://bigladdersoftware.com/projects/euclid/">project website</a>.</p>
     </div>
 
     <div class="card card-body bg-light">
       <h2 class="card-title">Important Installation Note</h2>
+
       <p>Installing the OpenStudio suite after the Legacy Plug-in will install an OpenStudio version manager to the SketchUp plug-ins menu that can be used to switch between versions. Installing the Legacy Plug-in after the OpenStudio suite will remove the version manager. To restore the version manager, re-install the OpenStudio suite.</p>
     </div>
   </main>

@@ -1,16 +1,16 @@
 <div class="card card-body bg-light">
-  <h1 class="card-title my-2">{{ release.title }}</h1>
+  <h2 class="card-title my-2">{{ release.title }}</h2>
   <div class="row" *ngIf="release.type === 'developer-sdk'">
     <div class="col-9">
-      <h4 class="card-subtitle mb-2 text-muted">This is the latest stable software version.</h4>
+      <h3 class="card-subtitle mb-2 text-muted">This is the latest stable software version.</h3>
     </div>
     <div class="col-3">
-      <h4 class="card-subtitle mb-2 text-muted">Latest Development Package Version</h4>
+      <h3 class="card-subtitle mb-2 text-muted">Latest Development Package Version</h3>
     </div>
   </div>
   <div class="row" *ngIf="release.type !== 'developer-sdk'">
-    <h4 class="col-9 card-subtitle mb-3 text-muted"><span>Select your platform to start the download</span></h4>
-    <h4 class="col-3 card-subtitle mb-2 text-muted">Current version</h4>
+    <h3 class="col-9 card-subtitle mb-3 text-muted"><span>Select your platform to start the download</span></h3>
+    <h3 class="col-3 card-subtitle mb-2 text-muted">Current version</h3>
   </div>
   <div class="row">
     <div class="col-9">
@@ -20,7 +20,7 @@
       <a class="btn btn-primary btn-lg btn-bg-dark ml-1 mb-1" [href]="release.linuxUrl" (click)="trackDownload(release.type, 'linux', release.linuxUrl)" role="button">Linux</a>
     </div>
     <div class="col-3">
-      <h1 class="version-badge"><span class="badge badge-info btn-bg-light">{{ release.version }}</span></h1>
+      <h2 class="version-badge"><span class="badge badge-info btn-bg-light">{{ release.version }}</span></h2>
     </div>
   </div>
 </div>
