@@ -45,6 +45,11 @@
                 "input": "src/assets/static/",
                 "output": "/"
               },
+              {
+                "glob": "**/*",
+                "input": "src/assets/subtitles/",
+                "output": "/assets/subtitles/"
+              },
               "src/CNAME",
               "src/favicon.ico"
             ],
@@ -131,6 +136,11 @@
                 "glob": "**/*",
                 "input": "src/assets/static/",
                 "output": "/"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets/subtitles/",
+                "output": "/assets/subtitles/"
               },
               "src/CNAME",
               "src/favicon.ico"

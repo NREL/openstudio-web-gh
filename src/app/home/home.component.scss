@@ -1,3 +1,23 @@
-iframe {
-  max-width: 100%;
+#player, #captions {
+  max-width: 560px;
+}
+
+#captions {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  .heading {
+    font-weight: bold;
+  }
+
+  p {
+    align-items: center;
+    display: flex;
+    font-style: italic;
+    margin: 0;
+    min-height: 40px;
+    white-space: pre;
+  }
 }

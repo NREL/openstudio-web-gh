@@ -8,5 +8,5 @@ import { news } from '../../../shared/classes/news';
 })
 export class HomeSidebarComponent {
   readonly news = news;
-
+  readonly newsItems = news.slice(0, 3);
 }
