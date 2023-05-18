@@ -4,7 +4,7 @@
   <main class="col-md-9">
     <div class="card card-body bg-light">
       <h2 class="github card-title d-flex align-items-center my-3">
-        <img src="assets/images/github-logo.png" srcset="assets/images/github-logo-2x.png 2x" class="github-logo" alt="GitHub">
+        <img src="assets/images/github-logo.png" srcset="assets/images/github-logo-2x.png 2x" class="github-logo" alt="GitHub logo">
         <span class="ml-2">GitHub</span>
       </h2>
       <div class="row">
@@ -47,7 +47,7 @@
     <div class="mt-4">
       <h1>Developer News</h1>
       <app-news-item *ngFor="let newsItem of developerNews.slice(0, 3)" [news]="newsItem"></app-news-item>
-      <a routerLink="/developer-news" *ngIf="developerNews.length > 3">more</a>
+      <a routerLink="/developer-news" *ngIf="developerNews.length > 3">More developer news</a>
     </div>
   </aside>
 </div>

@@ -2,8 +2,14 @@
   user-select: none;
 }
 
+li.active > .page-link {
+  background-color: #3276B1 !important;
+  border-color: #3276B1 !important;
+}
+
 li:not(.active) > .page-link {
   cursor: pointer;
+  color: #3276B1 !important;
 }
 
 .page-link {

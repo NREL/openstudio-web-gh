@@ -8,7 +8,7 @@ import { news } from '../shared/classes/news';
   styleUrls: ['./news.component.scss']
 })
 export class NewsComponent {
-  readonly resultsPerPage = 3;
+  readonly resultsPerPage = 8;
 
   // Chunk news items
   readonly news = news.reduce((arr, item, i) => {

@@ -21,6 +21,7 @@ import { PublicationsComponent } from './publications/publications.component';
 import { NewsItemComponent } from './shared/components/news-item/news-item.component';
 import { PaginationComponent } from './shared/components/pagination/pagination.component';
 import { ReleaseCardComponent } from './shared/components/release-card/release-card.component';
+import { ExternalLinkDirective } from './shared/directives/external-link.directive';
 import { TruncateHTMLPipe } from './shared/pipes/truncate-html.pipe';
 
 @NgModule({
@@ -30,6 +31,7 @@ import { TruncateHTMLPipe } from './shared/pipes/truncate-html.pipe';
     DeveloperNewsComponent,
     DevelopersComponent,
     DownloadsComponent,
+    ExternalLinkDirective,
     FooterComponent,
     ForumComponent,
     HomeComponent,
