@@ -14,6 +14,7 @@ type Cue = {
 })
 export class HomeComponent implements OnDestroy, OnInit {
   captions = '';
+  showCaptions = false;
 
   private captionsLoaded = false;
   private cues: Cue[] = [];
@@ -73,12 +74,15 @@ export class HomeComponent implements OnDestroy, OnInit {
     }, this.pollingInterval);
   };
 
-  private onStateChange = () => {
+  private onStateChange = ({data}: YT.OnStateChangeEvent) => {
+    const {BUFFERING, PLAYING, PAUSED} = YT.PlayerState;
+    this.showCaptions = [BUFFERING, PLAYING, PAUSED].includes(data);
+
     if (!this.captionsLoaded) {
       this.captionsLoaded = true;
       this.loadCaptions();
     }
-  }
+  };
 
   private updateCaptions(time: number) {
     const cue = this.cues.find(({endTime, startTime}) => time >= startTime && time <= endTime);
@@ -87,7 +91,9 @@ export class HomeComponent implements OnDestroy, OnInit {
       const {id, text} = cue;
       if (this.lastCue !== id) {
         this.lastCue = id;
-        this.captions = text;
+        this.captions = text
+          .replaceAll('\n', '<br>')
+          .replaceAll('OpenStudio', '<strong>OpenStudio</strong>');
         this.cdRef.detectChanges();
       }
     } else if (this.lastCue !== -1) {

@@ -16,9 +16,9 @@
 
     <div class="text-center">
       <iframe id="player" width="560" height="315" src="https://www.youtube.com/embed/ovLt4-q_UEg?enablejsapi=1&rel=0" title="What is OpenStudio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
-      <div id="captions">
-        <span [hidden]="!captions">CAPTIONS:</span>
-        <p>{{ captions }}</p>
+      <div id="captions" [style.visibility]="showCaptions ? 'visible' : 'hidden'">
+        <span class="heading">CAPTIONS:</span>
+        <p><span [innerHTML]="captions"></span></p>
       </div>
     </div>
   </main>

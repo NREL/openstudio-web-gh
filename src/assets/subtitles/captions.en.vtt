@@ -1,329 +1,238 @@
-WEBVTT
+﻿WEBVTT
 
-1
-00:00:00.100 --> 00:00:01.920
+00:00:00.000 --> 00:00:01.920
 What is OpenStudio?
 
-2
-00:00:01.000 --> 00:00:06.280
-OpenStudio is a free
-open-platform software product
+00:00:02.550 --> 00:00:06.828
+OpenStudio is a free open-platform
+software product developed by the…
 
-3
-00:00:06.310 --> 00:00:09.670
-developed by the National
-Renewable Energy Laboratory and
+00:00:06.840 --> 00:00:11.130
+…National Renewable Energy Laboratory
+and the US Department of Energy.
 
-4
-00:00:09.670 --> 00:00:13.510
-the US Department of Energy.
+00:00:11.850 --> 00:00:15.750
 Buildings in the United States
-
-5
-00:00:13.510 --> 00:00:18.220
 consume 40% of our energy.
-OpenStudio's objective is to
 
-6
-00:00:18.220 --> 00:00:21.010
-help building owners,
-architects, designers,
+00:00:16.290 --> 00:00:22.082
+OpenStudio's objective is to help building owners,
+architects, designers, engineers, and others…
 
-7
-00:00:21.040 --> 00:00:24.820
-engineers, and others involved
-in the design process (people
+00:00:22.094 --> 00:00:28.140
+…involved in the design process (people like you)
+to design buildings that are more energy efficient.
 
-8
-00:00:24.820 --> 00:00:28.120
-like you) to design buildings
-that are more energy efficient.
+00:00:29.160 --> 00:00:35.266
+OpenStudio can be used by anyone involved in
+the design, construction, or facility management…
 
-9
-00:00:29.170 --> 00:00:32.710
-OpenStudio can be used by anyone
-involved in the design,
+00:00:35.278 --> 00:00:41.070
+…industries: building owners, architects,
+engineers, software developers, and researchers.
 
-10
-00:00:32.800 --> 00:00:36.580
-construction, or facility
-management industries: building
-
-11
-00:00:36.580 --> 00:00:40.330
-owners, architects, engineers,
-software developers, and
-
-12
-00:00:40.330 --> 00:00:41.050
-researchers.
-
-13
-00:00:42.920 --> 00:00:46.790
+00:00:42.930 --> 00:00:46.611
 OpenStudio has two distinct
-components: the application
+components: the application…
 
-14
-00:00:46.790 --> 00:00:50.480
-suite, and the software
-development platform. The
+00:00:46.623 --> 00:00:49.590
+…suite, and the software
+development platform.
 
-15
-00:00:50.480 --> 00:00:54.110
-primary users of the application
-suite are the design team,
+00:00:50.310 --> 00:00:54.152
+The primary users of the
+application suite are the design team,
 
-16
-00:00:54.170 --> 00:00:57.620
-including the architect,
-engineer, building owner, and
+00:00:54.164 --> 00:00:58.560
+including the architect, engineer,
+building owner, and other consultants.
 
-17
-00:00:57.620 --> 00:01:01.130
-other consultants. The primary
-users of the development
+00:00:59.100 --> 00:01:01.816
+The primary users of
+the development platform…
 
-18
-00:01:01.130 --> 00:01:04.220
-platform are software developers
+00:01:01.828 --> 00:01:04.200
+…are software developers
 and researchers.
 
-19
-00:01:05.020 --> 00:01:09.040
-First, let's talk about the
-application suite. So, design
+00:01:05.010 --> 00:01:07.710
+First, let's talk about
+the application suite.
 
-20
-00:01:09.040 --> 00:01:13.660
-team, what do you want to learn
-when using OpenStudio? How much
+00:01:08.130 --> 00:01:12.270
+So, design team, what do you want
+to learn when using OpenStudio?
 
-21
-00:01:13.690 --> 00:01:17.950
-energy is the design going to
-save? How much will it cost me?
+00:01:13.140 --> 00:01:15.660
+How much energy is
+the design going to save?
 
-22
-00:01:19.330 --> 00:01:22.540
+00:01:16.650 --> 00:01:17.970
+How much will it cost me?
+
+00:01:19.350 --> 00:01:21.902
 How does the OpenStudio
-application suite help the
+application suite…
 
-23
-00:01:22.540 --> 00:01:24.610
-design team answer these
-questions?
+00:01:21.914 --> 00:01:24.600
+…help the design team
+answer these questions?
 
-24
-00:01:25.050 --> 00:01:29.490
-OpenStudio supports an iterative
-workflow of design, simulation,
+00:01:25.050 --> 00:01:30.450
+OpenStudio supports an iterative workflow
+of design, simulation, and analysis.
 
-25
-00:01:29.520 --> 00:01:33.150
-and analysis. This allows for
-ongoing feedback about the
+00:01:30.960 --> 00:01:35.714
+This allows for ongoing feedback about
+the energy impact of decisions, along with…
 
-26
-00:01:33.150 --> 00:01:36.630
-energy impact of decisions,
-along with other design factors,
+00:01:35.726 --> 00:01:40.260
+…other design factors, such as program
+requirements, costs, and building codes.
 
-27
-00:01:36.750 --> 00:01:40.260
-such as program requirements,
-costs, and building codes.
+00:01:40.860 --> 00:01:42.870
+How about the developers and researchers?
 
-28
-00:01:40.860 --> 00:01:44.040
-How about the developers and
-researchers? What questions do
+00:01:43.110 --> 00:01:47.670
+What questions do you have regarding the
+OpenStudio software development platform?
 
-29
-00:01:44.040 --> 00:01:47.070
-you have regarding the
-OpenStudio software development
+00:01:48.270 --> 00:01:51.420
+How do I develop in OpenStudio,
+and why would I want to?
 
-30
-00:01:47.070 --> 00:01:51.120
-platform? How do I develop in
-OpenStudio, and why would I want
+00:01:51.690 --> 00:01:55.110
+How do I optimize a building
+design using OpenStudio?
 
-31
-00:01:51.120 --> 00:01:55.920
-to? How do I optimize a building
-design using OpenStudio? How
+00:01:55.710 --> 00:01:58.920
+How does the development
+platform support these developers?
 
-32
-00:01:55.920 --> 00:01:58.920
-does the development platform
-support these developers?
+00:01:59.550 --> 00:02:03.600
+You can develop in C++, C#, or Ruby.
 
-33
-00:01:59.530 --> 00:02:05.260
-You can develop in C++, C#, or
-Ruby. You can develop on the
-
-34
-00:02:05.260 --> 00:02:09.100
+00:02:04.080 --> 00:02:07.050
+You can develop on the
 operating system of your choice.
+
+00:02:07.350 --> 00:02:11.529
 Both the OpenStudio development
+platform as well as the application…
 
-35
-00:02:09.100 --> 00:02:11.860
-platform as well as the
-application suite are
+00:02:11.541 --> 00:02:15.300
+…suite are cross-platform,
+supporting Windows, Mac, and Linux.
 
-36
-00:02:11.860 --> 00:02:16.450
-cross-platform, supporting
-Windows, Mac, and Linux. You can
+00:02:16.080 --> 00:02:19.468
+You can interface with
+OpenStudio through the API,
 
-37
-00:02:16.450 --> 00:02:20.200
-interface with OpenStudio
-through the API, or you can work
+00:02:19.480 --> 00:02:22.680
+or you can work directly
+in the C++ source code.
 
-38
-00:02:20.200 --> 00:02:25.030
-directly in the C++ source code.
-OpenStudio has an open-source
+00:02:23.280 --> 00:02:26.370
+OpenStudio has an
+open-source LGPL license.
 
-39
-00:02:25.060 --> 00:02:29.530
-LGPL license. You can produce
-and sell your own software, or
+00:02:26.820 --> 00:02:31.276
+You can produce and sell your own software,
+or you can contribute code back to…
 
-40
-00:02:29.530 --> 00:02:32.950
-you can contribute code back to
-the OpenStudio community by
+00:02:31.288 --> 00:02:35.700
+…the OpenStudio community by merging
+your work into the OpenStudio source code.
 
-41
-00:02:32.950 --> 00:02:35.710
-merging your work into the
-OpenStudio source code.
+00:02:36.720 --> 00:02:38.670
+So why does this help the developer?
 
-42
-00:02:36.700 --> 00:02:40.330
-So why does this help the
-developer? It helps you because
+00:02:39.150 --> 00:02:43.171
+It helps you because we have abstracted
+out the general knowledge needed…
 
-43
-00:02:40.330 --> 00:02:42.940
-we have abstracted out the
-general knowledge needed to
+00:02:43.183 --> 00:02:46.830
+…to create a building model by
+providing a relational object model.
 
-44
-00:02:42.940 --> 00:02:46.330
-create a building model by
-providing a relational object
+00:02:47.490 --> 00:02:50.700
+Yes, OpenStudio can help researchers, too.
 
-45
-00:02:46.330 --> 00:02:51.970
-model. Yes, OpenStudio can help
-researchers, too. You can access
+00:02:51.210 --> 00:02:55.575
+You can access the advanced functions
+you need through scripting, or you can…
 
-46
-00:02:51.970 --> 00:02:55.240
-the advanced functions you need
-through scripting, or you can
+00:02:55.587 --> 00:02:59.850
+…quickly create a custom graphical
+user interface specific to your research.
 
-47
-00:02:55.240 --> 00:02:58.000
-quickly create a custom
-graphical user interface
-
-48
-00:02:58.090 --> 00:03:01.930
-specific to your research.
+00:03:00.330 --> 00:03:03.510
 Extensive documentation is
-
-49
-00:03:01.930 --> 00:03:03.520
 available online to assist you.
 
-50
-00:03:04.360 --> 00:03:07.870
+00:03:04.350 --> 00:03:07.632
 One strength of the OpenStudio
-software development platform is
+software development platform…
 
-51
-00:03:07.870 --> 00:03:10.810
-the speed and ease with which
-you can develop new tools.
+00:03:07.644 --> 00:03:10.830
+…is the speed and ease with
+which you can develop new tools.
 
-52
-00:03:11.260 --> 00:03:14.710
-Derived tools leverage the
-inherent power of OpenStudio's
+00:03:11.250 --> 00:03:16.170
+Derived tools leverage the inherent power
+of OpenStudio's object model and methods.
 
-53
-00:03:14.740 --> 00:03:18.640
-object model and methods. So if
-the design team has needs
+00:03:16.620 --> 00:03:21.185
+So if the design team has needs outside
+the scope of the application suite's…
 
-54
-00:03:18.670 --> 00:03:21.850
-outside the scope of the
-application suite's tools, the
+00:03:21.197 --> 00:03:26.130
+…tools, the developer simply creates a new
+tool that supports the design team's use.
 
-55
-00:03:21.850 --> 00:03:25.240
-developer simply creates a new
-tool that supports the design
+00:03:26.940 --> 00:03:30.240
+In this case, the developer
+creates an independent plugin.
 
-56
-00:03:25.240 --> 00:03:29.710
-team's use. In this case, the
-developer creates an independent
+00:03:30.600 --> 00:03:33.229
+In another case, you may
+choose to contribute the…
 
-57
-00:03:29.710 --> 00:03:33.250
-plugin. In another case, you may
-choose to contribute the new
+00:03:33.241 --> 00:03:35.670
+…new functionality to
+OpenStudio's source code.
 
-58
-00:03:33.250 --> 00:03:38.230
-functionality to OpenStudio's
-source code. The design team has
+00:03:37.020 --> 00:03:41.490
+The design team has now expanded their
+toolset to fit their unique requirements.
 
-59
-00:03:38.230 --> 00:03:41.500
-now expanded their toolset to
-fit their unique requirements.
+00:03:47.520 --> 00:03:51.083
+So, we know OpenStudio's
+goal is to save energy, but how…
 
-60
-00:03:47.510 --> 00:03:51.890
-So, we know OpenStudio's goal is
-to save energy, but how does it
+00:03:51.095 --> 00:03:54.420
+…does it impact the design
+process to accomplish this?
 
-61
-00:03:51.890 --> 00:03:56.330
-impact the design process to
-accomplish this? It enhances the
+00:03:54.870 --> 00:04:00.446
+It enhances the speed and quality of user
+workflows, facilitates better integration…
 
-62
-00:03:56.330 --> 00:04:00.290
-speed and quality of user
-workflows, facilitates better
+00:04:00.458 --> 00:04:06.180
+…among team members, provides rapid feedback
+on energy performance of design decisions.
 
-63
-00:04:00.290 --> 00:04:03.950
-integration among team members,
-provides rapid feedback on
+00:04:08.190 --> 00:04:09.330
+Save energy.
 
-64
-00:04:03.950 --> 00:04:06.170
-energy performance of design
-decisions.
+00:04:09.600 --> 00:04:10.530
+Save money.
 
-65
-00:04:08.190 --> 00:04:12.690
-Save energy. Save money. Reduce
-your carbon footprint.
+00:04:10.830 --> 00:04:12.660
+Reduce your carbon footprint.
 
-66
-00:04:15.270 --> 00:04:21.300
-OpenStudio. Get started now at
-openstudio.nrel.gov
+00:04:15.270 --> 00:04:16.380
+OpenStudio.
 
+00:04:16.709 --> 00:04:21.300
+Get started now at openstudio.nrel.gov.
