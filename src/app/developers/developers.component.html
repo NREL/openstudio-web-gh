@@ -46,7 +46,7 @@
     </div>
     <div class="mt-4">
       <h1>Developer News</h1>
-      <app-news-item *ngFor="let newsItem of developerNews.slice(0, 3)" [news]="newsItem"></app-news-item>
+      <app-news-item *ngFor="let newsItem of developerNewsItems" [news]="newsItem"></app-news-item>
       <a routerLink="/developer-news" *ngIf="developerNews.length > 3">more</a>
     </div>
   </aside>

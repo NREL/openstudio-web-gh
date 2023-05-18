@@ -10,5 +10,5 @@ import { developerNews } from '../shared/classes/developer-news';
 export class DevelopersComponent {
   readonly release = developerRelease;
   readonly developerNews = developerNews;
-
+  readonly developerNewsItems = developerNews.slice(0, 3);
 }
