@@ -5,6 +5,7 @@ import { DeveloperNewsComponent } from './developer-news/developer-news.componen
 import { DevelopersComponent } from './developers/developers.component';
 import { DownloadsComponent } from './downloads/downloads.component';
 import { ForumComponent } from './forum/forum.component';
+import { LicenseComponent } from './license/license.component';
 import { HomeComponent } from './home/home.component';
 import { NewsDetailComponent } from './news-detail/news-detail.component';
 import { NewsComponent } from './news/news.component';
@@ -28,6 +29,9 @@ const routes: Routes = [{
 }, {
   path: 'forum',
   component: ForumComponent
+}, {
+  path: 'license',
+  component: LicenseComponent
 }, {
   path: 'news',
   component: NewsComponent

@@ -42,6 +42,9 @@ export const getTitle = (route: string) => {
     case '/forum':
       title = 'Forum - ';
       break;
+    case '/license':
+      title = 'License - ';
+      break;
     case '/news':
       title = 'News - ';
       break;
