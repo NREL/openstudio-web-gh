@@ -12,7 +12,7 @@ export const releases: Release[] = [{
 }, {
   title: 'OpenStudio PAT Release',
   type: 'pat',
-  version: '3.6.1-1',
+  version: '3.6.1',
   winUrl: 'https://github.com/NREL/OpenStudio-PAT/releases/download/v3.6.1-1/ParametricAnalysisTool-3.6.1-1-Windows.exe',
   macUrl: 'https://github.com/NREL/OpenStudio-PAT/releases/download/v3.6.1-1/ParametricAnalysisTool-3.6.1-1-Darwin.dmg',
   linuxUrl: 'https://github.com/NREL/OpenStudio-PAT/releases/download/v3.6.1-1/ParametricAnalysisTool-3.6.1-1-Ubuntu-2004.deb'
