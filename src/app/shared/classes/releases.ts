@@ -1,7 +1,7 @@
 import { Release } from './constants';
 
 export const releases: Release[] = [{
-  title: 'OpenStudio Release',
+  title: 'OpenStudio SDK Release',
   type: 'sdk',
   version: '3.7.0',
   sha: 'd5269793f1',
