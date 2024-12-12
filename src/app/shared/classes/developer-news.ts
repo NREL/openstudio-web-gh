@@ -1,11 +1,15 @@
 import { NewsItem } from './constants';
 
 export const developerNews: NewsItem[] = [
-  {
-    title: 'OpenStudio 3.8.0 SDK Release',
-    time: '2024-5-20 12:00:00 -0600',
-    html: 'OpenStudio 3.8.0 SDK has been released. 3.8.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.8.0">Release Notes</a> for more information.'
-  },{
+{
+  title: 'OpenStudio 3.9.0 SDK Release',
+  time: '2024-11-14 12:00:00 -0700',
+  html: 'OpenStudio 3.9.0 SDK has been released. 3.9.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.9.0">Release Notes</a> for more information.'
+}, {
+  title: 'OpenStudio 3.8.0 SDK Release',
+  time: '2024-5-20 12:00:00 -0600',
+  html: 'OpenStudio 3.8.0 SDK has been released. 3.8.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.8.0">Release Notes</a> for more information.'
+}, {
   title: 'OpenStudio 3.7.0 SDK Release',
   time: '2023-11-20 12:00:00 -0600',
   html: 'OpenStudio 3.7.0 SDK has been released. 3.7.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.7.0">Release Notes</a> for more information.'
