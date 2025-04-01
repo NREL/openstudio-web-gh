@@ -12,10 +12,10 @@ export const releases: Release[] = [{
 }, {
   title: 'OpenStudio PAT Release',
   type: 'pat',
-  version: '3.8.0',
-  winUrl: 'https://github.com/NREL/OpenStudio-PAT/releases/download/v3.8.0/ParametricAnalysisTool-3.8.0-Windows.exe',
-  macUrl: 'https://github.com/NREL/OpenStudio-PAT/releases/download/v3.8.0/ParametricAnalysisTool-3.8.0-Darwin.dmg',
-  linuxUrl: 'https://github.com/NREL/OpenStudio-PAT/releases/download/v3.8.0/ParametricAnalysisTool-3.8.0-Linux.deb'
+  version: '3.9.1',
+  winUrl: 'https://github.com/NREL/OpenStudio-PAT/releases/download/v3.9.1/ParametricAnalysisTool-3.9.1-Windows.exe',
+  macUrl: 'https://github.com/NREL/OpenStudio-PAT/releases/download/v3.9.1/ParametricAnalysisTool-3.9.1-Darwin.dmg',
+  linuxUrl: 'https://github.com/NREL/OpenStudio-PAT/releases/download/v3.9.1/ParametricAnalysisTool-3.9.1-Linux.deb'
 }];
 
 export const developerRelease: Release = {
