@@ -40,7 +40,7 @@ export const news: NewsItem[] = [
 }, {
   title: 'BCL 2.0 implementation ready for public testing',
   time: '2021-08-11 12:33:40 -0600',
-  html: `<p>NREL has completed development of Building Component Library 2.0 and it is now available for public testing at <a href="https://bcl.nrel.gov/">https://bcl.nrel.gov/</a>. The main BCL website is deprecated and will be replaced by this new implementation.</p>
+  html: `<p>The development of the Building Component Library 2.0 has been completed and it is now available for public testing at <a href="https://bcl.nrel.gov/">https://bcl.nrel.gov/</a>. The main BCL website is deprecated and will be replaced by this new implementation.</p>
 <p>BCL 2.0 uses a set of GitHub repositories as the back-end for robustness, transparency, and flexibility: version-controlled Measures, Components, Weather Files, and more. Instructions are available on the new site for organizations and groups with BCL content to migrate their components and measures to GitHub repositories.</p>`
 }, {
   title: 'OpenStudio 3.2.1 SDK Release',
@@ -57,8 +57,8 @@ export const news: NewsItem[] = [
 }, {
   title: 'New BCL implementation coming soon',
   time: '2020-11-11 13:02:04 -0700',
-  html: `NREL is working on a new BCL implementation.  The current BCL website will be deprecated. The new BCL replacement will use a set of GitHub repositories as the back-end for robustness, transparency and flexibility: version-controlled Measures, Components, and Weather Files.
-        NREL will migrate its current BCL content to a set of GitHub repositories and will provide instructions for organizations and groups with BCL content to do the same. The new BCL aims to preserve its API functionality (and syntax) and interface to existing DOE/NREL tools and to the OpenStudio Coalition’s OpenStudio Application.
+  html: `A new BCL implementation is in the works.  The current BCL website will be deprecated. The new BCL replacement will use a set of GitHub repositories as the back-end for robustness, transparency and flexibility: version-controlled Measures, Components, and Weather Files.
+        The current BCL content will be migrated to a set of GitHub repositories and will provide instructions for organizations and groups with BCL content to do the same. The new BCL aims to preserve its API functionality (and syntax) and interface to existing DOE/NREL tools and to the OpenStudio Coalition’s OpenStudio Application.
         A minimal web interface will be provided.  Stay tuned for more information, launch date, and content migration instructions.`
 }, {
   title: 'OpenStudio 3.1.0 SDK Release',
@@ -122,7 +122,7 @@ export const news: NewsItem[] = [
         <ul style="padding-bottom:10px;"><li>The planned transition of the OpenStudio Application is BTO’s attempt to balance interests stated by industry and formalized by the IBPSA-USA Advocacy Committee (<a href="https://www.ibpsa.us/committee/advocacy-committee" target="_blank">https://www.ibpsa.us/committee/advocacy-committee</a>) with needs of current users that depend on the OpenStudio Application for business needs.</li></ul></li>
         <li>Will the OpenStudio Application remain available throughout the transition?
         <ul style="padding-bottom:10px;"><li>Three OpenStudio SDK releases are planned during the transition period (April 2019, October 2019, April 2020).  Updates to and installers for the OpenStudio Application will be made available at each of these OpenStudio SDK releases.  Source code and installers for the OpenStudio Application up to and including the April 2020 release will remain available after the transition period. </li></ul></li>
-        <li>Who will the OpenStudio Application transition to?  Will the OpenStudio Application still be open-source/freeware after the transition? <ul style="padding-bottom:10px;"><li>The OpenStudio Application is currently licensed under a BSD 4-Clause open-source license.  This license allows for any entity to fork the code for further development and distribution under a variety of licenses, open-source and otherwise. Currently, BTO and NREL are not considering transferring copyright of the OpenStudio Application or changing the open-source BSD 4-Clause license for code maintained by NREL before or during the transition period. NREL may explore licensing options for the use of the OpenStudio trademark or other assets by interested third-party developers and distributors upon request.  Given the recent timing of this announcement, no entity or entities have yet announced specific plans to continue support for the OpenStudio Application after the transition period. Any entities interested in potentially supporting or maintaining the OpenStudio Application should contact <a href="mailto:openstudio@nrel.gov">OpenStudio@nrel.gov</a> with any questions. </li></ul></li>
+        <li>Who will the OpenStudio Application transition to?  Will the OpenStudio Application still be open-source/freeware after the transition? <ul style="padding-bottom:10px;"><li>The OpenStudio Application is currently licensed under a BSD 4-Clause open-source license.  This license allows for any entity to fork the code for further development and distribution under a variety of licenses, open-source and otherwise. Currently, BTO and NREL are not considering transferring copyright of the OpenStudio Application or changing the open-source BSD 4-Clause license for code maintained by NREL before or during the transition period. We may explore licensing options for the use of the OpenStudio trademark or other assets by interested third-party developers and distributors upon request.  Given the recent timing of this announcement, no entity or entities have yet announced specific plans to continue support for the OpenStudio Application after the transition period. Any entities interested in potentially supporting or maintaining the OpenStudio Application should contact <a href="mailto:openstudio@nrel.gov">OpenStudio@nrel.gov</a> with any questions. </li></ul></li>
         <li>How can I be involved in this or other changes to OpenStudio in the future? <ul style="padding-bottom:10px;"><li>For future significant changes, BTO aims to gather broad stakeholder feedback before finalizing decisions. More information will be provided at a relevant time.</li></ul></li>
         </ul>`
 }, {
@@ -150,7 +150,7 @@ export const news: NewsItem[] = [
   title: 'OpenStudio 2.2.0 Release',
   time: '2017-07-10 16:30:17 -0600',
   html: `OpenStudio 2.2.0 has been released. For many years, OpenStudio has included ResultsViewer to visualize timeseries data.
-        The plan for the next OpenStudio release (2.3.0) is to replace ResultsViewer with a visualization tool called DView, which was originally developed by NREL for viewing residential building and solar data.
+        The plan for the next OpenStudio release (2.3.0) is to replace ResultsViewer with a visualization tool called DView, which was originally developed by the lab for viewing residential building and solar data.
         DView brings additional capabilities that ResultsViewer does not have, including IP unit conversion, CSV data export, image export, EPW weather file visualization, two synchronized views, stacked timeseries, average profiles, overview statistics, histograms, cumulative density plots, duration curves, and scatter plots.
         To learn more about DView, download its executable or its open source, cross-platform source code, click  <a href="https://github.com/NREL/wex">here</a>. Complete OpenStudio release notes are available <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.2.0">here</a>.`
 }, {
@@ -411,7 +411,7 @@ export const news: NewsItem[] = [
         <p>2. User and technical support to OpenStudio users.</p>
         <p>NREL shall provide OpenStudio training modules and material to the appointed training organization(s) under a license agreement. NREL intends to award license agreements resulting from this solicitation to the most qualified proposals based on the criteria stated herein.
         Such license will be made available without charge to selected higher education institutions who intend to offer the training program in connection with a course for which college or university credit is available. All other organizations will be required to pay an annual upfront fee of US$2,500.</p>
-        <p>Authorized OpenStudio trainers will be selected pursuant to the process described in this Announcement and will have access to detailed training curriculums developed by the NREL under the terms of the license agreement.
+        <p>Authorized OpenStudio trainers will be selected pursuant to the process described in this Announcement and will have access to detailed training curriculums developed by NREL under the terms of the license agreement.
         The curriculum will be broken down into a series of modules allowing trainers to customize the training to the needs and experience level of the audience, as well as the time available for the class. Each module will have a detailed agenda, step by step instructions, and sample files.
         Some modules may also have a PowerPoint presentation that can be used to introduce an exercise.</p>
         <p><a href="https://www.fbo.gov/index?s=opportunity&amp;mode=form&amp;id=bbae6db5465c03b0dd92601b6f200e83&amp;tab=core&amp;_cview=1">Click here to view the full RFP</a>.</p>`
@@ -447,7 +447,7 @@ export const news: NewsItem[] = [
   title: 'OpenStudio 0.8.1 Released',
   time: '2012-07-20 15:12:56 -0600',
   html: `<div class="content clearfix">
-        <p>OpenStudio 0.8.1 is now available for download from the OpenStudio website. The OpenStudio version 0.8.1 release focuses on integration with the NREL Building Component Library (BCL) and EnergyPlus 7.1 support.
+        <p>OpenStudio 0.8.1 is now available for download from the OpenStudio website. The OpenStudio version 0.8.1 release focuses on integration with the Building Component Library (BCL) and EnergyPlus 7.1 support.
         The BCL is an online repository of building data used to create building energy models. The BCL can be accessed through a web API to search for and download data for use in energy modeling.
         In this release, the OpenStudio application has been extended to use this web API to enable searching, downloading, and using construction components from the BCL from within the OpenStudio application.
         OpenStudio 0.8.1 also includes a version translator to upgrade OSM and OSC files to the current version.</p>
@@ -487,7 +487,7 @@ export const news: NewsItem[] = [
         <ul style="margin-bottom: 10px; margin-left: 40px; ">
         <li style="margin-bottom: 5px; line-height: 18px; ">Support for EnergyPlus 7</li>
         <li style="margin-bottom: 5px; line-height: 18px; ">Template HVAC Systems for SystemOutliner</li>
-        <li style="margin-bottom: 5px; line-height: 18px; ">Green Buillding XML (gbXML) import</li>
+        <li style="margin-bottom: 5px; line-height: 18px; ">Green Building XML (gbXML) import</li>
         <li style="margin-bottom: 5px; line-height: 18px; ">Initial integration with Building Component Library</li>
         <li style="margin-bottom: 5px; line-height: 18px; ">Annual climate-based Radiance simulations of spaces along with lighting schedules for EnergyPlus simulations</li></ul>
         <p><a href="http://openstudio.nrel.gov/downloads">Download the 0.6.0 Release</a>&nbsp;or&nbsp;<a href="http://openstudio.nrel.gov/release-notes">read the release notes</a>.</p>`
@@ -512,7 +512,7 @@ export const news: NewsItem[] = [
         <li>A Sequential Search optimization algorithm, which can operate on OpenStudio Models, EnergyPlus Idf, or a mixture of the two, has been added to the OpenStudio API and is available through Ruby scripting.</li></ul>
         <p><a href="/downloads">Download the 0.5.0 Release</a> or <a href="https://github.com/NREL/OpenStudio/tree/develop/doc/ReleaseNotes">read the release notes</a>.</p>`
 }, {
-  title: 'OpenStudio - Whole Building Energy Modeling presented by NREL\'s Nicholas Long and David Goldwasser',
+  title: 'OpenStudio - Whole Building Energy Modeling presented by Nicholas Long and David Goldwasser',
   time: '2011-08-24 09:51:05 -0600',
   html: `<p>Wed 8/24/2011&nbsp; &nbsp;12:00pm (PT) / 1:00pm (MT) / 2:00pm (CT) / 3:00pm (ET)</p>
         <p>Are you curious about the newest free open-platform software product developed by NREL and DOE?

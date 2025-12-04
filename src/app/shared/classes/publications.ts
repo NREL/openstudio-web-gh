@@ -13,9 +13,9 @@ export const publications: Publication[] = [{
 }, {
   html: `Bagnasco, A., S. Massucco, M. Saviozzi, F. Silvestro, and A. Vinci. “Design and Validation of a Detailed Building Thermal Model Considering Occupancy and Temperature Sensors,” 2018. <a href="https://doi.org/10.1109/RTSI.2018.8548424">https://doi.org/10.1109/RTSI.2018.8548424</a>.`
 }, {
-  html: `Brackney, L. “Mobile Building Energy Audit and Modeling Tools: Cooperative Research and Development Final Report, CRADA Number CRD-11-00441.” National Renewable Energy Lab. (NREL), Golden, CO (United States), April 1, 2013. <a href="https://doi.org/10.2172/1076665">https://doi.org/10.2172/1076665</a>.`
+  html: `Brackney, L. “Mobile Building Energy Audit and Modeling Tools: Cooperative Research and Development Final Report, CRADA Number CRD-11-00441.” National Renewable Energy Lab., Golden, CO (United States), April 1, 2013. <a href="https://doi.org/10.2172/1076665">https://doi.org/10.2172/1076665</a>.`
 }, {
-  html: `Brackney, Larry J. “Portfolio-Scale Optimization of Customer Energy Efficiency Incentive and Marketing: Cooperative Research and Development Final Report, CRADA Number CRD-13-535.” National Renewable Energy Lab. (NREL), Golden, CO (United States), February 17, 2016. <a href="https://doi.org/10.2172/1240079">https://doi.org/10.2172/1240079</a>.`
+  html: `Brackney, Larry J. “Portfolio-Scale Optimization of Customer Energy Efficiency Incentive and Marketing: Cooperative Research and Development Final Report, CRADA Number CRD-13-535.” National Renewable Energy Lab., Golden, CO (United States), February 17, 2016. <a href="https://doi.org/10.2172/1240079">https://doi.org/10.2172/1240079</a>.`
 }, {
   html: `Brackney, Larry, Andrew Parker, Daniel Macumber, and Kyle Benne. <em>Building Energy Modeling with OpenStudio: A Practical Guide for Students and Professionals.</em> Springer International Publishing, 2018. <a href="https://www.springer.com/gp/book/9783319778082">https://www.springer.com/gp/book/9783319778082</a>.`
 }, {
@@ -25,9 +25,9 @@ export const publications: Publication[] = [{
 }, {
   html: `Cherier, M.K., T. Benouaz, S.M.A. Bekkouche, M. Hamdani, and R. Djeffal. “Improvement Temperatures of a Studio Apartment through Judicious Choice of Materials and Eco Building Materials under an Arid Climate - Case Study Ghardaïa,” Vol. 214, 2019. <a href="https://doi.org/10.1088/1755-1315/214/1/012118">https://doi.org/10.1088/1755-1315/214/1/012118</a>.`
 }, {
-  html: `Cheung, Howard, and James E. Braun. “Development of Fault Models for Hybrid Fault Detection and Diagnostics Algorithm: October 1, 2014 -- May 5, 2015.” National Renewable Energy Lab. (NREL), Golden, CO (United States), December 31, 2015. <a href="https://doi.org/10.2172/1235413">https://doi.org/10.2172/1235413</a>.`
+  html: `Cheung, Howard, and James E. Braun. “Development of Fault Models for Hybrid Fault Detection and Diagnostics Algorithm: October 1, 2014 -- May 5, 2015.” National Renewable Energy Lab., Golden, CO (United States), December 31, 2015. <a href="https://doi.org/10.2172/1235413">https://doi.org/10.2172/1235413</a>.`
 }, {
-  html: `“City Scale Modeling with OpenStudio.” National Renewable Energy Lab. (NREL), Golden, CO (United States), August 12, 2016. <a href="https://www.osti.gov/biblio/1344763-city-scale-modeling-openstudio">https://www.osti.gov/biblio/1344763-city-scale-modeling-openstudio</a>.`
+  html: `“City Scale Modeling with OpenStudio.” National Renewable Energy Lab., Golden, CO (United States), August 12, 2016. <a href="https://www.osti.gov/biblio/1344763-city-scale-modeling-openstudio">https://www.osti.gov/biblio/1344763-city-scale-modeling-openstudio</a>.`
 }, {
   html: `Cole, W. J., E. T. Hale, and T. F. Edgar. “Building Energy Model Reduction for Model Predictive Control Using OpenStudio.” Piscataway, NJ: Institute of Electrical and Electronics Engineers (IEEE), January 1, 2013. <a href="https://www.osti.gov/biblio/1104601-building-energy-model-reduction-model-predictive-control-using-openstudio">https://www.osti.gov/biblio/1104601-building-energy-model-reduction-model-predictive-control-using-openstudio</a>.`
 }, {
@@ -41,21 +41,21 @@ export const publications: Publication[] = [{
 }, {
   html: `Draganova, V.Y., H. Matsumoto, and K. Tsuzuki. “Energy Performance of Building Fabric - Comparing Two Types of Vernacular Residential Houses,” Vol. 1892, 2017. <a href="https://doi.org/10.1063/1.5005768">https://doi.org/10.1063/1.5005768</a>.`
 }, {
-  html: `Frank, Stephen M. (ORCID:0000000343666163), and Jason Nichols. “An Open, Cloud-Based Platform for Whole-Building Fault Detection and Diagnostics.” National Renewable Energy Lab. (NREL), Golden, CO (United States), October 4, 2018. <a href="https://www.osti.gov/biblio/1476981-open-cloud-based-platform-whole-building-fault-detection-diagnostics">https://www.osti.gov/biblio/1476981-open-cloud-based-platform-whole-building-fault-detection-diagnostics</a>.`
+  html: `Frank, Stephen M. (ORCID:0000000343666163), and Jason Nichols. “An Open, Cloud-Based Platform for Whole-Building Fault Detection and Diagnostics.” National Renewable Energy Lab., Golden, CO (United States), October 4, 2018. <a href="https://www.osti.gov/biblio/1476981-open-cloud-based-platform-whole-building-fault-detection-diagnostics">https://www.osti.gov/biblio/1476981-open-cloud-based-platform-whole-building-fault-detection-diagnostics</a>.`
 }, {
-  html: `Goldwasser, David, Brian L. Ball, Amanda D. Farthing, Stephen M. (ORCID:0000000343666163) Frank, and Piljae Im. “Advances in Calibration of Building Energy Models to Time Series Data: Preprint.” National Renewable Energy Lab. (NREL), Golden, CO (United States), November 12, 2018. <a href="https://www.osti.gov/biblio/1482495-advances-calibration-building-energy-models-time-series-data-preprint">https://www.osti.gov/biblio/1482495-advances-calibration-building-energy-models-time-series-data-preprint</a>.`
+  html: `Goldwasser, David, Brian L. Ball, Amanda D. Farthing, Stephen M. (ORCID:0000000343666163) Frank, and Piljae Im. “Advances in Calibration of Building Energy Models to Time Series Data: Preprint.” National Renewable Energy Lab., Golden, CO (United States), November 12, 2018. <a href="https://www.osti.gov/biblio/1482495-advances-calibration-building-energy-models-time-series-data-preprint">https://www.osti.gov/biblio/1482495-advances-calibration-building-energy-models-time-series-data-preprint</a>.`
 }, {
   html: `Goldwasser, David, Daniel Macumber, Andrew Parker, Edwin Lee, Rob Guglielmetti, and Larry J. Brackney. “THE LIFE CYCLE OF AN OPENSTUDIO MEASURE: DEVELOPMENT, TESTING, DISTRIBUTION, AND APPLICATION,” 2016. <a href="https://ibpsa-usa.org/index.php/ibpusa/article/view/361">https://ibpsa-usa.org/index.php/ibpusa/article/view/361</a>.`
 }, {
-  html: `Guglielmetti, R., D. Macumber, and N. Long. “OpenStudio: An Open Source Integrated Analysis Platform; Preprint.” National Renewable Energy Lab. (NREL), Golden, CO (United States), December 1, 2011. <a href="https://www.osti.gov/biblio/1032670-openstudio-open-source-integrated-analysis-platform-preprint">https://www.osti.gov/biblio/1032670-openstudio-open-source-integrated-analysis-platform-preprint</a>.`
+  html: `Guglielmetti, R., D. Macumber, and N. Long. “OpenStudio: An Open Source Integrated Analysis Platform; Preprint.” National Renewable Energy Lab., Golden, CO (United States), December 1, 2011. <a href="https://www.osti.gov/biblio/1032670-openstudio-open-source-integrated-analysis-platform-preprint">https://www.osti.gov/biblio/1032670-openstudio-open-source-integrated-analysis-platform-preprint</a>.`
 }, {
   html: `Guglielmetti, Rob, and Brian L. Ball. “A FRAMEWORK FOR DAYLIGHTING OPTIMIZATION IN WHOLE BUILDINGS WITH OPENSTUDIO.” <em>Proceedings of SimBuild</em> 6, no. 1 (August 5, 2016). <a href="https://ibpsa-usa.org/index.php/ibpusa/article/view/336">https://ibpsa-usa.org/index.php/ibpusa/article/view/336</a>.`
 }, {
-  html: `Hale, E., L. Lisell, D. Goldwasser, D. Macumber, J. Dean, I. Metzger, A. Parker, et al. “Cloud-Based Model Calibration Using OpenStudio: Preprint.” National Renewable Energy Lab. (NREL), Golden, CO (United States), March 1, 2014. <a href="https://www.osti.gov/biblio/1126828-cloud-based-model-calibration-using-openstudio-preprint">https://www.osti.gov/biblio/1126828-cloud-based-model-calibration-using-openstudio-preprint</a>.`
+  html: `Hale, E., L. Lisell, D. Goldwasser, D. Macumber, J. Dean, I. Metzger, A. Parker, et al. “Cloud-Based Model Calibration Using OpenStudio: Preprint.” National Renewable Energy Lab., Golden, CO (United States), March 1, 2014. <a href="https://www.osti.gov/biblio/1126828-cloud-based-model-calibration-using-openstudio-preprint">https://www.osti.gov/biblio/1126828-cloud-based-model-calibration-using-openstudio-preprint</a>.`
 }, {
-  html: `Hale, E., D. Macumber, K. Benne, and D. Goldwasser. “Scripted Building Energy Modeling and Analysis: Preprint.” National Renewable Energy Lab. (NREL), Golden, CO (United States), August 1, 2012. <a href="https://www.osti.gov/biblio/1050767-scripted-building-energy-modeling-analysis-preprint">https://www.osti.gov/biblio/1050767-scripted-building-energy-modeling-analysis-preprint</a>.`
+  html: `Hale, E., D. Macumber, K. Benne, and D. Goldwasser. “Scripted Building Energy Modeling and Analysis: Preprint.” National Renewable Energy Lab., Golden, CO (United States), August 1, 2012. <a href="https://www.osti.gov/biblio/1050767-scripted-building-energy-modeling-analysis-preprint">https://www.osti.gov/biblio/1050767-scripted-building-energy-modeling-analysis-preprint</a>.`
 }, {
-  html: `Hale, E., D. Macumber, E. Weaver, and D. Shekhar. “Flexible Framework for Building Energy Analysis: Preprint.” National Renewable Energy Lab. (NREL), Golden, CO (United States), September 1, 2012. <a href="https://www.osti.gov/biblio/1051889-flexible-framework-building-energy-analysis-preprint">https://www.osti.gov/biblio/1051889-flexible-framework-building-energy-analysis-preprint</a>.`
+  html: `Hale, E., D. Macumber, E. Weaver, and D. Shekhar. “Flexible Framework for Building Energy Analysis: Preprint.” National Renewable Energy Lab., Golden, CO (United States), September 1, 2012. <a href="https://www.osti.gov/biblio/1051889-flexible-framework-building-energy-analysis-preprint">https://www.osti.gov/biblio/1051889-flexible-framework-building-energy-analysis-preprint</a>.`
 }, {
   html: `Hamdan, D.M.A., and F.L. de Oliveira. “The Impact of Urban Design Elements on Microclimate in Hot Arid Climatic Conditions: Al Ain City, UAE.” <em>Energy and Buildings</em> 200 (2019): 86–103. <a href="https://doi.org/10.1016/j.enbuild.2019.07.028">https://doi.org/10.1016/j.enbuild.2019.07.028</a>.`
 }, {
@@ -67,7 +67,7 @@ export const publications: Publication[] = [{
 }, {
   html: `Heidarinejad, Mohammad, Nicholas Mattise, Matthew Dahlhausen, Krishang Sharma, Kyle S. Benne, Daniel L. Macumber, Larry J. Brackney, and Jelena Srebric. “Demonstration of Reduced-Order Urban Scale Building Energy Models.” <em>Energy and Buildings</em> 156, no. C (September 8, 2017). <a href="https://doi.org/10.1016/j.enbuild.2017.08.086">https://doi.org/10.1016/j.enbuild.2017.08.086</a>.`
 }, {
-  html: `Horowitz, Scott, Joseph Robertson, Jeffrey Maguire, and Building Technologies Office (EE-5B) USDOE Office of Energy Efficiency and Renewable Energy (EERE). “OpenStudio® Energy Rating Index (ERI) Workflow.” National Renewable Energy Lab. (NREL), Golden, CO (United States), February 27, 2019. <a href="https://doi.org/10.11578/dc.20190228.1">https://doi.org/10.11578/dc.20190228.1</a>.`
+  html: `Horowitz, Scott, Joseph Robertson, Jeffrey Maguire, and Building Technologies Office (EE-5B) USDOE Office of Energy Efficiency and Renewable Energy (EERE). “OpenStudio® Energy Rating Index (ERI) Workflow.” National Renewable Energy Lab., Golden, CO (United States), February 27, 2019. <a href="https://doi.org/10.11578/dc.20190228.1">https://doi.org/10.11578/dc.20190228.1</a>.`
 }, {
   html: `Horsey, Henry, Katherine Fleming, Brian Ball, and Nicholas Long. “Achieving Actionable Results from Available Inputs: Metamodels Take Building Energy Simulations One Step Further.” Washington, D.C.: American Council for an Energy-Efficient Economy (ACEEE), August 26, 2016. <a href="https://www.osti.gov/biblio/1324383">https://www.osti.gov/biblio/1324383</a>.`
 }, {
@@ -79,7 +79,7 @@ export const publications: Publication[] = [{
 }, {
   html: `Irani, A., L. Leung, and M. Sedino. “Energy Modeling of a Supertall Building Using Simulated 600 m Weather File Data.” <em>International Journal of High-Rise Buildings</em> 8, no. 2 (2019): 101–6. <a href="https://doi.org/10.21022/IJHRB.2019.8.2.101">https://doi.org/10.21022/IJHRB.2019.8.2.101</a>.`
 }, {
-  html: `J. Lustbader, C. Kreutzer, M. Jeffers. “FY13 CoolCalc Annual Report (NREL Internal Use Only),” 2015. <a href="https://www.nrel.gov/docx/fy15osti/60632.pdf">https://www.nrel.gov/docx/fy15osti/60632.pdf</a>.`
+  html: `J. Lustbader, C. Kreutzer, M. Jeffers. “FY13 CoolCalc Annual Report (Internal Use Only),” 2015. <a href="https://www.nrel.gov/docx/fy15osti/60632.pdf">https://www.nrel.gov/docx/fy15osti/60632.pdf</a>.`
 }, {
   html: `Jradi, M., C. Veje, and B.N. Jørgensen. “Deep Energy Renovation of the Mærsk Office Building in Denmark Using a Holistic Design Approach.” <em>Energy and Buildings</em> 151 (2017): 306–19. <a href="https://doi.org/10.1016/j.enbuild.2017.06.047">https://doi.org/10.1016/j.enbuild.2017.06.047</a>.`
 }, {
@@ -103,17 +103,17 @@ export const publications: Publication[] = [{
 }, {
   html: `Ligade, J., D. Sebastian, and A. Razban. “Challenges of Creating a Verifiable Building Energy Model,” 125:20–28, 2019. <a href="https://www.ashrae.org/technical-resources/ashrae-conference-papers">https://www.ashrae.org/technical-resources/ashrae-conference-papers</a>.`
 }, {
-  html: `Long, N., B. Ball, D. Goldwasser, A. Parker, J. Elling, O. Davis, and D. Kruchten. “Leveraging OpenStudio’s Application Programming Interfaces: Preprint.” National Renewable Energy Lab. (NREL), Golden, CO (United States), November 1, 2013. <a href="https://www.osti.gov/biblio/1260331-leveraging-openstudio-application-programming-interfaces-preprint">https://www.osti.gov/biblio/1260331-leveraging-openstudio-application-programming-interfaces-preprint</a>.`
+  html: `Long, N., B. Ball, D. Goldwasser, A. Parker, J. Elling, O. Davis, and D. Kruchten. “Leveraging OpenStudio’s Application Programming Interfaces: Preprint.” National Renewable Energy Lab., Golden, CO (United States), November 1, 2013. <a href="https://www.osti.gov/biblio/1260331-leveraging-openstudio-application-programming-interfaces-preprint">https://www.osti.gov/biblio/1260331-leveraging-openstudio-application-programming-interfaces-preprint</a>.`
 }, {
   html: `Long, N., S. Goel, and H. Horsey. “U.S. Department of Energy’s Building Energy Asset Score Sensitivity and Scale Implementation,” 200–206, 2015. <a href="http://www.ibpsa.org/building-simulation-2015/">http://www.ibpsa.org/building-simulation-2015/</a>.`
 }, {
   html: `Long, Nguyen, Brian Lee Ball, Katherine Achim Fleming, and Daniel Macumber. “Scaling Building Energy Modeling Horizontally in the Cloud with Openstudio,” 2014. <a href="https://ashraem.confex.com/ashraem/emc14/cfp.cgi">https://ashraem.confex.com/ashraem/emc14/cfp.cgi</a>.`
 }, {
-  html: `Macumber, D. “Scripted Building Energy Modeling and Analysis (Presentation).” National Renewable Energy Lab. (NREL), Golden, CO (United States), October 1, 2012. <a href="https://www.osti.gov/biblio/1053759-scripted-building-energy-modeling-analysis-presentation">https://www.osti.gov/biblio/1053759-scripted-building-energy-modeling-analysis-presentation</a>.`
+  html: `Macumber, D. “Scripted Building Energy Modeling and Analysis (Presentation).” National Renewable Energy Lab., Golden, CO (United States), October 1, 2012. <a href="https://www.osti.gov/biblio/1053759-scripted-building-energy-modeling-analysis-presentation">https://www.osti.gov/biblio/1053759-scripted-building-energy-modeling-analysis-presentation</a>.`
 }, {
   html: `Macumber, Daniel L., Brian L. Ball, and Nicholas L. Long. “Graphical Tool for Cloud-Based Building Energy Simulation.” Atlanta, GA: American Society of Heating, Refrigerating, and Air-Conditioning Engineers (ASHRAE), September 1, 2014. <a href="https://www.osti.gov/biblio/1226250-graphical-tool-cloud-based-building-energy-simulation">https://www.osti.gov/biblio/1226250-graphical-tool-cloud-based-building-energy-simulation</a>.`
 }, {
-  html: `Macumber, Daniel L. (ORCID:0000000269094725), Scott G. Horowitz, Marjorie Schott, Katie Nolan, and Brian Schiller. “FloorspaceJS - A New, Open Source, Web-Based Geometry Editor for Building Energy Modeling (BEM): Preprint.” National Renewable Energy Lab. (NREL), Golden, CO (United States), March 19, 2018.
+  html: `Macumber, Daniel L. (ORCID:0000000269094725), Scott G. Horowitz, Marjorie Schott, Katie Nolan, and Brian Schiller. “FloorspaceJS - A New, Open Source, Web-Based Geometry Editor for Building Energy Modeling (BEM): Preprint.” National Renewable Energy Lab., Golden, CO (United States), March 19, 2018.
         <a href="https://www.osti.gov/biblio/1429292-floorspacejs-new-open-source-web-based-geometry-editor-building-energy-modeling-bem-preprint">https://www.osti.gov/biblio/1429292-floorspacejs-new-open-source-web-based-geometry-editor-building-energy-modeling-bem-preprint</a>.`
 }, {
   html: `Macumber, Daniel, Andrew Parker, Lars Lisell, Ian Metzger, and Matthew Brown. “Simuwatt - A Tablet Based Electronic Auditing Tool.” International Building Performance Simulation Association (IBPSA), May 8, 2014. <a href="https://www.osti.gov/biblio/1274097-simuwatt-tablet-based-electronic-auditing-tool">https://www.osti.gov/biblio/1274097-simuwatt-tablet-based-electronic-auditing-tool</a>.`
@@ -136,7 +136,7 @@ export const publications: Publication[] = [{
 }, {
   html: `No, S.-T., S.-H. Hong, and J.-Y. Kim. <em>A Study on Objects Information Compatibility between BIM Softwares for Building Thermal Load Analysis</em>. Vol. 236–237. Applied Mechanics and Materials, 2012. <a href="https://doi.org/10.4028/www.scientific.net/AMM.236-237.646">https://doi.org/10.4028/www.scientific.net/AMM.236-237.646</a>.`
 }, {
-  html: `“NREL’s OpenStudio Helps Design More Efficient Buildings (Fact Sheet).” National Renewable Energy Lab. (NREL), Golden, CO (United States), July 1, 2014. <a href="https://doi.org/10.2172/1140096">https://doi.org/10.2172/1140096</a>.`
+  html: `“NREL’s OpenStudio Helps Design More Efficient Buildings (Fact Sheet).” National Renewable Energy Lab., Golden, CO (United States), July 1, 2014. <a href="https://doi.org/10.2172/1140096">https://doi.org/10.2172/1140096</a>.`
 }, {
   html: `Okafor, G., and H. Taherian. “Multi-Generation Modeling and Building Energy Use Optimization Based on a Natural Gas Driven Internal Combustion Engine,” 73–85, 2018. <a href="https://doi.org/10.18086/solar.2018.01.08">https://doi.org/10.18086/solar.2018.01.08</a>.`
 }, {
@@ -162,7 +162,7 @@ export const publications: Publication[] = [{
 }, {
   html: `Sunnam, R., A. Marston, and O. Baumann. “Analysis of Chilled Ceiling Performance to Control Temperature in a Data Control Center Using Energyplus: A Case Study,” 1562–67, 2013. <a href="http://www.ibpsa.org/proceedings/BS2013/p_2356.pdf">http://www.ibpsa.org/proceedings/BS2013/p_2356.pdf</a>.`
 }, {
-  html: `“Technology Performance Exchange. NREL (National Renewable Energy Laboratory),” 2015. <a href="https://www.nrel.gov/docs/fy13osti/56457.pdf">https://www.nrel.gov/docs/fy13osti/56457.pdf</a>.`
+  html: `“Technology Performance Exchange. National Renewable Energy Laboratory,” 2015. <a href="https://www.nrel.gov/docs/fy13osti/56457.pdf">https://www.nrel.gov/docs/fy13osti/56457.pdf</a>.`
 }, {
   html: `Theresa Innocent, L., and V. Ramalingam. “Comparison of a Real-Time Building with Brick and Exfoliated Vermiculite Using OpenStudio Modeling for Indian Climatic Zones.” <em>Energy Sources, Part A: Recovery, Utilization and Environmental Effects</em> 41, no. 19 (2019): 2334–45. <a href="https://doi.org/10.1080/15567036.2018.1557300">https://doi.org/10.1080/15567036.2018.1557300</a>.`
 }, {
@@ -172,12 +172,12 @@ export const publications: Publication[] = [{
 }, {
   html: `Wang, Y., K. Velswamy, and B. Huang. “A Long-Short Term Memory Recurrent Neural Network Based Reinforcement Learning Controller for Office Heating Ventilation and Air Conditioning Systems.” <em>Processes</em> 5, no. 3 (2017). <a href="https://doi.org/10.3390/pr5030046">https://doi.org/10.3390/pr5030046</a>.`
 }, {
-  html: `Weaver, E., N. Long, K. Fleming, M. Schott, K. Benne, and E. Hale. “Rapid Application Development with OpenStudio: Preprint.” National Renewable Energy Lab. (NREL), Golden, CO (United States), May 1, 2012. <a href="https://www.osti.gov/biblio/1040934-rapid-application-development-openstudio-preprint">https://www.osti.gov/biblio/1040934-rapid-application-development-openstudio-preprint</a>.`
+  html: `Weaver, E., N. Long, K. Fleming, M. Schott, K. Benne, and E. Hale. “Rapid Application Development with OpenStudio: Preprint.” National Renewable Energy Lab., Golden, CO (United States), May 1, 2012. <a href="https://www.osti.gov/biblio/1040934-rapid-application-development-openstudio-preprint">https://www.osti.gov/biblio/1040934-rapid-application-development-openstudio-preprint</a>.`
 }, {
   html: `Wilson, Eric J. (ORCID:000000033185655X), and Noel D. Merket. “An Interactive Visualization Tool for Large-Scale Building Stock Modeling.” Atlanta, GA: American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASHRAE), September 26, 2018.
         <a href="https://www.ashrae.org/File%20Library/Conferences/Specialty%20Conferences/2018%20Building%20Performance%20Analysis%20Conference%20and%20SimBuild/Papers/C047.pdf">https://www.ashrae.org/File Library/Conferences/Specialty Conferences/2018 Building Performance Analysis Conference and SimBuild/Papers/C047.pdf</a>.`
 }, {
-  html: `Wilson, Eric J. (ORCID:000000033185655X), Andrew S. (ORCID:0000000254905134) Parker, and Natalie Mims Frick. “End-Use Load Profiles for the U.S. Building Stock: Technical Advisory Group Meeting #1.” National Renewable Energy Lab. (NREL), Golden, CO (United States), August 20, 2019. <a href="https://www.osti.gov/biblio/1558902-end-use-load-profiles-building-stock-technical-advisory-group-meeting">https://www.osti.gov/biblio/1558902-end-use-load-profiles-building-stock-technical-advisory-group-meeting</a>.`
+  html: `Wilson, Eric J. (ORCID:000000033185655X), Andrew S. (ORCID:0000000254905134) Parker, and Natalie Mims Frick. “End-Use Load Profiles for the U.S. Building Stock: Technical Advisory Group Meeting #1.” National Renewable Energy Lab., Golden, CO (United States), August 20, 2019. <a href="https://www.osti.gov/biblio/1558902-end-use-load-profiles-building-stock-technical-advisory-group-meeting">https://www.osti.gov/biblio/1558902-end-use-load-profiles-building-stock-technical-advisory-group-meeting</a>.`
 }, {
   html: `Yam, K.S., W.L. Yem, and V.C.C. Lee. “Evaluation of the Passive Cooling Strategies for Pei Min Sport Complex,” Vol. 217, 2017. <a href="https://doi.org/10.1088/1757-899X/217/1/012025">https://doi.org/10.1088/1757-899X/217/1/012025</a>.`
 }, {
