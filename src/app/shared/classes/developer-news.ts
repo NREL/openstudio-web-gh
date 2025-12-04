@@ -40,7 +40,7 @@ export const developerNews: NewsItem[] = [
 }, {
   title: 'BCL 2.0 implementation ready for public testing',
   time: '2021-08-11 12:33:40 -0600',
-  html: `<p>NREL has completed development of Building Component Library 2.0 and it is now available for public testing at <a href="https://bcl.nrel.gov/">https://bcl.nrel.gov/</a>. The main BCL website is deprecated and will be replaced by this new implementation.</p>
+  html: `<p>The development of the Building Component Library 2.0 is complete and it is now available for public testing at <a href="https://bcl.nrel.gov/">https://bcl.nrel.gov/</a>. The main BCL website is deprecated and will be replaced by this new implementation.</p>
 <p>BCL 2.0 uses a set of GitHub repositories as the back-end for robustness, transparency, and flexibility: version-controlled Measures, Components, Weather Files, and more. Instructions are available on the new site for organizations and groups with BCL content to migrate their components and measures to GitHub repositories.</p>`
 }, {
   title: 'OpenStudio 3.2.1 SDK Release',
