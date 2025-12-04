@@ -67,7 +67,7 @@ export const publications: Publication[] = [{
 }, {
   html: `Heidarinejad, Mohammad, Nicholas Mattise, Matthew Dahlhausen, Krishang Sharma, Kyle S. Benne, Daniel L. Macumber, Larry J. Brackney, and Jelena Srebric. “Demonstration of Reduced-Order Urban Scale Building Energy Models.” <em>Energy and Buildings</em> 156, no. C (September 8, 2017). <a href="https://doi.org/10.1016/j.enbuild.2017.08.086">https://doi.org/10.1016/j.enbuild.2017.08.086</a>.`
 }, {
-  html: `Horowitz, Scott, Joseph Robertson, Jeffrey Maguire, and Building Technologies Office (EE-5B) USDOE Office of Energy Efficiency and Renewable Energy (EERE). “OpenStudio® Energy Rating Index (ERI) Workflow.” National Renewable Energy Lab., Golden, CO (United States), February 27, 2019. <a href="https://doi.org/10.11578/dc.20190228.1">https://doi.org/10.11578/dc.20190228.1</a>.`
+  html: `Horowitz, Scott, Joseph Robertson, Jeffrey Maguire, and Building Technologies Office (EE-5B) US Department of Energy. “OpenStudio® Energy Rating Index (ERI) Workflow.” National Renewable Energy Lab., Golden, CO (United States), February 27, 2019. <a href="https://doi.org/10.11578/dc.20190228.1">https://doi.org/10.11578/dc.20190228.1</a>.`
 }, {
   html: `Horsey, Henry, Katherine Fleming, Brian Ball, and Nicholas Long. “Achieving Actionable Results from Available Inputs: Metamodels Take Building Energy Simulations One Step Further.” Washington, D.C.: American Council for an Energy-Efficient Economy (ACEEE), August 26, 2016. <a href="https://www.osti.gov/biblio/1324383">https://www.osti.gov/biblio/1324383</a>.`
 }, {
