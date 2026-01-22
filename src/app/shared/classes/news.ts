@@ -4,43 +4,43 @@ export const news: NewsItem[] = [
 {
   title: 'OpenStudio 3.10.0 SDK Release',
   time: '2025-06-18 12:00:00 -0600',
-  html: 'OpenStudio 3.10.0 SDK has been released. 3.10.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.10.0">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.10.0 SDK has been released. 3.10.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.10.0">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio 3.9.0 SDK Release',
   time: '2024-11-14 12:00:00 -0700',
-  html: 'OpenStudio 3.9.0 SDK has been released. 3.9.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.9.0">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.9.0 SDK has been released. 3.9.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.9.0">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio 3.8.0 SDK Release',
   time: '2024-05-20 12:00:00 -0600',
-  html: 'OpenStudio 3.8.0 SDK has been released. 3.8.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.8.0">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.8.0 SDK has been released. 3.8.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.8.0">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio 3.7.0 SDK Release',
   time: '2023-11-20 12:00:00 -0700',
-  html: 'OpenStudio 3.7.0 SDK has been released. 3.7.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.7.0">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.7.0 SDK has been released. 3.7.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.7.0">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio 3.6.1 SDK Release',
   time: '2023-05-20 12:00:00 -0600',
-  html: 'OpenStudio 3.6.1 SDK has been released. 3.6.1 is a minor release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.6.1">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.6.1 SDK has been released. 3.6.1 is a minor release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.6.1">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio 3.6.0 SDK Release',
   time: '2023-05-09 12:00:00 -0600',
-  html: 'OpenStudio 3.6.0 SDK has been released. 3.6.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.6.0">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.6.0 SDK has been released. 3.6.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.6.0">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio 3.5.1 SDK Release',
   time: '2023-01-11 12:00:00 -0700',
-  html: 'OpenStudio 3.5.1 SDK has been released. 3.5.1 is a minor release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.5.1">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.5.1 SDK has been released. 3.5.1 is a minor release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.5.1">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio 3.5.0 SDK Release',
   time: '2022-11-11 10:00:00 -0700',
-  html: 'OpenStudio 3.5.0 SDK has been released. 3.5.0 is a major release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.5.0">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.5.0 SDK has been released. 3.5.0 is a major release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.5.0">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio 3.4.0 SDK Release',
   time: '2022-05-05 11:00:00 -0600',
-  html: 'OpenStudio 3.4.0 SDK has been released. 3.4.0 is a major release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.4.0">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.4.0 SDK has been released. 3.4.0 is a major release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.4.0">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio 3.3.0 SDK Release',
   time: '2021-11-05 11:00:00 -0600',
-  html: 'OpenStudio 3.3.0 SDK has been released. 3.3.0 is a major release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.3.0">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.3.0 SDK has been released. 3.3.0 is a major release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.3.0">Release Notes</a> for more information.'
 }, {
   title: 'BCL 2.0 implementation ready for public testing',
   time: '2021-08-11 12:33:40 -0600',
@@ -49,11 +49,11 @@ export const news: NewsItem[] = [
 }, {
   title: 'OpenStudio 3.2.1 SDK Release',
   time: '2021-06-28 11:00:35 -0600',
-  html: 'OpenStudio 3.2.1 SDK has been released. 3.2.1 is a minor release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.2.1">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.2.1 SDK has been released. 3.2.1 is a minor release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.2.1">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio 3.2.0 SDK Release',
   time: '2021-05-05 02:01:23 -0600',
-  html: 'OpenStudio 3.2.0 SDK has been released. 3.2.0 is a major release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.2.0">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.2.0 SDK has been released. 3.2.0 is a major release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.2.0">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio Application v1.1.0',
   time: '2021-01-28 11:44:01 -0700',
@@ -68,35 +68,35 @@ export const news: NewsItem[] = [
   title: 'OpenStudio 3.1.0 SDK Release',
   time: '2020-10-16 19:53:13 -0600',
   html: `OpenStudio 3.1.0 SDK has been released. In OpenStudio 3.1.0, the SDK, EnergyPlus, standards, and server have all received improvements. Development and distribution of the OpenStudioApplication and the SketchUp plugin have transitioned to the independent OpenStudio Coalition.
-        View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.1.0">Release Notes</a> for more information.`
+        View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.1.0">Release Notes</a> for more information.`
 }, {
   title: 'OpenStudio Application v1.0.0',
   time: '2020-04-27 17:22:34 -0600',
-  html: 'OpenStudio Application v1.0.0 has been released.  This release marks the first installment of the separated OpenStudio SDK from the Application.  View the complete <a href="https://github.com/NREL/OpenStudioApplication/releases/tag/v1.0.0">Release Notes</a>.'
+  html: 'OpenStudio Application v1.0.0 has been released.  This release marks the first installment of the separated OpenStudio SDK from the Application.  View the complete <a href="https://github.com/NatLabRockies/OpenStudioApplication/releases/tag/v1.0.0">Release Notes</a>.'
 }, {
   title: 'OpenStudio 3.0.0 Release',
   time: '2020-04-27 10:11:46 -0600',
-  html: 'OpenStudio 3.0.0 has been released. In OpenStudio 3.0.0, the SDK, standards, and server have all received improvements. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.0.0">Release Notes</a>.'
+  html: 'OpenStudio 3.0.0 has been released. In OpenStudio 3.0.0, the SDK, standards, and server have all received improvements. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.0.0">Release Notes</a>.'
 }, {
   title: 'OpenStudio 2.9.1 Release',
   time: '2019-12-06 17:03:47 -0700',
-  html: 'OpenStudio 2.9.1 has been released. In OpenStudio 2.9.1, the SDK, standards, and server have all received improvements. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.9.1">Release Notes</a>.'
+  html: 'OpenStudio 2.9.1 has been released. In OpenStudio 2.9.1, the SDK, standards, and server have all received improvements. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v2.9.1">Release Notes</a>.'
 }, {
   title: 'OpenStudio SDK v3.0.0-pre1 and OpenStudio Application v1.0.0-pre1',
   time: '2019-11-20 13:45:34 -0700',
-  html: 'Pre-releases of OpenStudio SDK v3.0.0 and OpenStudio Application v1.0.0 have been released.  This pre-release marks the first installment of the separated OpenStudio SDK from the Application.  View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.0.0-pre1">Release Notes</a>.'
+  html: 'Pre-releases of OpenStudio SDK v3.0.0 and OpenStudio Application v1.0.0 have been released.  This pre-release marks the first installment of the separated OpenStudio SDK from the Application.  View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.0.0-pre1">Release Notes</a>.'
 }, {
   title: 'OpenStudio 2.9.0 Release',
   time: '2019-10-11 14:09:07 -0600',
-  html: 'OpenStudio 2.9.0 has been released. In OpenStudio 2.9.0, the SDK, standards, and server have all received improvements. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.9.0">Release Notes</a>.'
+  html: 'OpenStudio 2.9.0 has been released. In OpenStudio 2.9.0, the SDK, standards, and server have all received improvements. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v2.9.0">Release Notes</a>.'
 }, {
   title: 'OpenStudio 2.8.0 Release',
   time: '2019-04-15 10:44:05 -0600',
-  html: 'OpenStudio 2.8.0 has been released. <br/>In OpenStudio 2.8.0, the SDK, standards, and server have all received improvements.  View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.8.0">Release Notes</a>.'
+  html: 'OpenStudio 2.8.0 has been released. <br/>In OpenStudio 2.8.0, the SDK, standards, and server have all received improvements.  View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v2.8.0">Release Notes</a>.'
 }, {
   title: 'OpenStudio 2.7.0 Release',
   time: '2018-10-16 11:39:59 -0600',
-  html: 'OpenStudio 2.7.0 has been released. <br/>In OpenStudio 2.7.0, the SDK, standards, and server have all received improvements.  View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.7.0">Release Notes</a>.'
+  html: 'OpenStudio 2.7.0 has been released. <br/>In OpenStudio 2.7.0, the SDK, standards, and server have all received improvements.  View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v2.7.0">Release Notes</a>.'
 }, {
   title: 'A Shift in BTO’s BEM Strategy: A New Future for the OpenStudio Application',
   time: '2018-09-06 15:22:04 -0600',
@@ -132,31 +132,31 @@ export const news: NewsItem[] = [
 }, {
   title: 'OpenStudio 2.6.0 Release',
   time: '2019-07-13 13:23:15 -0600',
-  html: 'OpenStudio 2.6.0 has been released. <br/>In OpenStudio 2.6.0, the SDK, standards, and server have all received improvements.  This release includes new features to help write better measures.  View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.6.0">Release Notes</a>.'
+  html: 'OpenStudio 2.6.0 has been released. <br/>In OpenStudio 2.6.0, the SDK, standards, and server have all received improvements.  This release includes new features to help write better measures.  View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v2.6.0">Release Notes</a>.'
 }, {
   title: 'OpenStudio 2.5.0 Release',
   time: '2018-03-30 10:50:23 -0600',
-  html: 'OpenStudio 2.5.0 has been released. In OpenStudio 2.5.0, the SDK, standards, and server have all received improvements. OpenStudio 2.5.0 also incorporates EnergyPlus 8.9. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.5.0">Release Notes</a>.'
+  html: 'OpenStudio 2.5.0 has been released. In OpenStudio 2.5.0, the SDK, standards, and server have all received improvements. OpenStudio 2.5.0 also incorporates EnergyPlus 8.9. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v2.5.0">Release Notes</a>.'
 }, {
   title: 'OpenStudio 2.4.0 Release',
   time: '2018-01-05 10:03:08 -0700',
   html: `OpenStudio 2.4.0 has been released.
         In OpenStudio 2.4.0 HVAC capability was extended, many new external interface objects were wrapped and are available via the API, and several new algorithms have been added to the OpenStudio Server that are available through PAT.
-        View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.4.0">Release Notes</a>.`
+        View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v2.4.0">Release Notes</a>.`
 }, {
   title: 'OpenStudio 2.3.0 Release',
   time: '2017-10-04 12:50:24 -0600',
   html: `OpenStudio 2.3.0 has been released. <br/>The biggest new feature in OpenStudio 2.3.0 is the integration of the OpenStudio Geometry Editor in the OpenStudio Application.
         The OpenStudio Geometry Editor is a new, open source software module that developers can leverage to produce building energy modeling UIs that include geometry creation.
         The OpenStudio Geometry Editor is implemented in JavaScript with minimal dependencies, allowing it to be integrated into a wide range of applications.
-        View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.3.0">Release Notes</a>.`
+        View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v2.3.0">Release Notes</a>.`
 }, {
   title: 'OpenStudio 2.2.0 Release',
   time: '2017-07-10 16:30:17 -0600',
   html: `OpenStudio 2.2.0 has been released. For many years, OpenStudio has included ResultsViewer to visualize timeseries data.
         The plan for the next OpenStudio release (2.3.0) is to replace ResultsViewer with a visualization tool called DView, which was originally developed by the lab for viewing residential building and solar data.
         DView brings additional capabilities that ResultsViewer does not have, including IP unit conversion, CSV data export, image export, EPW weather file visualization, two synchronized views, stacked timeseries, average profiles, overview statistics, histograms, cumulative density plots, duration curves, and scatter plots.
-        To learn more about DView, download its executable or its open source, cross-platform source code, click  <a href="https://github.com/NREL/wex">here</a>. Complete OpenStudio release notes are available <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.2.0">here</a>.`
+        To learn more about DView, download its executable or its open source, cross-platform source code, click  <a href="https://github.com/NatLabRockies/wex">here</a>. Complete OpenStudio release notes are available <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v2.2.0">here</a>.`
 }, {
   title: 'OpenStudio 2.1.0 Release',
   time: '2017-04-05 16:24:03 -0600',
@@ -165,14 +165,14 @@ export const news: NewsItem[] = [
         It has been packaged as an Electron desktop application and leverages OpenStudio Server for improved robustness, scalability, and capability.
         This new version of PAT supports “algorithmic” workflows – methods for automatically generating large sets of analysis data points.
         Choose from Design Of Experiments, Latin Hypercube Sampling, multiple optimization methods, and more to identify the most sensitive parameters in a model, calibrate a model against real consumption data, or optimize a model to balance multiple design objectives.
-        Algorithmic analyses tend to be computationally intensive, so the new PAT supports simulation on Amazon Web Service or other resources provisioned with OpenStudio Server. Complete release notes are available <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.1.0">here</a>.`
+        Algorithmic analyses tend to be computationally intensive, so the new PAT supports simulation on Amazon Web Service or other resources provisioned with OpenStudio Server. Complete release notes are available <a href="https://github.com/OpenStudio/releases/tag/v2.1.0">here</a>.`
 }, {
   title: 'OpenStudio 2.0.0 Release',
   time: '2016-12-22 05:44:51 -0700',
   html: `OpenStudio 2.0.0 has been released.
-        This release brings the new <a href="https://nrel.github.io/OpenStudio-user-documentation/reference/command_line_interface/">OpenStudio Command Line Interface</a> (CLI) for applying OpenStudio Measures and running simulations easily.
+        This release brings the new <a href="https://NatLabRockies.github.io/OpenStudio-user-documentation/reference/command_line_interface/">OpenStudio Command Line Interface</a> (CLI) for applying OpenStudio Measures and running simulations easily.
         This release also includes the second version of the Parametric Analysis Tool (PAT) for parametric studies.
-        Packages can be downloaded <a href="developers">here</a>.  Complete release notes are available <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.0.0">here</a>.`
+        Packages can be downloaded <a href="developers">here</a>.  Complete release notes are available <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v2.0.0">here</a>.`
 }, {
   title: 'OpenStudio 1.14.0 Release',
   time: '2016-12-14 08:04:48 -0700',
@@ -206,7 +206,7 @@ export const news: NewsItem[] = [
         <br/>•\tAdded fuel type to OtherEquipment and CoilHeatingGas
         <br/>•\tEnforce lowercase names in runner.registerValue
         <br/>•\tAllow display name to be set instead of value for choice arguments<br/>
-        <br/>Please see the <a href="https://github.com/NREL/OpenStudio/blob/develop/CHANGELOG.md">https://github.com/NREL/OpenStudio/blob/develop/CHANGELOG.md</a> for a complete list of new features and improvements. Videos demonstrating new features will be uploaded soon to our website and YouTube channel.`
+        <br/>Please see the <a href="https://github.com/NatLabRockies/OpenStudio/blob/develop/CHANGELOG.md">https://github.com/NatLabRockies/OpenStudio/blob/develop/CHANGELOG.md</a> for a complete list of new features and improvements. Videos demonstrating new features will be uploaded soon to our website and YouTube channel.`
 }, {
   title: 'OpenStudio 1.13.0 Release',
   time: '2016-09-29 14:02:55 -0600',
@@ -226,7 +226,7 @@ export const news: NewsItem[] = [
         <br/>- OS:Meter:Custom
         <br/>- OS:Meter:CustomDecrement<br/>
         <br/>GridView speed was further enhanced with the use of ConcreteModelObjects<br/>
-        <br/>Please see the <a href="https://github.com/NREL/OpenStudio/blob/develop/CHANGELOG.md">https://github.com/NREL/OpenStudio/blob/develop/CHANGELOG.md</a> for a complete list of new features and improvements. Videos demonstrating new features will be uploaded soon to our website and YouTube channel.`
+        <br/>Please see the <a href="https://github.com/NatLabRockies/OpenStudio/blob/develop/CHANGELOG.md">https://github.com/NatLabRockies/OpenStudio/blob/develop/CHANGELOG.md</a> for a complete list of new features and improvements. Videos demonstrating new features will be uploaded soon to our website and YouTube channel.`
 }, {
   title: 'OpenStudio 1.12.0 Release',
   time: '2016-06-29 08:22:12 -0600',
@@ -235,7 +235,7 @@ export const news: NewsItem[] = [
         These models represent 16 different building types across all of the US climate zones for 6 vintages: pre-1980, 1980-2004, 90.1-2004, 90.1-2007, 90.1-2010, and 90.1-2013.  These models can be used for tasks like portfolio-scale studies and energy code change impact analysis.
         These models also provide examples of how to model a wide variety of 90.1 energy code requirements in OpenStudio.<br/>
         <br/>Model coverage has been expanded in OpenStudio 1.12.0, with the addition of 3 new OpenStudio model classes (SiteGroundTemperatureDeep, SiteGroundTemperatureShallow, and SiteGroundTemperatureFCfactorMethod), and the extension of the existing class ChillerElectricEIR with the addition of heat recovery.
-        <br/>Please see the <a href="https://github.com/NREL/OpenStudio/blob/develop/CHANGELOG.md">https://github.com/NREL/OpenStudio/blob/develop/CHANGELOG.md</a> for a complete list of new features and improvements. Videos demonstrating new features will be uploaded soon to our website and YouTube channel.`
+        <br/>Please see the <a href="https://github.com/NatLabRockies/OpenStudio/blob/develop/CHANGELOG.md">https://github.com/NatLabRockies/OpenStudio/blob/develop/CHANGELOG.md</a> for a complete list of new features and improvements. Videos demonstrating new features will be uploaded soon to our website and YouTube channel.`
 }, {
   title: 'OpenStudio 1.11.0 Release',
   time: '2016-03-31 10:29:50 -0600',
@@ -250,12 +250,12 @@ export const news: NewsItem[] = [
         <br/>•    Radiance measure now supports multiple (unlimited) glare sensors per space
         <br/>•    Construction inheritance is now displayed in the space tab
         <br/>If the OpenStudio Plug-in does not automatically load in SketchUp, open the Window->Preferences->Extensions window in SketchUp and enable the OpenStudio plug-in if it is listed.<br/>
-        <br/>Please see the <a href="https://github.com/NREL/OpenStudio/blob/develop/CHANGELOG.md">https://github.com/NREL/OpenStudio/blob/develop/CHANGELOG.md</a> for a complete list of new features and improvements. Videos demonstrating new features will be uploaded soon to our website and YouTube channel.`
+        <br/>Please see the <a href="https://github.com/NatLabRockies/OpenStudio/blob/develop/CHANGELOG.md">https://github.com/NatLabRockies/OpenStudio/blob/develop/CHANGELOG.md</a> for a complete list of new features and improvements. Videos demonstrating new features will be uploaded soon to our website and YouTube channel.`
 }, {
   title: 'OpenStudio 1.10.0 Re-release',
   time: '2016-01-25 10:28:07 -0700',
   html: `OpenStudio 1.10.0 has been re-released with an important bug fix.
-        This bug fix will allow you to open PAT projects from previous versions of OpenStudio, even if those projects were previously opened in PAT 1.10.0 and failed to update: <a href="https://github.com/NREL/OpenStudio/issues/2026">https://github.com/NREL/OpenStudio/issues/2026</a>.`
+        This bug fix will allow you to open PAT projects from previous versions of OpenStudio, even if those projects were previously opened in PAT 1.10.0 and failed to update: <a href="https://github.com/NatLabRockies/OpenStudio/issues/2026">https://github.com/NatLabRockies/OpenStudio/issues/2026</a>.`
 }, {
   title: 'OpenStudio 1.10.0 Release',
   time: '2015-12-17 10:20:57 -0700',
@@ -267,7 +267,7 @@ export const news: NewsItem[] = [
         <br/>- HVAC has additional capability.
         <br/>- GridView was extended and improved.<br/>
         <br/>If the OpenStudio Plug-in does not automatically load in SketchUp, open the Window->Preferences->Extensions window in SketchUp and enable the OpenStudio plug-in if it is listed.<br/>
-        <br/>Please see the <a href="https://github.com/NREL/OpenStudio/releases/tag/v1.10.0">release notes</a> for a complete list of new features and improvements. Videos demonstrating new features will be uploaded soon to our website and YouTube channel.`
+        <br/>Please see the <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v1.10.0">release notes</a> for a complete list of new features and improvements. Videos demonstrating new features will be uploaded soon to our website and YouTube channel.`
 }, {
   title: 'OpenStudio 1.9.0 Release',
   time: '2015-09-28 13:21:52 -0600',
@@ -281,7 +281,7 @@ export const news: NewsItem[] = [
         Third, OpenStudio has added support for dual duct air based systems.
         <br/>- A number of enhancements in areas beyond HVAC capability particularly to the OpenStudio application and the Measure ecosystem.
         <br/>- A number of bug fixes and performance improvements.<br/>
-        <br/>Please see the <a href="https://github.com/NREL/OpenStudio/releases/tag/v1.9.0">release notes</a> for a complete list of new features and improvements. Videos demonstrating new features will be uploaded soon to our website and YouTube channel.`
+        <br/>Please see the <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v1.9.0">release notes</a> for a complete list of new features and improvements. Videos demonstrating new features will be uploaded soon to our website and YouTube channel.`
 }, {
   title: 'Check out our new feedback link!',
   time: '2015-8-18 12:24:15 -0600',
@@ -325,7 +325,7 @@ export const news: NewsItem[] = [
 }, {
   title: 'Supports EnergyPlus 8.2 Update 1',
   time: '2014-12-11 12:51:55 -0700',
-  html: 'OpenStudio 1.5.4 has just been released with support for <a href="https://github.com/NREL/EnergyPlus/releases/tag/v8.2.0-Update-1.2">EnergyPlus 8.2 update 1</a>'
+  html: 'OpenStudio 1.5.4 has just been released with support for <a href="https://github.com/NatLabRockies/EnergyPlus/releases/tag/v8.2.0-Update-1.2">EnergyPlus 8.2 update 1</a>'
 }, {
   title: 'OpenStudio 1.4.0 Release',
   time: '2014-07-01 09:18:24 -0600',
@@ -378,7 +378,7 @@ export const news: NewsItem[] = [
   title: 'OpenStudio is moving to GitHub',
   time: '2013-07-10 13:34:17 -0600',
   html: `<p>The OpenStudio source code repository has migrated from Subversion to Git, now hosted publicly at GitHub.com. &nbsp;The SVN repository is still available as read-only.
-        &nbsp;For more information about collaborating on development with OpenStudio, please review the new developer resources for third-party collaborators:&nbsp;<a href="https://github.com/NREL/OpenStudio/wiki">https://github.com/NREL/OpenStudio/wiki</a></p>
+        &nbsp;For more information about collaborating on development with OpenStudio, please review the new developer resources for third-party collaborators:&nbsp;<a href="https://github.com/NatLabRockies/OpenStudio/wiki">https://github.com/NatLabRockies/OpenStudio/wiki</a></p>
         <p>Thanks for your patience through this transition.</p><p>The OpenStudio Team.</p>`
 }, {
   title: 'OpenStudio 1.0.0 Release',
@@ -400,7 +400,7 @@ export const news: NewsItem[] = [
   time: '2013-04-01 11:00:10 -0600',
   html: `<p>OpenStudio 0.11.0 is now available for download from the OpenStudio website. This OpenStudio release focuses on extensions to the SDK to enable a user-configurable parametric tool. The Parametric Analysis Tool (PAT) lets users modify a baseline OpenStudio model using OpenStudio measures to produce design alternatives.</p>
         <p>OpenStudio measures are specially formatted Ruby scripts and accompanying files for modifying energy models in OpenStudio or EnergyPlus format.
-        A small library of measures is included in the installer; more measures are available for download from the <a href="https://bcl.nrel.gov/">Building Component Library</a>, and users can create their own measures by following the <a href="https://nrel.github.io/OpenStudio-user-documentation/measures/measure_writing_guide/">Measure Writing Guide</a>.
+        A small library of measures is included in the installer; more measures are available for download from the <a href="https://bcl.nrel.gov/">Building Component Library</a>, and users can create their own measures by following the <a href="https://NatLabRockies.github.io/OpenStudio-user-documentation/measures/measure_writing_guide/">Measure Writing Guide</a>.
         In PAT, modifications to the baseline energy model are specified by selecting a measure and setting its argument values.
         Mutually exclusive choices (e.g. alternative values of the South fa&ccedil;ade window-to-wall ratio) are typically placed in a measure group to ensure that a design alternative&rsquo;s measures do not conflict with or overwrite each other.
         Design alternatives are specified by choosing 0-1 measures from each group. Users can debug their measures and other simulation steps by reviewing the detailed information on the simulation run tab.
@@ -514,7 +514,7 @@ export const news: NewsItem[] = [
         <li>New user scripts capability in the SketchUp Plug-in allows users to automate portions of their workflows using the OpenStudio and SketchUp Ruby APIs.</li>
         <li>SystemOutliner has expanded capabilities including the ability to import air systems from EnergyPlus Idf files.</li>
         <li>A Sequential Search optimization algorithm, which can operate on OpenStudio Models, EnergyPlus Idf, or a mixture of the two, has been added to the OpenStudio API and is available through Ruby scripting.</li></ul>
-        <p><a href="/downloads">Download the 0.5.0 Release</a> or <a href="https://github.com/NREL/OpenStudio/tree/develop/doc/ReleaseNotes">read the release notes</a>.</p>`
+        <p><a href="/downloads">Download the 0.5.0 Release</a> or <a href="https://github.com/NatLabRockies/OpenStudio/tree/develop/doc/ReleaseNotes">read the release notes</a>.</p>`
 }, {
   title: 'OpenStudio - Whole Building Energy Modeling presented by Nicholas Long and David Goldwasser',
   time: '2011-08-24 09:51:05 -0600',

@@ -4,43 +4,43 @@ export const developerNews: NewsItem[] = [
 {
   title: 'OpenStudio 3.10.0 SDK Release',
   time: '2025-06-18 12:00:00 -0600',
-  html: 'OpenStudio 3.10.0 SDK has been released. 3.10.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.10.0">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.10.0 SDK has been released. 3.10.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.10.0">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio 3.9.0 SDK Release',
   time: '2024-11-14 12:00:00 -0700',
-  html: 'OpenStudio 3.9.0 SDK has been released. 3.9.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.9.0">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.9.0 SDK has been released. 3.9.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.9.0">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio 3.8.0 SDK Release',
   time: '2024-05-20 12:00:00 -0600',
-  html: 'OpenStudio 3.8.0 SDK has been released. 3.8.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.8.0">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.8.0 SDK has been released. 3.8.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.8.0">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio 3.7.0 SDK Release',
   time: '2023-11-20 12:00:00 -0700',
-  html: 'OpenStudio 3.7.0 SDK has been released. 3.7.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.7.0">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.7.0 SDK has been released. 3.7.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.7.0">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio 3.6.1 SDK Release',
   time: '2023-05-20 12:00:00 -0600',
-  html: 'OpenStudio 3.6.1 SDK has been released. 3.6.1 is a minor release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.6.1">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.6.1 SDK has been released. 3.6.1 is a minor release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.6.1">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio 3.6.0 SDK Release',
   time: '2023-05-09 12:00:00 -0600',
-  html: 'OpenStudio 3.6.0 SDK has been released. 3.6.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.6.0">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.6.0 SDK has been released. 3.6.0 is a major release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.6.0">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio 3.5.1 SDK Release',
   time: '2023-01-11 12:00:00 -0700',
-  html: 'OpenStudio 3.5.1 SDK has been released. 3.5.1 is a minor release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.5.1">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.5.1 SDK has been released. 3.5.1 is a minor release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.5.1">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio 3.5.0 SDK Release',
   time: '2022-11-11 10:00:00 -0700',
-  html: 'OpenStudio 3.5.0 SDK has been released. 3.5.0 is a major release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.5.0">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.5.0 SDK has been released. 3.5.0 is a major release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.5.0">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio 3.4.0 SDK Release',
   time: '2022-05-05 11:00:00 -0600',
-  html: 'OpenStudio 3.4.0 SDK has been released. 3.4.0 is a major release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.4.0">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.4.0 SDK has been released. 3.4.0 is a major release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.4.0">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio 3.3.0 SDK Release',
   time: '2021-11-05 11:00:00 -0600',
-  html: 'OpenStudio 3.3.0 SDK has been released. 3.3.0 is a major release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.3.0">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.3.0 SDK has been released. 3.3.0 is a major release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.3.0">Release Notes</a> for more information.'
 }, {
   title: 'BCL 2.0 implementation ready for public testing',
   time: '2021-08-11 12:33:40 -0600',
@@ -49,11 +49,11 @@ export const developerNews: NewsItem[] = [
 }, {
   title: 'OpenStudio 3.2.1 SDK Release',
   time: '2021-06-28 11:00:35 -0600',
-  html: 'OpenStudio 3.2.1 SDK has been released. 3.2.1 is a minor release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.2.1">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.2.1 SDK has been released. 3.2.1 is a minor release, this update includes performance improvements and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.2.1">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio 3.2.0 SDK Release',
   time: '2021-05-05 02:01:23 -0600',
-  html: 'OpenStudio 3.2.0 SDK has been released. 3.2.0 is a major release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v3.2.0">Release Notes</a> for more information.'
+  html: 'OpenStudio 3.2.0 SDK has been released. 3.2.0 is a major release, this update includes several new features, performance improvements, and bug fixes. View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v3.2.0">Release Notes</a> for more information.'
 }, {
   title: 'OpenStudio 2.8.1 Released',
   time: '2019-06-18 15:00:55 -0600',
@@ -62,17 +62,17 @@ export const developerNews: NewsItem[] = [
   title: 'OpenStudio 2.8.0 Released',
   time: '2019-04-15 10:45:12 -0600',
   html: `OpenStudio 2.8.0 has been released. <br/>
-        In OpenStudio 2.8.0, the SDK, standards, and server have all received improvements.  View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.8.0">Release Notes</a>.`
+        In OpenStudio 2.8.0, the SDK, standards, and server have all received improvements.  View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v2.8.0">Release Notes</a>.`
 }, {
   title: 'OpenStudio 2.7.0 Released',
   time: '2018-10-16 11:39:27 -0600',
   html: `OpenStudio 2.7.0 has been released. <br/>
-        In OpenStudio 2.7.0, the SDK, standards, and server have all received improvements.  View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.7.0">Release Notes</a>.`
+        In OpenStudio 2.7.0, the SDK, standards, and server have all received improvements.  View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v2.7.0">Release Notes</a>.`
 }, {
   title: 'OpenStudio 2.6.0 Released',
   time: '2018-07-13 13:25:21 -0600',
   html: `OpenStudio 2.6.0 has been released. <br/>
-        In OpenStudio 2.6.0, the SDK, standards, and server have all received improvements.  This release includes new features to help write better measures.  View the complete <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.6.0">Release Notes</a>.`
+        In OpenStudio 2.6.0, the SDK, standards, and server have all received improvements.  This release includes new features to help write better measures.  View the complete <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v2.6.0">Release Notes</a>.`
 }, {
   title: 'OpenStudio 2.3.0 Released',
   time: '2017-10-04 12:51:43 -0600',
@@ -83,13 +83,13 @@ export const developerNews: NewsItem[] = [
 }, {
   title: 'OpenStudio 2.0.0 Released',
   time: '2016-12-22 12:04:19 -0700',
-  html: `OpenStudio 2.0.0 has been released.  This release brings the new <a href="https://nrel.github.io/OpenStudio-user-documentation/reference/command_line_interface/">OpenStudio Command Line Interface</a>
+  html: `OpenStudio 2.0.0 has been released.  This release brings the new <a href="https://NatLabRockies.github.io/OpenStudio-user-documentation/reference/command_line_interface/">OpenStudio Command Line Interface</a>
         (CLI) for applying OpenStudio Measures and running simulations easily.  This release also includes a new implementation of the Parametric Analysis Tool implemented as a web application.
-        Complete release notes are available <a href="https://github.com/NREL/OpenStudio/releases/tag/v2.0.0">here</a>.`
+        Complete release notes are available <a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v2.0.0">here</a>.`
 }, {
   title: 'Supports EnergyPlus 8.2 Update 1',
   time: '2014-12-11 12:51:55 -0700',
-  html: `OpenStudio 1.5.4 has just been released with support for <a href="https://github.com/NREL/EnergyPlus/releases/tag/v8.2.0-Update-1.2">EnergyPlus 8.2 update 1</a>`
+  html: `OpenStudio 1.5.4 has just been released with support for <a href="https://github.com/NatLabRockies/EnergyPlus/releases/tag/v8.2.0-Update-1.2">EnergyPlus 8.2 update 1</a>`
 }, {
   title: 'OpenStudio now using Ruby v. 2.0',
   time: '2017-07-24 11:58:40 -0600',
