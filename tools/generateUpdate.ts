@@ -14,7 +14,7 @@ const output = `<html>
     <![CDATA[
     <p>OpenStudio ${version}.${sha}</p>
     <p><a href="https://openstudio.net/downloads">Download here</a></p>
-    <p><a href="https://github.com/NREL/OpenStudio/releases/tag/v${version}">Release notes</a></p>
+    <p><a href="https://github.com/NatLabRockies/OpenStudio/releases/tag/v${version}">Release notes</a></p>
     ]]>
   </release>
 </openstudio>
